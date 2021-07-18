@@ -347,7 +347,7 @@ L(C) = [C] + merge \Big(L(B_1), L(B_2), \cdots, L(B_N), \quad {\color{red}[B_1, 
 $$
 
 **实际上** $$merge$$ **最后的原生父类序列仅在部分情况下才会发挥作用。**  
- 不信的话你可以回看 [3.0](mro.md#30c3-mro-suan-fa-de-ju-ti-nei-rong) 一节末尾的例子，在实际推导的过程中除去 $$merge$$ 末尾的原生父类序列，最终你会发现结果并未受到影响。   
+ 不信的话你可以回看 [3.0](c3-mro.md#30c3-mro-suan-fa-de-ju-ti-nei-rong) 一节末尾的例子，在实际推导的过程中除去 $$merge$$ 末尾的原生父类序列，最终你会发现结果并未受到影响。   
 那么什么时候它才会发挥作用呢？我们来看个特殊例子：
 
 ![&#x6B64;&#x5904;&#x5047;&#x5B9A; class B\(O, A\)](../.gitbook/assets/mermaid-diagram-20210714022343.svg)

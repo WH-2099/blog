@@ -4,12 +4,12 @@
 
 ## Python
 
-* [你真的 “创建” 了类吗？](python/ni-zhen-de-chuang-jian-le-lei-ma.md)
-* [MRO 三定律](python/mro.md)
+* [你真的 “创建” 了类吗？](python/create-class.md)
+* [MRO 三定律](python/c3-mro.md)
 * [描述器学习指南](python/descriptor.md)
 * [property 装饰器的描述器实现](python/property.md)
-* [如何做一个好中介](python/ru-he-zuo-yi-ge-hao-zhong-jie.md)
-* [PEP 清单](python/pep-qing-dan.md)
+* [如何做一个好中介](python/yield-from.md)
+* [PEP 清单](python/pep.md)
 
 ## Linux
 
@@ -17,10 +17,10 @@
 
 ## 日常随记 <a id="daily"></a>
 
-* [ZEN of DEBUG](daily/zen-of-debug.md)
+* [ZEN of DEBUG](daily/debug.md)
 * [坑](daily/untitled.md)
-* [空中浩劫 ACI 经典](daily/kong-zhong-hao-jie-aci-jing-dian.md)
-* [数据收集的途径](daily/shu-ju-shou-ji-de-tu-jing.md)
+* [空中浩劫 ACI 经典](daily/aci.md)
+* [数据收集的途径](daily/data-source.md)
 
 ## 佳作收藏 <a id="awesome"></a>
 
