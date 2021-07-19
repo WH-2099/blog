@@ -18,7 +18,7 @@
 ## 日常随记 <a id="daily"></a>
 
 * [坑](daily/untitled.md)
-* [豆知识](daily/dou-zhi-shi.md)
+* [豆知识](daily/trivia.md)
 * [ZEN of DEBUG](daily/debug.md)
 * [数据收集的途径](daily/data-source.md)
 * [空中浩劫 ACI 经典](daily/aci.md)
