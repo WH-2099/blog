@@ -9,10 +9,15 @@
 * [描述器学习指南](python/descriptor.md)
 * [property 装饰器的描述器实现](python/property.md)
 * [如何做一个好中介](python/yield-from.md)
-* [PEP 清单](python/pep.md)
+* [PEP 阅读清单（施工中）](python/pep.md)
+
+## Network
+
+* [值得阅读的 RFC（施工中）](network/zhi-de-yue-du-de-rfc-shi-gong-zhong.md)
 
 ## Linux
 
+* [树莓派 4B Python 程序实时性优化（施工中）](linux/shu-mei-pai-4b-python-cheng-xu-shi-shi-xing-you-hua-shi-gong-zhong.md)
 * [新时代 Linux 命令](linux/ng.md)
 
 ## 日常随记 <a id="daily"></a>
@@ -25,8 +30,10 @@
 
 ## 佳作收藏 <a id="awesome"></a>
 
-* [文章](awesome/article/README.md)
+* [文章（施工中）](awesome/article/README.md)
   * [短篇](awesome/article/short/README.md)
+    * [蚂蚁人生](awesome/article/short/ma-yi-ren-sheng.md)
+    * [跳槽只为 “软福利”](awesome/article/short/tiao-cao-zhi-wei-ruan-fu-li.md)
     * [聪明人和傻子和奴才](awesome/article/short/cong-ming-ren-he-sha-zi-he-nu-cai.md)
     * [疯人](awesome/article/short/feng-ren.md)
     * [爱](awesome/article/short/ai.md)
@@ -39,6 +46,6 @@
     * [单调产生的快乐](awesome/article/short/dan-tiao-chan-sheng-de-kuai-le.md)
   * [长篇](awesome/article/long/README.md)
     * [一桩自杀案](awesome/article/long/yi-zhuang-zi-sha-an.md)
-* [片段](awesome/pian-duan/README.md)
+* [片段（施工中）](awesome/pian-duan/README.md)
   * [大老师片段](awesome/pian-duan/da-lao-shi-pian-duan.md)
 

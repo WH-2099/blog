@@ -1,4 +1,4 @@
-# PEP 清单
+# PEP 阅读清单（施工中）
 
 ## [https://www.python.org/dev/peps/](https://www.python.org/dev/peps/)
 
