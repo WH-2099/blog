@@ -7,6 +7,14 @@ description: 知道了，然后呢？
 ## 操作系统
 
 {% hint style="info" %}
+**火星** 上的 **Linux 占有率比 Windows 高**。
+{% endhint %}
+
+{% hint style="info" %}
+火星是人类已知的 **第二个** 运行 Linux 设备比 Windows 设备还多的天体。
+{% endhint %}
+
+{% hint style="info" %}
 早期 **Linux** 叫 **目录 Directory**，**Windows** 叫 **文件夹 Folder** 。现在由于傻傻分不清楚所以就混用了。
 {% endhint %}
 
