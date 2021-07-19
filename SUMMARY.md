@@ -32,6 +32,7 @@
 
 * [文章（施工中）](awesome/article/README.md)
   * [短篇](awesome/article/short/README.md)
+    * [太阳黑子](awesome/article/short/tai-yang-hei-zi.md)
     * [蚂蚁人生](awesome/article/short/ma-yi-ren-sheng.md)
     * [跳槽只为 “软福利”](awesome/article/short/tiao-cao-zhi-wei-ruan-fu-li.md)
     * [聪明人和傻子和奴才](awesome/article/short/cong-ming-ren-he-sha-zi-he-nu-cai.md)
