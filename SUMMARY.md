@@ -17,10 +17,11 @@
 
 ## 日常随记 <a id="daily"></a>
 
-* [ZEN of DEBUG](daily/debug.md)
 * [坑](daily/untitled.md)
-* [空中浩劫 ACI 经典](daily/aci.md)
+* [豆知识](daily/dou-zhi-shi.md)
+* [ZEN of DEBUG](daily/debug.md)
 * [数据收集的途径](daily/data-source.md)
+* [空中浩劫 ACI 经典](daily/aci.md)
 
 ## 佳作收藏 <a id="awesome"></a>
 
