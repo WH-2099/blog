@@ -4,6 +4,10 @@ description: 知道了，然后呢？
 
 # 豆知识
 
+{% hint style="success" %}
+如果你也有珍藏的 **豆（冷）知识** ，欢迎点击右侧的 **Edit on GitHub** 分享给大家（Issue、PR均可）。
+{% endhint %}
+
 ## 操作系统
 
 {% hint style="info" %}
@@ -49,7 +53,7 @@ Windows 最早于 **1983 年底** 问世。它在技术行业中的寿命比任�
 {% endhint %}
 
 {% hint style="info" %}
-Windows 窗口右上角的 `X` 是 Windows 95 后期才加上去的改动。
+Windows 窗口右上角的 **`X`** 是 **Windows 95 后期** 才加上去的改动。
 {% endhint %}
 
 ![Windows Cursor Design ](../.gitbook/assets/image%20%283%29.png)
@@ -60,6 +64,14 @@ Windows 光标是 **不对称设计**。
 
 {% hint style="info" %}
 Windows 自动化安装可以用  ****[**Autounattend.xml**](https://docs.microsoft.com/zh-cn/windows-hardware/manufacture/desktop/automate-windows-setup) **。**
+{% endhint %}
+
+{% hint style="warning" %}
+~~Windows 是 **图形界面最好用的** Linux 发行版。~~
+{% endhint %}
+
+{% hint style="warning" %}
+~~微软曾经号称 **“Windows 10 是最后一个 Windows 版本”**。~~
 {% endhint %}
 
 ## Python
