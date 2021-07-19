@@ -66,6 +66,14 @@
 
 #### 【理解】：装饰器就是个返回函数的函数
 
+## PEP 342 -- Coroutines via Enhanced Generators
+
+### 基于拓展生成器的协程
+
+### `send()` `throw()` `close()`
+
+### 【理解】：`yield` 由语句变为表达式，生成器扩展了新方法
+
 ### PEP 343 -- The "with" Statement
 
 #### “with”声明
