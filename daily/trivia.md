@@ -74,6 +74,20 @@ Windows 自动化安装可以用  ****[**Autounattend.xml**](https://docs.micros
 ~~微软曾经号称 **“Windows 10 是最后一个 Windows 版本”**。~~
 {% endhint %}
 
+### Linux
+
+{% hint style="info" %}
+**Linux** 这一名称来源于 **Linus' Minix** 的缩写。
+{% endhint %}
+
+{% hint style="info" %}
+**git** 是 Linus **用来管理 Linux 项目** 而开发的。
+{% endhint %}
+
+{% hint style="info" %}
+**`/usr`** 目录的含义是 **Unix System Resource** 。
+{% endhint %}
+
 ## Python
 
 {% hint style="info" %}
