@@ -33,6 +33,7 @@
 
 * [文章（施工中）](awesome/article/README.md)
   * [短篇](awesome/article/short/README.md)
+    * [我觉得自己会永远生猛下去](awesome/article/short/wo-jue-de-zi-ji-hui-yong-yuan-sheng-meng-xia-qu.md)
     * [真实的高贵](awesome/article/short/zhen-shi-de-gao-gui.md)
     * [婚姻中没有天堂](awesome/article/short/hun-yin-zhong-mei-you-tian-tang.md)
     * [太阳黑子](awesome/article/short/tai-yang-hei-zi.md)
