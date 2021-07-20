@@ -13,16 +13,16 @@
 
 ## Network
 
-* [值得阅读的 RFC（施工中）](network/zhi-de-yue-du-de-rfc-shi-gong-zhong.md)
+* [RFC 阅读清单](network/rfc.md)
 
 ## Linux
 
-* [树莓派 4B Python 程序实时性优化（施工中）](linux/shu-mei-pai-4b-python-cheng-xu-shi-shi-xing-you-hua-shi-gong-zhong.md)
 * [新时代 Linux 命令](linux/ng.md)
+* [树莓派 4B Python 程序实时性优化（施工中）](linux/shu-mei-pai-4b-python-cheng-xu-shi-shi-xing-you-hua-shi-gong-zhong.md)
 
 ## 日常随记 <a id="daily"></a>
 
-* [坑](daily/untitled.md)
+* [坑](daily/pit.md)
 * [豆知识](daily/trivia.md)
 * [ZEN of DEBUG](daily/debug.md)
 * [数据收集的途径](daily/data-source.md)
