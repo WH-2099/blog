@@ -22,6 +22,7 @@
 
 ## 日常随记 <a id="daily"></a>
 
+* [甲方乙方](daily/love-hate.md)
 * [坑](daily/pit.md)
 * [豆知识](daily/trivia.md)
 * [ZEN of DEBUG](daily/debug.md)
