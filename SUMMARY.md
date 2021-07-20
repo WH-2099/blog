@@ -1,6 +1,6 @@
 # Table of contents
 
-* [九韭久九](README.md)
+* [久韭](README.md)
 
 ## Python
 

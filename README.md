@@ -1,8 +1,8 @@
 ---
-description: WH-2099 的个人博客
+description: 'Keep it simple, supid !'
 ---
 
-# 九韭久九
+# 久韭
 
 {% hint style="warning" %}
 ## **博客迁移施工中！**
