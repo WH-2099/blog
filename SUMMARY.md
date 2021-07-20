@@ -9,7 +9,7 @@
 * [描述器学习指南](python/descriptor.md)
 * [property 装饰器的描述器实现](python/property.md)
 * [如何做一个好中介](python/yield-from.md)
-* [PEP 阅读清单（施工中）](python/pep.md)
+* [PEP 阅读清单](python/pep.md)
 
 ## Network
 
