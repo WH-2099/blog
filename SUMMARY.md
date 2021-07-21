@@ -33,6 +33,8 @@
 
 * [文章（施工中）](awesome/article/README.md)
   * [短篇](awesome/article/short/README.md)
+    * [清晨的变故](awesome/article/short/qing-chen-de-bian-gu.md)
+    * [我是个窃贼](awesome/article/short/wo-shi-ge-qie-zei.md)
     * [我觉得自己会永远生猛下去](awesome/article/short/wo-jue-de-zi-ji-hui-yong-yuan-sheng-meng-xia-qu.md)
     * [真实的高贵](awesome/article/short/zhen-shi-de-gao-gui.md)
     * [婚姻中没有天堂](awesome/article/short/hun-yin-zhong-mei-you-tian-tang.md)
