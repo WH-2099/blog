@@ -33,6 +33,7 @@
 
 * [文章（施工中）](awesome/article/README.md)
   * [短篇](awesome/article/short/README.md)
+    * [那些你所不知道的大事](awesome/article/short/na-xie-ni-suo-bu-zhi-dao-de-da-shi.md)
     * [清晨的变故](awesome/article/short/qing-chen-de-bian-gu.md)
     * [我是个窃贼](awesome/article/short/wo-shi-ge-qie-zei.md)
     * [我觉得自己会永远生猛下去](awesome/article/short/wo-jue-de-zi-ji-hui-yong-yuan-sheng-meng-xia-qu.md)
