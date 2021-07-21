@@ -18,7 +18,7 @@
 ## Linux
 
 * [新时代 Linux 命令](linux/ng.md)
-* [树莓派 4B Python 程序实时性优化（施工中）](linux/shu-mei-pai-4b-python-cheng-xu-shi-shi-xing-you-hua-shi-gong-zhong.md)
+* [树莓派 4B Python 程序实时性优化](linux/raspberry-rt-linux.md)
 
 ## 日常随记 <a id="daily"></a>
 
