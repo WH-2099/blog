@@ -2,7 +2,7 @@
 description: 描述器实战应用
 ---
 
-# property 装饰器的描述器实现
+# 描述器实现 property
 
 ## 引言
 

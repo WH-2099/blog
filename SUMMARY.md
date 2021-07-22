@@ -7,7 +7,7 @@
 * [你真的 “创建” 了类吗？](python/create-class.md)
 * [MRO 三定律](python/c3-mro.md)
 * [描述器学习指南](python/descriptor.md)
-* [property 装饰器的描述器实现](python/property.md)
+* [描述器实现 property](python/property.md)
 * [如何做一个好中介](python/yield-from.md)
 * [PEP 阅读清单](python/pep.md)
 
