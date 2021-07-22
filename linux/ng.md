@@ -79,7 +79,7 @@ pacman -S the_silver_searcher
 #### 安装命令
 
 ```bash
-pip install glances[all]
+pacman -S glances
 ```
 
 ### [tig](https://jonas.github.io/tig/)
