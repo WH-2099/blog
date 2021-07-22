@@ -33,6 +33,7 @@
 
 * [文章（施工中）](awesome/article/README.md)
   * [短篇](awesome/article/short/README.md)
+    * [非走不可的弯路](awesome/article/short/fei-zou-bu-ke-de-wan-lu.md)
     * [虐猫](awesome/article/short/nve-mao.md)
     * [那些你所不知道的大事](awesome/article/short/na-xie-ni-suo-bu-zhi-dao-de-da-shi.md)
     * [清晨的变故](awesome/article/short/qing-chen-de-bian-gu.md)
