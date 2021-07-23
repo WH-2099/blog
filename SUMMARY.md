@@ -31,7 +31,7 @@
 
 ## 佳作收藏 <a id="awesome"></a>
 
-* [文章（施工中）](awesome/article/README.md)
+* [美文](awesome/article/README.md)
   * [短篇](awesome/article/short/README.md)
     * [情债肉偿](awesome/article/short/qing-zhai-rou-chang.md)
     * [非走不可的弯路](awesome/article/short/fei-zou-bu-ke-de-wan-lu.md)
