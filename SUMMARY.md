@@ -35,6 +35,7 @@
     * [一桩自杀案](awesome/article/long/yi-zhuang-zi-sha-an.md)
 * [段子](awesome/pian-duan/README.md)
   * [程序员段子](awesome/pian-duan/cheng-xu-yuan-duan-zi/README.md)
+    * [hellow, world](awesome/pian-duan/cheng-xu-yuan-duan-zi/hellow-world.md)
     * [字节序](awesome/pian-duan/cheng-xu-yuan-duan-zi/zi-jie-xu.md)
     * [删库](awesome/pian-duan/cheng-xu-yuan-duan-zi/shan-ku.md)
   * [甲方乙方](awesome/pian-duan/love-hate.md)
