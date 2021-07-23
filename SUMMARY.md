@@ -33,6 +33,7 @@
 
 * [美文](awesome/article/README.md)
   * [短篇](awesome/article/short/README.md)
+    * [假如是你的话](awesome/article/short/jia-ru-shi-ni-de-hua.md)
     * [客厅里的爆炸](awesome/article/short/ke-ting-li-de-bao-zha.md)
     * [夺妻](awesome/article/short/duo-qi.md)
     * [情债肉偿](awesome/article/short/qing-zhai-rou-chang.md)
