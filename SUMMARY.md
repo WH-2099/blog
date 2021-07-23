@@ -2,33 +2,6 @@
 
 * [久韭](README.md)
 
-## Python
-
-* [你真的 “创建” 了类吗？](python/create-class.md)
-* [MRO 三定律](python/c3-mro.md)
-* [描述器学习指南](python/descriptor.md)
-* [描述器实现 property](python/property.md)
-* [如何做一个好中介](python/yield-from.md)
-* [PEP 阅读清单](python/pep.md)
-
-## Network
-
-* [RFC 阅读清单](network/rfc.md)
-
-## Linux
-
-* [新时代 Linux 命令](linux/ng.md)
-* [树莓派实时性优化](linux/raspberry-rt-linux.md)
-
-## 日常随记 <a id="daily"></a>
-
-* [甲方乙方](daily/love-hate.md)
-* [坑](daily/pit.md)
-* [豆知识](daily/trivia.md)
-* [ZEN of DEBUG](daily/debug.md)
-* [数据收集的途径](daily/data-source.md)
-* [空中浩劫 ACI 经典](daily/aci.md)
-
 ## 佳作收藏 <a id="awesome"></a>
 
 * [美文](awesome/article/README.md)
@@ -60,6 +33,34 @@
     * [单调产生的快乐](awesome/article/short/dan-tiao-chan-sheng-de-kuai-le.md)
   * [长篇](awesome/article/long/README.md)
     * [一桩自杀案](awesome/article/long/yi-zhuang-zi-sha-an.md)
-* [片段（施工中）](awesome/pian-duan/README.md)
+* [段子](awesome/pian-duan/README.md)
+  * [甲方乙方](awesome/pian-duan/love-hate.md)
   * [大老师片段](awesome/pian-duan/da-lao-shi-pian-duan.md)
+  * [新编故事四则](awesome/pian-duan/xin-bian-gu-shi-si-ze.md)
+
+## Python
+
+* [你真的 “创建” 了类吗？](python/create-class.md)
+* [MRO 三定律](python/c3-mro.md)
+* [描述器学习指南](python/descriptor.md)
+* [描述器实现 property](python/property.md)
+* [如何做一个好中介](python/yield-from.md)
+* [PEP 阅读清单](python/pep.md)
+
+## Network
+
+* [RFC 阅读清单](network/rfc.md)
+
+## Linux
+
+* [新时代 Linux 命令](linux/ng.md)
+* [树莓派实时性优化](linux/raspberry-rt-linux.md)
+
+## 日常随记 <a id="daily"></a>
+
+* [坑](daily/pit.md)
+* [豆知识](daily/trivia.md)
+* [ZEN of DEBUG](daily/debug.md)
+* [数据收集的途径](daily/data-source.md)
+* [空中浩劫 ACI 经典](daily/aci.md)
 
