@@ -118,7 +118,13 @@ Python 中的内置函数 `iter` 还可以这么调用 **`iter(callable, end)`**
 麦当劳 **40% 的利润** 来自 **Happy Meals** 的销售。
 {% endhint %}
 
+{% hint style="info" %}
+**最早被打上条形码** 的产品是 **箭牌口香糖。**
+{% endhint %}
 
+{% hint style="info" %}
+**48个最贫困的国家资产总和还比不上全球最富有的三大家族。**
+{% endhint %}
 
 ## 饮食
 
@@ -132,6 +138,10 @@ Python 中的内置函数 `iter` 还可以这么调用 **`iter(callable, end)`**
 
 {% hint style="info" %}
 世界上唯一 **不会腐败变质** 的食物是蜂蜜。
+{% endhint %}
+
+{% hint style="info" %}
+**迈克尔 · 乔丹** 每年 **从耐克得到的收入多于马来西亚的耐克工厂工人的薪水总和。**
 {% endhint %}
 
 {% hint style="info" %}
@@ -156,9 +166,63 @@ Python 中的内置函数 `iter` 还可以这么调用 **`iter(callable, end)`**
 每天平均有 **12 个新生儿** 被交给 **错误的父母。**
 {% endhint %}
 
+{% hint style="info" %}
+人平均只需 **7 分钟** 就可以 **入睡**。
+{% endhint %}
 
+{% hint style="info" %}
+一生中人会脱落 **20kg** 的皮肤。
+{% endhint %}
 
-## 伟人
+{% hint style="info" %}
+驱蚊水 **并不驱蚊** 而是 **干扰** 蚊子的感觉器官，这样它们就 **找不到** 人在哪里。
+{% endhint %}
+
+{% hint style="info" %}
+即使 **没有头**，**蟑螂** 仍可 **存活10天。**
+{% endhint %}
+
+{% hint style="info" %}
+**睡眠时的脑比看电视时更活跃。**
+{% endhint %}
+
+{% hint style="info" %}
+睡觉时耗费的 **热量** 比看电视时还要多。
+{% endhint %}
+
+{% hint style="info" %}
+在这个星球上 **鸡比人多。**
+{% endhint %}
+
+{% hint style="info" %}
+**大拇指** 的指甲长得最 **慢**，**中指** 的指甲长得最 **快。**
+{% endhint %}
+
+{% hint style="info" %}
+**聪明人的头发** 中含有更多的 **锌和铜。**
+{% endhint %}
+
+{% hint style="info" %}
+出生时，我们的 **眼睛** 多大，现在还是多大。但是鼻子和耳朵一直都在生长。
+{% endhint %}
+
+{% hint style="info" %}
+婴儿出生时有 **300 块骨骼**，最后只有 **206 块。**
+{% endhint %}
+
+{% hint style="info" %}
+人 **不睡觉** 大约 **10 天** 就会死亡。
+{% endhint %}
+
+{% hint style="info" %}
+**惯用右手** 的人们平均比惯用左手的人们 **寿命长 9 年**。
+{% endhint %}
+
+{% hint style="info" %}
+**每平方英寸的皮肤** 包含有 **20 英尺长的血管。**
+{% endhint %}
+
+## 人物
 
 {% hint style="info" %}
 **达芬奇** 可以 **一手写字，同时另一手作画**。
@@ -173,20 +237,76 @@ Python 中的内置函数 `iter` 还可以这么调用 **`iter(callable, end)`**
 {% endhint %}
 
 {% hint style="info" %}
+**蒙娜丽莎没有眉毛。**
+{% endhint %}
+
+{% hint style="info" %}
 **李小龙** 的动作非常快，**快到看不清**，所以拍电影时只好 **放慢胶片的速度**。
 {% endhint %}
 
+{% hint style="info" %}
+**希特勒** 的母亲曾考虑堕胎，不过被医生劝阻了。
+{% endhint %}
+
+{% hint style="info" %}
+**万宝路** 香烟公司的 **第一任老总** 死于 **肺癌。**
+{% endhint %}
+
+{% hint style="info" %}
+发明了电话的 **亚历山大 · 贝尔** 从未给他的 **母亲** 或 **妻子** 打过电话，因为她们都 **失聪** 了。
+{% endhint %}
+
+{% hint style="info" %}
+**玛丽莲 · 梦露** 的一只脚上有 **6 个指头**。
+{% endhint %}
+
 ## 杂
+
+{% hint style="info" %}
+**仰面躺着** 并 缓缓地 **抬起双腿**，可以 **免于陷入流沙** 之中。
+{% endhint %}
+
+{% hint style="info" %}
+**猫** 是圣经里面 **唯一没有提到** 的家养动物。
+{% endhint %}
+
+{% hint style="info" %}
+**56%** 的键盘录入由左手完成。
+{% endhint %}
+
+{% hint style="info" %}
+**切洋葱** 时 **嚼口香糖** 就不会流泪。
+{% endhint %}
+
+## 地域
+
+{% hint style="info" %}
+在 **中国使用英语** 的人 **比美国还多。**
+{% endhint %}
+
+{% hint style="info" %}
+在菲律宾 **溜溜球** 曾被作为 **武器**。
+{% endhint %}
 
 {% hint style="info" %}
 拉斯维加斯的赌场都 **没有钟**。
 {% endhint %}
 
 {% hint style="info" %}
-**二战期间** 颁发的 **奥斯卡奖座是木制** 的，因为当时 **金属是稀缺物资**。
+**墨西哥城** 每年下沉10英寸。
 {% endhint %}
 
 {% hint style="info" %}
-**仰面躺着** 并 缓缓地 **抬起双腿**，可以 **免于陷入流沙** 之中。
+**80% 的美国人最喜欢蓝色。**
+{% endhint %}
+
+## 材料
+
+{% hint style="info" %}
+冷藏时 **橡皮筋** 可以保存得更好
+{% endhint %}
+
+{% hint style="info" %}
+**二战期间** 颁发的 **奥斯卡奖座是木制** 的，因为当时 **金属是稀缺物资**。
 {% endhint %}
 
