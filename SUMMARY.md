@@ -40,6 +40,7 @@
     * [hellow, world](awesome/pian-duan/cheng-xu-yuan-duan-zi/hellow-world.md)
     * [字节序](awesome/pian-duan/cheng-xu-yuan-duan-zi/zi-jie-xu.md)
     * [删库](awesome/pian-duan/cheng-xu-yuan-duan-zi/shan-ku.md)
+  * [二次元段子](awesome/pian-duan/er-ci-yuan-duan-zi.md)
   * [甲方乙方](awesome/pian-duan/love-hate.md)
   * [大老师片段](awesome/pian-duan/da-lao-shi-pian-duan.md)
   * [新编故事四则](awesome/pian-duan/xin-bian-gu-shi-si-ze.md)
