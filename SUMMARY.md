@@ -35,6 +35,7 @@
   * [长篇](awesome/article/long/README.md)
     * [一桩自杀案](awesome/article/long/yi-zhuang-zi-sha-an.md)
 * [段子](awesome/pian-duan/README.md)
+  * [脑子与牛子](awesome/pian-duan/nao-zi-yu-niu-zi.md)
   * [♂ 男 ♂ 语 ♂](awesome/pian-duan/nan-yu.md)
   * [程序员段子](awesome/pian-duan/cheng-xu-yuan-duan-zi/README.md)
     * [hellow, world](awesome/pian-duan/cheng-xu-yuan-duan-zi/hellow-world.md)
