@@ -1,7 +1,6 @@
 # Table of contents
 
 * [久韭](README.md)
-* [基础公共服务](ji-chu-gong-gong-fu-wu.md)
 
 ## 佳作收藏 <a id="awesome"></a>
 
@@ -58,6 +57,7 @@
 
 ## Network
 
+* [基础公共服务](network/ji-chu-gong-gong-fu-wu.md)
 * [RFC 阅读清单](network/rfc.md)
 
 ## Linux
