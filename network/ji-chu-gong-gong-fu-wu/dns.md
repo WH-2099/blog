@@ -103,7 +103,10 @@ description: Domain Name System
 
 ### [Quad9](https://www.quad9.net/)
 
-### 
+| **IPv4** | **IPv6** |
+| :--- | :--- |
+| **9.9.9.9** | **2620:fe::fe** |
+| **149.112.112.112** | **2620:fe::9** |
 
 ### 
 
