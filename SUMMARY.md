@@ -59,6 +59,7 @@
 
 * [基础公共服务](network/ji-chu-gong-gong-fu-wu/README.md)
   * [DNS](network/ji-chu-gong-gong-fu-wu/dns.md)
+  * [NTP](network/ji-chu-gong-gong-fu-wu/ntp.md)
 * [RFC 阅读清单](network/rfc.md)
 
 ## Linux

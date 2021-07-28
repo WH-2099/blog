@@ -1,5 +1,5 @@
 ---
-description: Domain Name System
+description: Domain Name System 域名系统
 ---
 
 # DNS
@@ -50,10 +50,10 @@ description: Domain Name System
 
 ### [SDNS](https://www.sdns.cn/)
 
-| **IPv4** |
-| :--- |
-| **1.2.4.8** |
-|  **210.2.4.8** |
+| **IPv4** | IPv6 |
+| :--- | :--- |
+| **1.2.4.8** | 2001:dc7:1000::1 |
+|  **210.2.4.8** |  |
 
 
 
