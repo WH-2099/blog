@@ -6,31 +6,23 @@ description: Network Time Protocol 网络时间协议
 
 ## 国内 NTP
 
-### 国家授时中心
+### [国家授时中心](http://www.ntsc.cas.cn/)
+
+#### ntp.ntsc.ac.cn
 
 
 
-中国 NTP 快速授时服务
+### \*\*\*\*[**NTP.ORG.CN**](http://www.ntp.org.cn/)\*\*\*\*
 
-NTP ORG CN
-
-
-
-cn.ntp.org.cn
+#### cn.ntp.org.cn
 
 
 
-教育网
-
-
-
-edu.ntp.org.cn
+### 
 
 
 
 
-
-国际 NTP 快速授时服务
 
 Pool NTP ORG
 
@@ -130,9 +122,19 @@ ntp.bupt.edu.cn
 
 ntp.shu.edu.cn
 
+## 国际 NTP
 
 
 
+
+
+
+
+### 教育网
+
+
+
+#### edu.ntp.org.cn
 
 国际 NTP 服务器
 
