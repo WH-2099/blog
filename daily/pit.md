@@ -29,9 +29,7 @@ New-NetFirewallRule -DisplayName 'RDPPORTLatest' -Profile 'Public' -Direction In
 RDP 服务器需要至少 **使用账号密码**_**（非 PIN 码）**_**完成一次系统登陆** 后才可用。
 {% endhint %}
 
-{% hint style="danger" %}
-RDP 服务器需要 **关闭仅使用 Windows Hello 登录** 。
-{% endhint %}
+
 
 ### WSL
 
