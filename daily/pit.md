@@ -59,6 +59,12 @@ netsh winsock reset
 
 ![](../.gitbook/assets/image.png)
 
+## Network
+
+{% hint style="danger" %}
+市面上常见的路由器内置的 **端口转发** 功能一般只对 `IPv4` 生效，**对于 `IPv6` 无效**。
+{% endhint %}
+
 ## Hardware
 
 ### RJ45 水晶头
