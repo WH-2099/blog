@@ -4,7 +4,7 @@ description: Network Time Protocol 网络时间协议
 
 # NTP
 
-## 国内 NTP
+## 国内 NTP 服务器
 
 ### [国家授时中心](http://www.ntsc.cas.cn/)
 
@@ -18,59 +18,33 @@ description: Network Time Protocol 网络时间协议
 
 
 
-### 
+### [Pool NTP ORG](https://www.pool.ntp.org/zone/cn)
+
+#### cn.pool.ntp.org
+
+#### 
 
 
 
-
-
-Pool NTP ORG
-
-
-
-cn.pool.ntp.org
+### 阿里云 
 
 
 
+#### time.pool.aliyun.com
 
+#### time1.aliyun.com
 
-阿里云公共 NTP 服务器
+#### time2.aliyun.com
 
-Aliyun NTP Server
+#### time3.aliyun.com
 
+#### time4.aliyun.com
 
+#### time5.aliyun.com
 
-time.pool.aliyun.com
+#### time6.aliyun.com
 
-
-
-time1.aliyun.com
-
-
-
-time2.aliyun.com
-
-
-
-time3.aliyun.com
-
-
-
-time4.aliyun.com
-
-
-
-time5.aliyun.com
-
-
-
-time6.aliyun.com
-
-
-
-time7.aliyun.com
-
-
+#### time7.aliyun.com
 
 
 

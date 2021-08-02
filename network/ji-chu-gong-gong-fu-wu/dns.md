@@ -4,7 +4,7 @@ description: Domain Name System 域名系统
 
 # DNS
 
-## **国内 DNS**
+## **国内 DNS 服务器**
 
 ### \*\*\*\*[**阿里 DNS**](https://www.alidns.com/)\*\*\*\*
 
@@ -68,7 +68,7 @@ description: Domain Name System 域名系统
 
 
 
-## 国外 DNS
+## 国外 DNS 服务器
 
 ### \*\*\*\*[**Cloudflare DNS**](https://1.1.1.1/dns/)\*\*\*\*
 
