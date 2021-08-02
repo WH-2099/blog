@@ -26,9 +26,7 @@ description: Network Time Protocol 网络时间协议
 
 
 
-### 阿里云 
-
-
+### [阿里云](https://help.aliyun.com/document_detail/92704.html)
 
 #### time.pool.aliyun.com
 
@@ -46,29 +44,19 @@ description: Network Time Protocol 网络时间协议
 
 #### time7.aliyun.com
 
+#### 
 
 
-腾讯云公共 NTP 服务器
 
-Tencent Cloud NTP Server
-
-
+### 腾讯云
 
 time1.cloud.tencent.com
 
-
-
 time2.cloud.tencent.com
-
-
 
 time3.cloud.tencent.com
 
-
-
 time4.cloud.tencent.com
-
-
 
 time5.cloud.tencent.com
 
@@ -76,23 +64,13 @@ time5.cloud.tencent.com
 
 
 
-教育网（高校自建）
-
-EDU NTP Server
-
-
+### 教育网（各高校）NTP 服务器
 
 ntp.sjtu.edu.cn
 
-
-
 ntp.neu.edu.cn
 
-
-
 ntp.bupt.edu.cn
-
-
 
 ntp.shu.edu.cn
 
@@ -104,7 +82,7 @@ ntp.shu.edu.cn
 
 
 
-### 教育网
+### 国际教育网
 
 
 
