@@ -320,7 +320,6 @@ $$
 {\color{red}L(}C{\color{red}) =}\ [C] + merge \Big({\color{red}L(}B_1{\color{red})}, {\color{red}L(}B_2{\color{red})}, \cdots, {\color{red}L(}B_N{\color{red})}, \quad [B_1, B_2, \cdots, B_N] \Big)
 $$
 
-\*\*\*\*
 
 ```text
  L(C)  :=  [C] + merge(L(A), L(B), [A, B])
