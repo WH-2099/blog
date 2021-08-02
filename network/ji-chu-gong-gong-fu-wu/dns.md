@@ -17,7 +17,7 @@ description: Domain Name System 域名系统
 | :--- | :--- |
 | **`https://dns.alidns.com/dns-query`** | **`dns.alidns.com`** |
 
-\*\*\*\*
+
 
 ### [**DNSPod Public DNS（腾讯云）**](https://docs.dnspod.cn/)
 
@@ -29,7 +29,7 @@ description: Domain Name System 域名系统
 | :--- | :--- |
 | **`https://doh.pub/dns-query`** | **`dot.pub`** |
 
-\*\*\*\*
+
 
 ### [**百度 DNS**](https://dudns.baidu.com/)
 
@@ -37,7 +37,7 @@ description: Domain Name System 域名系统
 | :--- | :--- |
 | **`180.76.76.76`** | **`2400:da00::6666`** |
 
-\*\*\*\*
+
 
 ### [**114 DNS**](https://www.114dns.com/)
 
@@ -53,11 +53,11 @@ description: Domain Name System 域名系统
 | **IPv4** | IPv6 |
 | :--- | :--- |
 | **`1.2.4.8`** | `2001:dc7:1000::1` |
-|  **`210.2.4.8`** |  |
+| **`210.2.4.8`** |  |
 
 
 
-###  [**Quad 101**](https://101.101.101.101/)\*\*\*\*
+### [**Quad 101**](https://101.101.101.101/)
 
 | **IPv4** | **IPv6** |
 | :--- | :--- |
@@ -70,7 +70,7 @@ description: Domain Name System 域名系统
 
 ## 国外 DNS 服务器
 
-### \*\*\*\*[**Cloudflare DNS**](https://1.1.1.1/dns/)\*\*\*\*
+### [**Cloudflare DNS**](https://1.1.1.1/dns/)
 
 | **IPv4** | **IPv6** |
 | :--- | :--- |
@@ -79,7 +79,7 @@ description: Domain Name System 域名系统
 
 
 
-### \*\*\*\*[**Google Public DNS**](https://dns.google/)\*\*\*\*
+### [**Google Public DNS**](https://dns.google/)
 
 | **IPv4** | **IPv6** |
 | :--- | :--- |
@@ -107,6 +107,4 @@ description: Domain Name System 域名系统
 | :--- | :--- |
 | **`9.9.9.9`** | **`2620:fe::fe`** |
 | **`149.112.112.112`** | **`2620:fe::9`** |
-
-### 
 
