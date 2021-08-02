@@ -6,7 +6,7 @@ description: Domain Name System 域名系统
 
 ## **国内 DNS 服务器**
 
-### \*\*\*\*[**阿里 DNS**](https://www.alidns.com/)\*\*\*\*
+### [**阿里 DNS**](https://www.alidns.com/)
 
 | **IPv4** | **IPv6** |
 | :--- | :--- |
@@ -19,7 +19,7 @@ description: Domain Name System 域名系统
 
 \*\*\*\*
 
-### \*\*\*\*[**DNSPod Public DNS（腾讯云）**](https://docs.dnspod.cn/)\*\*\*\*
+### [**DNSPod Public DNS（腾讯云）**](https://docs.dnspod.cn/)
 
 | **IPv4** | **IPv6** |
 | :--- | :--- |
@@ -31,7 +31,7 @@ description: Domain Name System 域名系统
 
 \*\*\*\*
 
-### \*\*\*\*[**百度 DNS**](https://dudns.baidu.com/)\*\*\*\*
+### [**百度 DNS**](https://dudns.baidu.com/)
 
 | **IPv4** | **IPv6** |
 | :--- | :--- |
@@ -39,7 +39,7 @@ description: Domain Name System 域名系统
 
 \*\*\*\*
 
-### \*\*\*\*[**114 DNS**](https://www.114dns.com/)\*\*\*\*
+### [**114 DNS**](https://www.114dns.com/)
 
 | **无劫持** | **安全** | **未成年** |
 | :--- | :--- | :--- |
@@ -105,7 +105,7 @@ description: Domain Name System 域名系统
 
 | **IPv4** | **IPv6** |
 | :--- | :--- |
-| **`9.9.9.9`** | **`2620:fe::fe`** |
+| **`9.9.9.9`** | **`2620:fe::fe`** |
 | **`149.112.112.112`** | **`2620:fe::9`** |
 
 ### 
