@@ -64,7 +64,7 @@ time5.cloud.tencent.com
 
 
 
-### 教育网（各高校）NTP 服务器
+### 中国教育网（各高校）
 
 ntp.sjtu.edu.cn
 
@@ -88,13 +88,7 @@ ntp.shu.edu.cn
 
 #### edu.ntp.org.cn
 
-国际 NTP 服务器
-
-Global Public NTP Server
-
-
-
-\[国际 NTP 服务器\] · 国内 NTP 服务器
+## 国际 NTP 服务器
 
 
 
@@ -104,7 +98,7 @@ Pool NTP ORG
 
 
 
-pool.ntp.org
+## pool.ntp.org
 
 
 
@@ -130,7 +124,7 @@ asia.pool.ntp.org
 
 
 
-谷歌公共 NTP 服务器
+## 谷歌公共 NTP 服务器
 
 Google NTP Server
 
@@ -154,7 +148,7 @@ time4.google.com
 
 
 
-苹果公司公共 NTP 服务器
+## 苹果公司公共 NTP 服务器
 
 Apple NTP Server
 
@@ -194,7 +188,7 @@ time7.apple.com
 
 
 
-微软 Windows NTP 服务器
+## 微软 Windows NTP 服务器
 
 Microsoft Windows NTP Server
 
@@ -206,7 +200,7 @@ time.windows.com
 
 
 
-美国标准技术研究院 NTP 服务器
+## 美国标准技术研究院 NTP 服务器
 
 NIST NTP Server
 
@@ -230,13 +224,7 @@ time-b.nist.gov
 
 
 
-香港天文台公共 NTP 服务器
 
-Hong Kong Observator NTP Server
-
-
-
-stdtime.gov.hk
 
 
 
