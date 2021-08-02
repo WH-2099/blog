@@ -15,7 +15,7 @@ description: Domain Name System 域名系统
 
 | **DoH** | **DoT** |
 | :--- | :--- |
-| \*\*\*\*[**https://dns.alidns.com/dns-query**](https://dns.alidns.com/dns-query)\*\*\*\* | **dns.alidns.com** |
+| **https://dns.alidns.com/dns-query** | **dns.alidns.com** |
 
 \*\*\*\*
 
@@ -27,7 +27,7 @@ description: Domain Name System 域名系统
 
 | **DoH** | **DoT** |
 | :--- | :--- |
-| \*\*\*\*[**https://dns.alidns.com/dns-query**](https://doh.pub/dns-query)\*\*\*\*[**https://doh.pub/dns-query**](https://doh.pub/dns-query)\*\*\*\* | **dot.pub** |
+| **https://doh.pub/dns-query** | **dot.pub** |
 
 \*\*\*\*
 
