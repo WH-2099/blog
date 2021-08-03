@@ -8,19 +8,19 @@ description: Network Time Protocol 网络时间协议
 
 ### [国家授时中心](http://www.ntsc.cas.cn/)
 
-#### ntp.ntsc.ac.cn
+#### `ntp.ntsc.ac.cn`
 
 
 
 ### \*\*\*\*[**NTP.ORG.CN**](http://www.ntp.org.cn/)\*\*\*\*
 
-#### cn.ntp.org.cn
+#### `cn.ntp.org.cn`
 
 
 
 ### [Pool NTP ORG](https://www.pool.ntp.org/zone/cn)
 
-#### cn.pool.ntp.org
+#### `cn.pool.ntp.org`
 
 #### 
 
@@ -28,37 +28,37 @@ description: Network Time Protocol 网络时间协议
 
 ### [阿里云](https://help.aliyun.com/document_detail/92704.html)
 
-#### time.pool.aliyun.com
+#### `time.pool.aliyun.com`
 
-#### time1.aliyun.com
+#### `time1.aliyun.com`
 
-#### time2.aliyun.com
+#### `time2.aliyun.com`
 
-#### time3.aliyun.com
+#### `time3.aliyun.com`
 
-#### time4.aliyun.com
+#### `time4.aliyun.com`
 
-#### time5.aliyun.com
+#### `time5.aliyun.com`
 
-#### time6.aliyun.com
+#### `time6.aliyun.com`
 
-#### time7.aliyun.com
+#### `time7.aliyun.com`
 
 #### 
 
 
 
-### 腾讯云
+### [腾讯云](https://cloud.tencent.com/document/product/213/30392)
 
-time1.cloud.tencent.com
+#### `time1.cloud.tencent.com`
 
-time2.cloud.tencent.com
+#### `time2.cloud.tencent.com`
 
-time3.cloud.tencent.com
+#### `time3.cloud.tencent.com`
 
-time4.cloud.tencent.com
+#### `time4.cloud.tencent.com`
 
-time5.cloud.tencent.com
+#### `time5.cloud.tencent.com`
 
 
 
@@ -66,15 +66,17 @@ time5.cloud.tencent.com
 
 ### 中国教育网（各高校）
 
-ntp.sjtu.edu.cn
+#### `ntp.sjtu.edu.cn`
 
-ntp.neu.edu.cn
+#### `ntp.neu.edu.cn`
 
-ntp.bupt.edu.cn
+#### `ntp.bupt.edu.cn`
 
-ntp.shu.edu.cn
+#### `ntp.shu.edu.cn`
 
-## 国际 NTP
+
+
+## 国际 NTP 服务器
 
 
 
@@ -86,147 +88,73 @@ ntp.shu.edu.cn
 
 
 
-#### edu.ntp.org.cn
+#### `edu.ntp.org.cn`
 
 ## 国际 NTP 服务器
 
 
 
-国际 NTP 快速授时服务
+### [Pool NTP ORG](https://www.pool.ntp.org/zone/cn)
 
-Pool NTP ORG
+#### `pool.ntp.org`
 
+#### `0.pool.ntp.org`
 
+#### `1.pool.ntp.org`
 
-## pool.ntp.org
+#### `2.pool.ntp.org`
 
+#### `3.pool.ntp.org`
 
+#### `asia.pool.ntp.org`
 
-0.pool.ntp.org
 
 
+### 谷歌
 
-1.pool.ntp.org
+#### `time1.google.com`
 
+#### `time2.google.com`
 
+#### `time3.google.com`
 
-2.pool.ntp.org
+#### `time4.google.com`
 
 
 
-3.pool.ntp.org
+### 苹果
 
+#### time.apple.com
 
+#### time1.apple.com
 
-asia.pool.ntp.org
+#### time2.apple.com
 
+#### time3.apple.com
 
+#### time4.apple.com
 
+#### time5.apple.com
 
+#### time6.apple.com
 
-## 谷歌公共 NTP 服务器
+#### time7.apple.com
 
-Google NTP Server
 
 
+## 微软 Windows
 
-time1.google.com
+#### time.windows.com
 
+## 美国标准技术研究院
 
 
-time2.google.com
 
+#### time.nist.gov
 
+#### time-nw.nist.gov
 
-time3.google.com
+#### time-a.nist.gov
 
-
-
-time4.google.com
-
-
-
-
-
-## 苹果公司公共 NTP 服务器
-
-Apple NTP Server
-
-
-
-time.apple.com
-
-
-
-time1.apple.com
-
-
-
-time2.apple.com
-
-
-
-time3.apple.com
-
-
-
-time4.apple.com
-
-
-
-time5.apple.com
-
-
-
-time6.apple.com
-
-
-
-time7.apple.com
-
-
-
-
-
-## 微软 Windows NTP 服务器
-
-Microsoft Windows NTP Server
-
-
-
-time.windows.com
-
-
-
-
-
-## 美国标准技术研究院 NTP 服务器
-
-NIST NTP Server
-
-
-
-time.nist.gov
-
-
-
-time-nw.nist.gov
-
-
-
-time-a.nist.gov
-
-
-
-time-b.nist.gov
-
-
-
-
-
-
-
-
-
-
+#### time-b.nist.gov
 
