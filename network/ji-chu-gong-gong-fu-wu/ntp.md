@@ -22,8 +22,6 @@ description: Network Time Protocol 网络时间协议
 
 #### `cn.pool.ntp.org`
 
-#### 
-
 
 
 ### [阿里云](https://help.aliyun.com/document_detail/92704.html)
@@ -44,10 +42,6 @@ description: Network Time Protocol 网络时间协议
 
 #### `time7.aliyun.com`
 
-#### 
-
-
-
 ### [腾讯云](https://cloud.tencent.com/document/product/213/30392)
 
 #### `time1.cloud.tencent.com`
@@ -60,10 +54,6 @@ description: Network Time Protocol 网络时间协议
 
 #### `time5.cloud.tencent.com`
 
-
-
-
-
 ### 中国教育网（各高校）
 
 #### `ntp.sjtu.edu.cn`
@@ -74,25 +64,13 @@ description: Network Time Protocol 网络时间协议
 
 #### `ntp.shu.edu.cn`
 
-
-
 ## 国际 NTP 服务器
-
-
-
-
-
-
 
 ### 国际教育网
 
-
-
 #### `edu.ntp.org.cn`
 
-## 国际 NTP 服务器
-
-
+## 国际 NTP 服务器
 
 ### [Pool NTP ORG](https://www.pool.ntp.org/zone/cn)
 
@@ -108,9 +86,7 @@ description: Network Time Protocol 网络时间协议
 
 #### `asia.pool.ntp.org`
 
-
-
-### 谷歌
+### [谷歌](https://developers.google.com/time)
 
 #### `time1.google.com`
 
@@ -120,9 +96,7 @@ description: Network Time Protocol 网络时间协议
 
 #### `time4.google.com`
 
-
-
-### 苹果
+### [苹果](https://developer.apple.com/documentation/devicemanagement/timeserver)
 
 #### time.apple.com
 
@@ -140,21 +114,11 @@ description: Network Time Protocol 网络时间协议
 
 #### time7.apple.com
 
-
-
-## 微软 Windows
+### [微软 Windows](https://docs.microsoft.com/zh-cn/windows-server/networking/windows-time-service/how-the-windows-time-service-works#windows-time-service-time-protocols)
 
 #### time.windows.com
 
-## 美国标准技术研究院
-
-
+### [美国标准技术研究院](https://tf.nist.gov/tf-cgi/servers.cgi)
 
 #### time.nist.gov
-
-#### time-nw.nist.gov
-
-#### time-a.nist.gov
-
-#### time-b.nist.gov
 
