@@ -42,6 +42,8 @@ description: Network Time Protocol 网络时间协议
 
 #### `time7.aliyun.com`
 
+
+
 ### [腾讯云](https://cloud.tencent.com/document/product/213/30392)
 
 #### `time1.cloud.tencent.com`
@@ -72,7 +74,7 @@ description: Network Time Protocol 网络时间协议
 
 ## 国际 NTP 服务器
 
-### [Pool NTP ORG](https://www.pool.ntp.org/zone/cn)
+### [Pool NTP ORG](https://www.ntppool.org/)
 
 #### `pool.ntp.org`
 
