@@ -56,6 +56,8 @@ description: Network Time Protocol 网络时间协议
 
 #### `time5.cloud.tencent.com`
 
+
+
 ### 中国教育网（各高校）
 
 #### `ntp.sjtu.edu.cn`
@@ -66,13 +68,15 @@ description: Network Time Protocol 网络时间协议
 
 #### `ntp.shu.edu.cn`
 
+
+
 ## 国际 NTP 服务器
 
 ### 国际教育网
 
 #### `edu.ntp.org.cn`
 
-## 国际 NTP 服务器
+
 
 ### [Pool NTP ORG](https://www.ntppool.org/)
 
@@ -88,6 +92,8 @@ description: Network Time Protocol 网络时间协议
 
 #### `asia.pool.ntp.org`
 
+
+
 ### [谷歌](https://developers.google.com/time)
 
 #### `time1.google.com`
@@ -97,6 +103,8 @@ description: Network Time Protocol 网络时间协议
 #### `time3.google.com`
 
 #### `time4.google.com`
+
+
 
 ### [苹果](https://developer.apple.com/documentation/devicemanagement/timeserver)
 
@@ -116,9 +124,13 @@ description: Network Time Protocol 网络时间协议
 
 #### time7.apple.com
 
+
+
 ### [微软 Windows](https://docs.microsoft.com/zh-cn/windows-server/networking/windows-time-service/how-the-windows-time-service-works#windows-time-service-time-protocols)
 
 #### time.windows.com
+
+
 
 ### [美国标准技术研究院](https://tf.nist.gov/tf-cgi/servers.cgi)
 
