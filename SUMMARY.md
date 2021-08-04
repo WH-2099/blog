@@ -6,32 +6,32 @@
 
 * [美文](awesome/article/README.md)
   * [短篇](awesome/article/short/README.md)
-    * [假如是你的话](awesome/article/short/jia-ru-shi-ni-de-hua.md)
-    * [幸福的生日](awesome/article/short/xing-fu-de-sheng-ri.md)
-    * [客厅里的爆炸](awesome/article/short/ke-ting-li-de-bao-zha.md)
+    * [爱](awesome/article/short/ai.md)
+    * [疯人](awesome/article/short/feng-ren.md)
     * [夺妻](awesome/article/short/duo-qi.md)
-    * [情债肉偿](awesome/article/short/qing-zhai-rou-chang.md)
-    * [非走不可的弯路](awesome/article/short/fei-zou-bu-ke-de-wan-lu.md)
     * [虐猫](awesome/article/short/nve-mao.md)
-    * [那些你所不知道的大事](awesome/article/short/na-xie-ni-suo-bu-zhi-dao-de-da-shi.md)
-    * [清晨的变故](awesome/article/short/qing-chen-de-bian-gu.md)
-    * [我是个窃贼](awesome/article/short/wo-shi-ge-qie-zei.md)
-    * [我觉得自己会永远生猛下去](awesome/article/short/wo-jue-de-zi-ji-hui-yong-yuan-sheng-meng-xia-qu.md)
-    * [真实的高贵](awesome/article/short/zhen-shi-de-gao-gui.md)
-    * [婚姻中没有天堂](awesome/article/short/hun-yin-zhong-mei-you-tian-tang.md)
+    * [陈小手](awesome/article/short/chen-xiao-shou.md)
+    * [情债肉偿](awesome/article/short/qing-zhai-rou-chang.md)
     * [太阳黑子](awesome/article/short/tai-yang-hei-zi.md)
     * [蚂蚁人生](awesome/article/short/ma-yi-ren-sheng.md)
+    * [清晨的变故](awesome/article/short/qing-chen-de-bian-gu.md)
+    * [真实的高贵](awesome/article/short/zhen-shi-de-gao-gui.md)
+    * [神秘领奖人](awesome/article/short/shen-mi-ling-jiang-ren.md)
+    * [幸福的生日](awesome/article/short/xing-fu-de-sheng-ri.md)
+    * [我是个窃贼](awesome/article/short/wo-shi-ge-qie-zei.md)
+    * [客厅里的爆炸](awesome/article/short/ke-ting-li-de-bao-zha.md)
+    * [愿你慢慢长大](awesome/article/short/untitled.md)
+    * [民意与伪民意](awesome/article/short/min-yi-yu-wei-min-yi.md)
+    * [假如是你的话](awesome/article/short/jia-ru-shi-ni-de-hua/README.md)
+      * [婚姻中没有天堂](awesome/article/short/jia-ru-shi-ni-de-hua/hun-yin-zhong-mei-you-tian-tang.md)
+    * [非走不可的弯路](awesome/article/short/fei-zou-bu-ke-de-wan-lu.md)
+    * [单调产生的快乐](awesome/article/short/dan-tiao-chan-sheng-de-kuai-le.md)
+    * [我只是讨厌屈服](awesome/article/short/wo-zhi-shi-tao-yan-qu-fu.md)
     * [跳槽只为 “软福利”](awesome/article/short/tiao-cao-zhi-wei-ruan-fu-li.md)
     * [聪明人和傻子和奴才](awesome/article/short/cong-ming-ren-he-sha-zi-he-nu-cai.md)
-    * [疯人](awesome/article/short/feng-ren.md)
-    * [爱](awesome/article/short/ai.md)
-    * [神秘领奖人](awesome/article/short/shen-mi-ling-jiang-ren.md)
-    * [陈小手](awesome/article/short/chen-xiao-shou.md)
-    * [我只是讨厌屈服](awesome/article/short/wo-zhi-shi-tao-yan-qu-fu.md)
-    * [愿你慢慢长大](awesome/article/short/untitled.md)
     * [你永远有做不完的事](awesome/article/short/ni-yong-yuan-you-zuo-bu-wan-de-shi.md)
-    * [民意与伪民意](awesome/article/short/min-yi-yu-wei-min-yi.md)
-    * [单调产生的快乐](awesome/article/short/dan-tiao-chan-sheng-de-kuai-le.md)
+    * [那些你所不知道的大事](awesome/article/short/na-xie-ni-suo-bu-zhi-dao-de-da-shi.md)
+    * [我觉得自己会永远生猛下去](awesome/article/short/wo-jue-de-zi-ji-hui-yong-yuan-sheng-meng-xia-qu.md)
   * [长篇](awesome/article/long/README.md)
     * [一桩自杀案](awesome/article/long/yi-zhuang-zi-sha-an.md)
 * [段子](awesome/pian-duan/README.md)
@@ -62,17 +62,21 @@
   * [NTP](network/ji-chu-gong-gong-fu-wu/ntp.md)
 * [RFC 阅读清单](network/rfc.md)
 
-## Linux
-
-* [新时代 Linux 命令](linux/ng.md)
-* [树莓派实时性优化](linux/raspberry-rt-linux.md)
-
 ## 日常随记 <a id="daily"></a>
 
 * [坑](daily/pit.md)
 * [豆知识](daily/trivia.md)
 * [ZEN of DEBUG](daily/debug.md)
 * [数据收集的途径](daily/data-source.md)
-* [空中浩劫 ACI 经典](daily/aci/README.md)
-  * [呼叫转移设置方式](daily/aci/hu-jiao-zhuan-yi-she-zhi-fang-shi.md)
+* [呼叫转移设置方式](daily/hu-jiao-zhuan-yi-she-zhi-fang-shi.md)
+* [空中浩劫 ACI 经典](daily/aci.md)
+
+## Windows
+
+* [Windows 使用小技巧](windows/windows-shi-yong-xiao-ji-qiao.md)
+
+## Linux
+
+* [新时代 Linux 命令](linux/ng.md)
+* [树莓派实时性优化](linux/raspberry-rt-linux.md)
 
