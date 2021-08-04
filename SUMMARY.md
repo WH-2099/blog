@@ -49,6 +49,7 @@
 ## Python
 
 * [你真的 “创建” 了类吗？](python/create-class.md)
+* [\[RELEASE\] Python 3.10.0rc1 已发布](python/release-python-3.10.0rc1-yi-fa-bu.md)
 * [MRO 三定律](python/c3-mro.md)
 * [描述器学习指南](python/descriptor.md)
 * [描述器实现 property](python/property.md)
