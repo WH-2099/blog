@@ -2,7 +2,7 @@
 description: 译自 Python-list
 ---
 
-# \[RELEASE\] Python 3.10.0rc1 已发布
+# \[RELEASE\] Python 3.10.0rc1
 
 Python 3.10.0 几乎已经准备好了。 3.10.0rc1 这个版本是倒数第二个版本预览，你可以从这里下载。 [https://www.python.org/downloads/release/python-3100rc1/](https://www.python.org/downloads/release/python-3100rc1/)
 
