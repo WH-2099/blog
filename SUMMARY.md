@@ -5,7 +5,7 @@
 ## 佳作收藏 <a id="awesome"></a>
 
 * [美文](awesome/article/README.md)
-  * [短篇](awesome/article/short/README.md)
+  * [符号控制](awesome/article/short/README.md)
     * [爱](awesome/article/short/ai.md)
     * [疯人](awesome/article/short/feng-ren.md)
     * [夺妻](awesome/article/short/duo-qi.md)
