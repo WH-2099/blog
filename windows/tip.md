@@ -21,7 +21,7 @@ Windows 的前身 **MS-DOS** 原生是不支持鼠标的哦！所以硬要追根
 {% endhint %}
 
 {% hint style="info" %}
-**`CTRL + SHIFT + ESC`**
+**`CTRL + SHIFT + ESC 任务管理器`**
 {% endhint %}
 
 {% hint style="danger" %}
