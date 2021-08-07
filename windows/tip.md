@@ -11,7 +11,7 @@ Windows 的前身 **MS-DOS** 原生是不支持鼠标的哦！所以硬要追根
 ### 系统快捷键
 
 {% hint style="info" %}
-**Windows 徽标键** 可以与下面图示中的键组合
+**Windows 徽标键（亦称作 WIN 键）** 可以与下面图示中的键组合
 {% endhint %}
 
 ![Powertoys &#x5FEB;&#x6377;&#x952E;&#x6307;&#x5357;](../.gitbook/assets/image%20%2813%29.png)
