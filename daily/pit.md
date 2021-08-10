@@ -47,6 +47,20 @@ netsh winsock reset
 
 ## Linux
 
+### Shell
+
+{% hint style="info" %}
+Here Document \(`<<`\) 想要过滤去掉行首的 Tab \(`\t`\) ：**`<<-`**
+{% endhint %}
+
+{% hint style="warning" %}
+Here Document \(`<<`\) 输入的文本默认还是会被 **扩展**，如果需要禁用，需要对起始的 limit\_string 做处理（假设 limit\_string 为 `_EOF`）：
+
+* 用 `\` 转义：`\_EOF`
+* 用双引号包裹：`"\_EOF"`
+* 用单引号包裹：`'\_EOF'`
+{% endhint %}
+
 ### Config
 
 {% hint style="info" %}
