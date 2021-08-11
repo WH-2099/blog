@@ -63,6 +63,10 @@ Here Document \(`<<`\) 输入的文本默认还是会被 **扩展**，如果需�
 
 ### Config
 
+{% hint style="danger" %}
+systemd-networkd 的 [默认配置](https://man.archlinux.org/man/systemd.network.5) 会禁用 **内核 IP 转发** ，若想要开启，除了调整内核参数外，还需要在对应的 `.network` 配置文件的 `[Network]` 一节设置 `IPForward=yes` 。
+{% endhint %}
+
 {% hint style="info" %}
 配置文件最好以换行符结尾，方便后续 `echo "key=value">>config.conf` 追加配置操作。
 {% endhint %}
