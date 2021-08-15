@@ -25,6 +25,7 @@
     * [民意与伪民意](awesome/article/short/min-yi-yu-wei-min-yi.md)
     * [假如是你的话](awesome/article/short/jia-ru-shi-ni-de-hua/README.md)
       * [婚姻中没有天堂](awesome/article/short/jia-ru-shi-ni-de-hua/hun-yin-zhong-mei-you-tian-tang.md)
+    * [一种深久的不安](awesome/article/short/yi-zhong-shen-jiu-de-bu-an.md)
     * [非走不可的弯路](awesome/article/short/fei-zou-bu-ke-de-wan-lu.md)
     * [单调产生的快乐](awesome/article/short/dan-tiao-chan-sheng-de-kuai-le.md)
     * [我只是讨厌屈服](awesome/article/short/wo-zhi-shi-tao-yan-qu-fu.md)
