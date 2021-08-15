@@ -108,13 +108,21 @@ description: Python Enhancement Proposals
 
 ### 【理解】：防止yield链的隐式意外中断
 
+## PEP 483 -- The Theory of Type Hints
+
+类型提示的理论
+
+### `typing`
+
+### 【浏览】：就是你把鬼子（静态类型标注）引进村的吗？
+
 ## PEP 484 -- Type Hints
 
 ### 类型提示
 
 ### `typing`
 
-### 【浏览】：就是你把鬼子（静态类型标注）引进村的吗？
+### 【浏览】：终究还是躲不开类型
 
 ## PEP 487 -- Simpler customisation of class creation
 

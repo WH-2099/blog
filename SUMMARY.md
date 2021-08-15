@@ -58,6 +58,7 @@
 * [描述器实现 property](python/property.md)
 * [如何做一个好中介](python/yield-from.md)
 * [PEP 阅读清单](python/pep.md)
+* [类型标注](python/lei-xing-biao-zhu.md)
 
 ## Network
 
