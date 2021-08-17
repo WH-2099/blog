@@ -15,6 +15,7 @@
     * [情债肉偿](awesome/article/short/qing-zhai-rou-chang.md)
     * [太阳黑子](awesome/article/short/tai-yang-hei-zi.md)
     * [蚂蚁人生](awesome/article/short/ma-yi-ren-sheng.md)
+    * [相信不相信](awesome/article/short/xiang-xin-bu-xiang-xin.md)
     * [清晨的变故](awesome/article/short/qing-chen-de-bian-gu.md)
     * [真实的高贵](awesome/article/short/zhen-shi-de-gao-gui.md)
     * [神秘领奖人](awesome/article/short/shen-mi-ling-jiang-ren.md)
