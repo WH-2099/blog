@@ -56,10 +56,12 @@
     * [hellow, world](awesome/pian-duan/cheng-xu-yuan-duan-zi/hellow-world.md)
     * [字节序](awesome/pian-duan/cheng-xu-yuan-duan-zi/zi-jie-xu.md)
     * [删库](awesome/pian-duan/cheng-xu-yuan-duan-zi/shan-ku.md)
+  * [应对早恋](awesome/pian-duan/ying-dui-zao-lian.md)
   * [二次元段子](awesome/pian-duan/er-ci-yuan-duan-zi.md)
   * [甲方乙方](awesome/pian-duan/love-hate.md)
   * [大老师片段](awesome/pian-duan/da-lao-shi-pian-duan.md)
   * [新编故事四则](awesome/pian-duan/xin-bian-gu-shi-si-ze.md)
+  * [没人知道大东为何在此舞蹈](awesome/pian-duan/mei-ren-zhi-dao-da-dong-wei-he-zai-ci-wu-dao.md)
 
 ## Python
 
