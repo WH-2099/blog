@@ -47,6 +47,7 @@
     * [一桩自杀案](awesome/article/long/yi-zhuang-zi-sha-an.md)
     * [机舱里的钟声](awesome/article/long/ji-cang-li-de-zhong-sheng.md)
     * [公主整夜不能睡](awesome/article/long/gong-zhu-zheng-ye-bu-neng-shui.md)
+    * [他们那时多有趣](awesome/article/long/ta-men-na-shi-duo-you-qu.md)
     * [上午打瞌睡的女孩](awesome/article/long/shang-wu-da-ke-shui-de-nv-hai.md)
 * [段子](awesome/pian-duan/README.md)
   * [脑子与牛子](awesome/pian-duan/nao-zi-yu-niu-zi.md)
