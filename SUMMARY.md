@@ -40,6 +40,7 @@
   * [长篇](awesome/article/long/README.md)
     * [猫人](awesome/article/long/mao-ren.md)
     * [侯银匠](awesome/article/long/hou-yin-jiang.md)
+    * [一千张糖纸](awesome/article/long/yi-qian-zhang-tang-zhi.md)
     * [爱情与投资](awesome/article/long/ai-qing-yu-tou-zi.md)
     * [赌徒的遗书](awesome/article/long/du-tu-de-yi-shu.md)
     * [一桩自杀案](awesome/article/long/yi-zhuang-zi-sha-an.md)
