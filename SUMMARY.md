@@ -43,6 +43,7 @@
     * [爱情与投资](awesome/article/long/ai-qing-yu-tou-zi.md)
     * [赌徒的遗书](awesome/article/long/du-tu-de-yi-shu.md)
     * [一桩自杀案](awesome/article/long/yi-zhuang-zi-sha-an.md)
+    * [公主整夜不能睡](awesome/article/long/gong-zhu-zheng-ye-bu-neng-shui.md)
     * [上午打瞌睡的女孩](awesome/article/long/shang-wu-da-ke-shui-de-nv-hai.md)
 * [段子](awesome/pian-duan/README.md)
   * [脑子与牛子](awesome/pian-duan/nao-zi-yu-niu-zi.md)
