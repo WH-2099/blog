@@ -50,6 +50,7 @@
     * [他们那时多有趣](awesome/article/long/ta-men-na-shi-duo-you-qu.md)
     * [上午打瞌睡的女孩](awesome/article/long/shang-wu-da-ke-shui-de-nv-hai.md)
 * [段子](awesome/pian-duan/README.md)
+  * [喝痰](awesome/pian-duan/he-tan.md)
   * [无厘头句子](awesome/pian-duan/wu-li-tou-ju-zi.md)
   * [脑子与牛子](awesome/pian-duan/nao-zi-yu-niu-zi.md)
   * [♂ 男 ♂ 语 ♂](awesome/pian-duan/nan-yu.md)
