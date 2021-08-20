@@ -52,6 +52,7 @@
 * [段子](awesome/pian-duan/README.md)
   * [喝痰](awesome/pian-duan/he-tan.md)
   * [数学家](awesome/pian-duan/shu-xue-jia.md)
+  * [表情包收藏](awesome/pian-duan/biao-qing-bao-shou-cang.md)
   * [无厘头句子](awesome/pian-duan/wu-li-tou-ju-zi.md)
   * [脑子与牛子](awesome/pian-duan/nao-zi-yu-niu-zi.md)
   * [♂ 男 ♂ 语 ♂](awesome/pian-duan/nan-yu.md)
