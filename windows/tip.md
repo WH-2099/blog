@@ -68,10 +68,11 @@ Windows 的前身 **MS-DOS** 原生是不支持鼠标的哦！所以硬要追根
 | sysdm.cpl | 系统属性 |
 | tabletpc.cpl | 笔和触控 |
 | timedate.cpl | 日期和时间 |
+| netplwiz | 用户账户 |
 
 {% hint style="warning" %}
 尽管在微软的 [官方文档](https://support.microsoft.com/en-us/topic/description-of-control-panel-cpl-files-4dc809cd-5063-6c6d-3bee-d3f18b2e0176) 中有提及对应的控制面板文件名，但此文档已经长期未经维护，不再适用于 Windows 7 之后的版本。  
-以上的内容汇总了官方文档和注册表中的内容，筛选了其中的有效项。
+以上的内容汇总了官方文档和注册表中的内容，筛选了其中的有效项，还增加了部分不是控制面板项但与之相关的程序。
 
 相关的注册表键：  
 `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Control Panel\Cpls`
