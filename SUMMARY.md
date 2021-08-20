@@ -41,6 +41,7 @@
     * [猫人](awesome/article/long/mao-ren.md)
     * [侯银匠](awesome/article/long/hou-yin-jiang.md)
     * [死亡花朵](awesome/article/long/si-wang-hua-duo.md)
+    * [紫色人形](awesome/article/long/untitled.md)
     * [天外飞石](awesome/article/long/tian-wai-fei-shi.md)
     * [一千张糖纸](awesome/article/long/yi-qian-zhang-tang-zhi.md)
     * [爱情与投资](awesome/article/long/ai-qing-yu-tou-zi.md)
