@@ -43,6 +43,7 @@
     * [死亡花朵](awesome/article/long/si-wang-hua-duo.md)
     * [紫色人形](awesome/article/long/untitled.md)
     * [天外飞石](awesome/article/long/tian-wai-fei-shi.md)
+    * [女人的星球](awesome/article/long/nv-ren-de-xing-qiu.md)
     * [一千张糖纸](awesome/article/long/yi-qian-zhang-tang-zhi.md)
     * [爱情与投资](awesome/article/long/ai-qing-yu-tou-zi.md)
     * [赌徒的遗书](awesome/article/long/du-tu-de-yi-shu.md)
