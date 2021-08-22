@@ -61,35 +61,223 @@ iptables 作为这方面的老大哥，在 Linux 系统的基础网络包处理�
 
 
 
+### Hook 可用性
 
+{% hint style="warning" %}
+没有明确标为 Yes 的都不可用。
+{% endhint %}
 
-| Chain type | Hooks |  |  |  |  |  |  |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| ingress | prerouting | forward | input | output | postrouting | egress |  |
-|  inet family |  |  |  |  |  |  |  |
-| filter | Yes | Yes | Yes | Yes | Yes | Yes |  |
-| nat |  | Yes |  | Yes | Yes | Yes |  |
-| route |  |  |  |  | Yes |  |  |
-|  ip6 family |  |  |  |  |  |  |  |
-| filter |  | Yes | Yes | Yes | Yes | Yes |  |
-| nat |  | Yes |  | Yes | Yes | Yes |  |
-| route |  |  |  |  | Yes |  |  |
-|  ip family |  |  |  |  |  |  |  |
-| filter |  | Yes | Yes | Yes | Yes | Yes |  |
-| nat |  | Yes |  | Yes | Yes | Yes |  |
-| route |  |  |  |  | Yes |  |  |
-|  arp family |  |  |  |  |  |  |  |
-| filter |  |  |  | Yes | Yes |  |  |
-| nat |  |  |  |  |  |  |  |
-| route |  |  |  |  |  |  |  |
-|  bridge family |  |  |  |  |  |  |  |
-| filter |  | Yes | Yes | Yes | Yes | Yes |  |
-| nat |  |  |  |  |  |  |  |
-| route |  |  |  |  |  |  |  |
-|  netdev family |  |  |  |  |  |  |  |
-| filter | Yes |  |  |  |  |  | Yes |
-| nat |  |  |  |  |  |  |  |
-| route |  |  |  |  |  |  |  |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left"><b>Chain type</b>
+      </th>
+      <th style="text-align:center">ingress</th>
+      <th style="text-align:center">prerouting</th>
+      <th style="text-align:center">forward</th>
+      <th style="text-align:center">input</th>
+      <th style="text-align:center">output</th>
+      <th style="text-align:center">postrouting</th>
+      <th style="text-align:center">egress</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">
+        <p></p>
+        <p><b>inet family</b>
+        </p>
+      </td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">filter</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">nat</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">route</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <br /><b>ip6 family</b>
+      </td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">filter</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">nat</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">route</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <br /><b>ip family</b>
+      </td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">filter</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">nat</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">route</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <br /><b>arp family</b>
+      </td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">filter</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <br /><b>bridge family</b>
+      </td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">filter</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <br /><b>netdev family</b>
+      </td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">filter</td>
+      <td style="text-align:center">Yes</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center">Yes(5.7)</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
