@@ -2,6 +2,35 @@
 
 * [久韭](README.md)
 
+## Python
+
+* [\[RELEASE\] Python 3.10.0rc1](python/release-python-3.10.0rc1-yi-fa-bu.md)
+* [你真的 “创建” 了类吗？](python/create-class.md)
+* [MRO 三定律](python/c3-mro.md)
+* [描述器学习指南](python/descriptor.md)
+* [描述器实现 property](python/property.md)
+* [如何做一个好中介](python/yield-from.md)
+* [PEP 阅读清单](python/pep.md)
+* [类型标注](python/lei-xing-biao-zhu.md)
+
+## Network
+
+* [大道至简](network/da-dao-zhi-jian.md)
+* [基础公共服务](network/ji-chu-gong-gong-fu-wu/README.md)
+  * [DNS](network/ji-chu-gong-gong-fu-wu/dns.md)
+  * [NTP](network/ji-chu-gong-gong-fu-wu/ntp.md)
+* [RFC 阅读清单](network/rfc.md)
+
+## Windows
+
+* [Windows 使用小技巧](windows/tip.md)
+
+## Linux
+
+* [nftables](linux/nftables.md)
+* [新时代 Linux 命令](linux/ng.md)
+* [树莓派实时性优化](linux/raspberry-rt-linux.md)
+
 ## 佳作收藏 <a id="awesome"></a>
 
 * [美文](awesome/article/README.md)
@@ -72,24 +101,6 @@
   * [新编故事四则](awesome/pian-duan/xin-bian-gu-shi-si-ze.md)
   * [没人知道大东为何在此舞蹈](awesome/pian-duan/mei-ren-zhi-dao-da-dong-wei-he-zai-ci-wu-dao.md)
 
-## Python
-
-* [\[RELEASE\] Python 3.10.0rc1](python/release-python-3.10.0rc1-yi-fa-bu.md)
-* [你真的 “创建” 了类吗？](python/create-class.md)
-* [MRO 三定律](python/c3-mro.md)
-* [描述器学习指南](python/descriptor.md)
-* [描述器实现 property](python/property.md)
-* [如何做一个好中介](python/yield-from.md)
-* [PEP 阅读清单](python/pep.md)
-* [类型标注](python/lei-xing-biao-zhu.md)
-
-## Network
-
-* [基础公共服务](network/ji-chu-gong-gong-fu-wu/README.md)
-  * [DNS](network/ji-chu-gong-gong-fu-wu/dns.md)
-  * [NTP](network/ji-chu-gong-gong-fu-wu/ntp.md)
-* [RFC 阅读清单](network/rfc.md)
-
 ## 日常随记 <a id="daily"></a>
 
 * [坑](daily/pit.md)
@@ -98,14 +109,4 @@
 * [数据收集的途径](daily/data-source.md)
 * [呼叫转移设置方式](daily/hu-jiao-zhuan-yi-she-zhi-fang-shi.md)
 * [空中浩劫 ACI 经典](daily/aci.md)
-
-## Windows
-
-* [Windows 使用小技巧](windows/tip.md)
-
-## Linux
-
-* [nftables](linux/nftables.md)
-* [新时代 Linux 命令](linux/ng.md)
-* [树莓派实时性优化](linux/raspberry-rt-linux.md)
 
