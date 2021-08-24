@@ -51,6 +51,7 @@
     * [真实的高贵](awesome/article/short/zhen-shi-de-gao-gui.md)
     * [神秘领奖人](awesome/article/short/shen-mi-ling-jiang-ren.md)
     * [幸福的生日](awesome/article/short/xing-fu-de-sheng-ri.md)
+    * [我有事找你](awesome/article/short/wo-you-shi-zhao-ni.md)
     * [我是个窃贼](awesome/article/short/wo-shi-ge-qie-zei.md)
     * [客厅里的爆炸](awesome/article/short/ke-ting-li-de-bao-zha.md)
     * [愿你慢慢长大](awesome/article/short/untitled.md)
