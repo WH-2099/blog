@@ -43,6 +43,7 @@
     * [做起来](awesome/article/short/zuo-qi-lai.md)
     * [陈小手](awesome/article/short/chen-xiao-shou.md)
     * [符号控制](awesome/article/short/fu-hao-kong-zhi.md)
+    * [时间旅行](awesome/article/short/shi-jian-lv-hang.md)
     * [情债肉偿](awesome/article/short/qing-zhai-rou-chang.md)
     * [太阳黑子](awesome/article/short/tai-yang-hei-zi.md)
     * [蚂蚁人生](awesome/article/short/ma-yi-ren-sheng.md)
