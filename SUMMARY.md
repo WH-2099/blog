@@ -70,6 +70,7 @@
     * [我觉得自己会永远生猛下去](awesome/article/short/wo-jue-de-zi-ji-hui-yong-yuan-sheng-meng-xia-qu.md)
   * [长篇](awesome/article/long/README.md)
     * [猫人](awesome/article/long/mao-ren.md)
+    * [斜眼](awesome/article/long/xie-yan.md)
     * [侯银匠](awesome/article/long/hou-yin-jiang.md)
     * [死亡花朵](awesome/article/long/si-wang-hua-duo.md)
     * [紫色人形](awesome/article/long/untitled.md)
