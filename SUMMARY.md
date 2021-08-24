@@ -40,6 +40,7 @@
     * [疯人](awesome/article/short/feng-ren.md)
     * [夺妻](awesome/article/short/duo-qi.md)
     * [虐猫](awesome/article/short/nve-mao.md)
+    * [做起来](awesome/article/short/zuo-qi-lai.md)
     * [陈小手](awesome/article/short/chen-xiao-shou.md)
     * [符号控制](awesome/article/short/fu-hao-kong-zhi.md)
     * [情债肉偿](awesome/article/short/qing-zhai-rou-chang.md)
