@@ -44,6 +44,7 @@ description: 总算能理解 IPv6 里的 EUI-64 咋来的了
 
 ### 术语缩写
 
+* **CUI**: Company ID  公司标识符
 * **OUI**: Organizationally Unique Identifier  组织唯一标识符
 * **EUI**: Extended Unique Identifiers  扩展统一标识符
 * **MAC**: Media Access Control \(Address\)  媒体访问控制（地址）
@@ -64,11 +65,15 @@ description: 总算能理解 IPv6 里的 EUI-64 咋来的了
 >
 > > EUI-48 and EUI-64 identifiers are most commonly used as globally unique network addresses \(sometimes called MAC addresses\), as specified in various standards. For example, an EUI- 48 is commonly used as the address of a hardware interface according to IEEE Std 802, historically using the name “MAC-48”. As another example, an EUI- 64 may serve as the identifier of a clock, per IEEE Std 1588. IEEE Std 802 also specifies EUI-64 use for 64-bit globally unique network addresses.
 
-### EUI-48 的结构
+### MAC 地址注册类型
 
 * **MA-L**: MAC-Large  大块的 MAC 地址
 * **MA-M**: MAC-Middle  中块的 MAC 地址
 * **MA-S**: MAC-Small  小块的 MAC 地址
+
+![EUI, OUI, and CID assignment summary](../.gitbook/assets/image%20%2816%29.png)
+
+### EUI-48 的结构
 
 ![Structure of EUI-48](../.gitbook/assets/image%20%2815%29.png)
 
