@@ -15,7 +15,7 @@
 
 ## Network
 
-* [MAC 地址厂商信息](network/mac-di-zhi-chang-shang-xin-xi.md)
+* [MAC 地址厂商信息](network/mac.md)
 * [大道至简](network/da-dao-zhi-jian.md)
 * [基础公共服务](network/ji-chu-gong-gong-fu-wu/README.md)
   * [DNS](network/ji-chu-gong-gong-fu-wu/dns.md)
