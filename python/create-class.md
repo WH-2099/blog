@@ -20,9 +20,9 @@ a = A()
 
 通常，我们所做的不过是用 `class` 来 **定义一个类**，而后利用它来 **创建实例对象**。
 
-> In Python, classes are object factories defined by the class statement, and returned by the type\(obj\) built-in function. Class is a dynamic, runtime concept. [PEP 483](https://www.python.org/dev/peps/pep-0483/)
+> 在 Python 中，类是由 class 语句定义的对象工厂，并由 type\(obj\) 内置函数返回。是一个动态的、运行时的概念。
 >
-> > 在 Python 中，类是由 class 语句定义的对象工厂，并由 type\(obj\) 内置函数返回。是一个动态的、运行时的概念。
+> > In Python, classes are object factories defined by the class statement, and returned by the type\(obj\) built-in function. Class is a dynamic, runtime concept. [PEP 483](https://www.python.org/dev/peps/pep-0483/)
 
 **准确地说，程序员仅是通过 `class` 设计了类，其余的工作交给解释器来完成。** **那么，具体的类创建又是如何完成的呢？**
 
