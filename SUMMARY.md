@@ -29,6 +29,7 @@
 ## Linux
 
 * [nftables](linux/nftables.md)
+* [Linux 30 周年](linux/linux-30-zhou-nian.md)
 * [新时代 Linux 命令](linux/ng.md)
 * [树莓派实时性优化](linux/raspberry-rt-linux.md)
 
