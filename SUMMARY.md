@@ -4,7 +4,6 @@
 
 ## Python
 
-* [\[RELEASE\] Python 3.10.0rc1](python/release-python-3.10.0rc1-yi-fa-bu.md)
 * [你真的 “创建” 了类吗？](python/create-class.md)
 * [MRO 三定律](python/c3-mro.md)
 * [描述器学习指南](python/descriptor.md)
@@ -12,16 +11,18 @@
 * [如何做一个好中介](python/yield-from.md)
 * [PEP 阅读清单](python/pep.md)
 * [类型标注](python/lei-xing-biao-zhu.md)
+* [发布](python/fa-bu/README.md)
+  * [\[RELEASE\] Python 3.10.0rc1](python/fa-bu/release-python-3.10.0rc1-yi-fa-bu.md)
 
 ## Network
 
-* [MAC 地址厂商信息](network/mac.md)
-* [DNS 根域](network/dns-gen-yu.md)
 * [大道至简](network/da-dao-zhi-jian.md)
+* [DNS 根域](network/dns-gen-yu.md)
 * [基础公共服务](network/ji-chu-gong-gong-fu-wu/README.md)
   * [DNS](network/ji-chu-gong-gong-fu-wu/dns.md)
   * [NTP](network/ji-chu-gong-gong-fu-wu/ntp.md)
 * [RFC 阅读清单](network/rfc.md)
+* [MAC 地址厂商信息](network/mac.md)
 
 ## Windows
 
