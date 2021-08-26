@@ -92,6 +92,7 @@
     * [机舱里的钟声](awesome/article/long/ji-cang-li-de-zhong-sheng.md)
     * [不存在的女友](awesome/article/long/bu-cun-zai-de-nv-you.md)
     * [谁在编造历史](awesome/article/long/shui-zai-bian-zao-li-shi.md)
+    * [好人总会有人疼](awesome/article/long/hao-ren-zong-hui-you-ren-teng.md)
     * [公主整夜不能睡](awesome/article/long/gong-zhu-zheng-ye-bu-neng-shui.md)
     * [他们那时多有趣](awesome/article/long/ta-men-na-shi-duo-you-qu.md)
     * [你丈夫是干什么的](awesome/article/long/ni-zhang-fu-shi-gan-shen-me-de.md)
