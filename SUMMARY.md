@@ -76,6 +76,7 @@
     * [那些你所不知道的大事](awesome/article/short/na-xie-ni-suo-bu-zhi-dao-de-da-shi.md)
     * [我觉得自己会永远生猛下去](awesome/article/short/wo-jue-de-zi-ji-hui-yong-yuan-sheng-meng-xia-qu.md)
   * [长篇](awesome/article/long/README.md)
+    * [早餐](awesome/article/long/zao-can.md)
     * [猫人](awesome/article/long/mao-ren.md)
     * [斜眼](awesome/article/long/xie-yan.md)
     * [侯银匠](awesome/article/long/hou-yin-jiang.md)
