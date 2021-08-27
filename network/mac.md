@@ -79,7 +79,8 @@ description: 总算能理解 IPv6 里的 EUI-64 咋来的了
 
 ## 如何根据 EUI-48 匹配 OUI
 
-> 如果前 24 位与分配给 IEEE RA 的 OUI 相匹配，那么对前 28 位或 36 位的搜索可能会显示出 MA-M 或 MA-S 的分配。如果在 MA-S 搜索中没有发现 OUI-36，那么对前 24 位或 28 位的搜索可能会发现一个 MA-L 或 MA-M 分配，OUI-36 是由分配块的一个成员创建的。
+> 如果前 24 位与分配给 IEEE RA 的 OUI 相匹配，那么对前 28 位或 36 位的搜索可能会显示出 MA-M 或 MA-S 的分配。  
+> 如果在 MA-S 搜索中没有发现 OUI-36，那么对前 24 位或 28 位的搜索可能会发现一个 MA-L 或 MA-M 分配，OUI-36 是由分配块的一个成员创建的。
 >
 > > If the first 24 bits match an OUI assigned to the IEEE RA, then a search of the first 28 or 36 bits may reveal an MA-M or MA-S assignment. If the OUI-36 is not found in an MA-S search, then a search of the first 24 or 28 bits may reveal an MA-L or MA-M assignment from which the OUI-36 has been created from a member of the assigned block.
 
