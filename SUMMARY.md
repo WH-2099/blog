@@ -87,6 +87,7 @@
     * [小猫](awesome/article/long/xiao-mao.md)
     * [猫人](awesome/article/long/mao-ren.md)
     * [斜眼](awesome/article/long/xie-yan.md)
+    * [老江湖](awesome/article/long/lao-jiang-hu.md)
     * [侯银匠](awesome/article/long/hou-yin-jiang.md)
     * [死亡花朵](awesome/article/long/si-wang-hua-duo.md)
     * [纪念照片](awesome/article/long/ji-nian-zhao-pian.md)
