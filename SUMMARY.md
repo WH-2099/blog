@@ -84,6 +84,7 @@
     * [早餐](awesome/article/long/zao-can.md)
     * [老王](awesome/article/long/lao-wang.md)
     * [翻浆](awesome/article/long/fan-jiang.md)
+    * [小猫](awesome/article/long/xiao-mao.md)
     * [猫人](awesome/article/long/mao-ren.md)
     * [斜眼](awesome/article/long/xie-yan.md)
     * [侯银匠](awesome/article/long/hou-yin-jiang.md)
