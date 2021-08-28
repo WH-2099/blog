@@ -62,6 +62,7 @@
     * [幸福的生日](awesome/article/short/xing-fu-de-sheng-ri.md)
     * [我有事找你](awesome/article/short/wo-you-shi-zhao-ni.md)
     * [我是个窃贼](awesome/article/short/wo-shi-ge-qie-zei.md)
+    * [最担心的是你](awesome/article/short/zui-dan-xin-de-shi-ni.md)
     * [客厅里的爆炸](awesome/article/short/ke-ting-li-de-bao-zha.md)
     * [愿你慢慢长大](awesome/article/short/untitled.md)
     * [民意与伪民意](awesome/article/short/min-yi-yu-wei-min-yi.md)
