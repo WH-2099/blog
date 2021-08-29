@@ -11,8 +11,8 @@
 * [如何做一个好中介](python/yield-from.md)
 * [PEP 阅读清单](python/pep.md)
 * [类型标注](python/lei-xing-biao-zhu.md)
-* [发布](python/fa-bu/README.md)
-  * [\[RELEASE\] Python 3.10.0rc1](python/fa-bu/release-python-3.10.0rc1-yi-fa-bu.md)
+* [发布](python/release/README.md)
+  * [\[RELEASE\] Python 3.10.0rc1](python/release/release-python-3.10.0rc1-yi-fa-bu.md)
 
 ## Network
 
