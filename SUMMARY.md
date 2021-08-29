@@ -90,6 +90,7 @@
     * [老江湖](awesome/article/long/lao-jiang-hu.md)
     * [侯银匠](awesome/article/long/hou-yin-jiang.md)
     * [死亡花朵](awesome/article/long/si-wang-hua-duo.md)
+    * [扼杀胎儿](awesome/article/long/e-sha-tai-er.md)
     * [纪念照片](awesome/article/long/ji-nian-zhao-pian.md)
     * [紫色人形](awesome/article/long/untitled.md)
     * [天外飞石](awesome/article/long/tian-wai-fei-shi.md)
