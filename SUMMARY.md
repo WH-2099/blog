@@ -127,12 +127,14 @@
   * [甲方乙方](awesome/pian-duan/love-hate.md)
   * [大老师片段](awesome/pian-duan/da-lao-shi-pian-duan.md)
   * [新编故事四则](awesome/pian-duan/xin-bian-gu-shi-si-ze.md)
+  * [迅雷不及掩耳盗铃](awesome/pian-duan/xun-lei-bu-ji-yan-er-dao-ling.md)
   * [没人知道大东为何在此舞蹈](awesome/pian-duan/mei-ren-zhi-dao-da-dong-wei-he-zai-ci-wu-dao.md)
 
 ## 日常随记 <a id="daily"></a>
 
 * [坑](daily/pit.md)
 * [豆知识](daily/trivia.md)
+* [狮子王](daily/shi-zi-wang.md)
 * [ZEN of DEBUG](daily/debug.md)
 * [数据收集的途径](daily/data-source.md)
 * [呼叫转移设置方式](daily/hu-jiao-zhuan-yi-she-zhi-fang-shi.md)
