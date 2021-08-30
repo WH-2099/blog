@@ -55,6 +55,7 @@
     * [情债肉偿](awesome/article/short/qing-zhai-rou-chang.md)
     * [太阳黑子](awesome/article/short/tai-yang-hei-zi.md)
     * [蚂蚁人生](awesome/article/short/ma-yi-ren-sheng.md)
+    * [秋天的怀念](awesome/article/short/qiu-tian-de-huai-nian.md)
     * [午夜的汽笛](awesome/article/short/wu-ye-de-qi-di.md)
     * [多美的故事](awesome/article/short/duo-mei-de-gu-shi.md)
     * [相信不相信](awesome/article/short/xiang-xin-bu-xiang-xin.md)
