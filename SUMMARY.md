@@ -42,6 +42,7 @@
     * [爱](awesome/article/short/ai.md)
     * [暗途](awesome/article/short/an-tu.md)
     * [疯人](awesome/article/short/feng-ren.md)
+    * [雪兔](awesome/article/short/xue-tu.md)
     * [夺妻](awesome/article/short/duo-qi.md)
     * [闹钟](awesome/article/short/nao-zhong.md)
     * [虐猫](awesome/article/short/nve-mao.md)
