@@ -53,6 +53,7 @@
     * [消失的人](awesome/article/short/xiao-shi-de-ren.md)
     * [时间旅行](awesome/article/short/shi-jian-lv-hang.md)
     * [情债肉偿](awesome/article/short/qing-zhai-rou-chang.md)
+    * [铁血恋爱](awesome/article/short/tie-xie-lian-ai.md)
     * [太阳黑子](awesome/article/short/tai-yang-hei-zi.md)
     * [蚂蚁人生](awesome/article/short/ma-yi-ren-sheng.md)
     * [秋天的怀念](awesome/article/short/qiu-tian-de-huai-nian.md)
