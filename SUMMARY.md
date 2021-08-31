@@ -110,6 +110,7 @@
     * [一个小小的建议](awesome/article/long/yi-ge-xiao-xiao-de-jian-yi.md)
     * [彬彬有礼的强盗](awesome/article/long/bin-bin-you-li-de-qiang-dao.md)
     * [好人总会有人疼](awesome/article/long/hao-ren-zong-hui-you-ren-teng.md)
+    * [偷听谈话的妙趣](awesome/article/long/tou-ting-tan-hua-de-miao-qu.md)
     * [公主整夜不能睡](awesome/article/long/gong-zhu-zheng-ye-bu-neng-shui.md)
     * [他们那时多有趣](awesome/article/long/ta-men-na-shi-duo-you-qu.md)
     * [你丈夫是干什么的](awesome/article/long/ni-zhang-fu-shi-gan-shen-me-de.md)
