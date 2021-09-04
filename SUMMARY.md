@@ -136,9 +136,9 @@
 * [坑](daily/pit.md)
 * [豆知识](daily/trivia.md)
 * [狮子王](daily/shi-zi-wang.md)
-* [饥荒专用服务器配置文件](daily/ji-huang-zhuan-yong-fu-wu-qi-pei-zhi.md)
 * [ZEN of DEBUG](daily/debug.md)
 * [数据收集的途径](daily/data-source.md)
 * [呼叫转移设置方式](daily/hu-jiao-zhuan-yi-she-zhi-fang-shi.md)
 * [空中浩劫 ACI 经典](daily/aci.md)
+* [饥荒专用服务器配置文件](daily/ji-huang-zhuan-yong-fu-wu-qi-pei-zhi.md)
 
