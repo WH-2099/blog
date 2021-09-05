@@ -92,6 +92,7 @@
     * [黑羊](awesome/article/long/hei-yang.md)
     * [猫人](awesome/article/long/mao-ren.md)
     * [斜眼](awesome/article/long/xie-yan.md)
+    * [身价](awesome/article/long/shen-jia.md)
     * [老江湖](awesome/article/long/lao-jiang-hu.md)
     * [侯银匠](awesome/article/long/hou-yin-jiang.md)
     * [死亡花朵](awesome/article/long/si-wang-hua-duo.md)
