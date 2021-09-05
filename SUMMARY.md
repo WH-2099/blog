@@ -101,6 +101,7 @@
     * [纪念照片](awesome/article/long/ji-nian-zhao-pian.md)
     * [紫色人形](awesome/article/long/untitled.md)
     * [天外飞石](awesome/article/long/tian-wai-fei-shi.md)
+    * [戒烟公司](awesome/article/long/jie-yan-gong-si.md)
     * [女人的星球](awesome/article/long/nv-ren-de-xing-qiu.md)
     * [一千张糖纸](awesome/article/long/yi-qian-zhang-tang-zhi.md)
     * [爱情与投资](awesome/article/long/ai-qing-yu-tou-zi.md)
