@@ -140,6 +140,9 @@ Cluster_1  # 以集群方式提供服务，地面和洞穴是两个独立的服�
 ; 游戏仍然会在关机时保存，并且可以使用 c_save() 手动保存。
 ; autosaver_enabled = true
 
+; 集群的语言
+; 中文 zh
+; cluster_language = en
 
 [GAMEPLAY]
 ; 可以同时连接到集群的最大玩家数量。
