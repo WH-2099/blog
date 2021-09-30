@@ -83,7 +83,7 @@
     * [一位短跑运动员的孤独](awesome/article/short/yi-wei-duan-pao-yun-dong-yuan-de-gu-du.md)
     * [那些你所不知道的大事](awesome/article/short/na-xie-ni-suo-bu-zhi-dao-de-da-shi.md)
     * [我觉得自己会永远生猛下去](awesome/article/short/wo-jue-de-zi-ji-hui-yong-yuan-sheng-meng-xia-qu.md)
-  * [长篇](awesome/article/long/README.md)
+  * [父亲坐在黑暗中](awesome/article/long/README.md)
     * [早餐](awesome/article/long/zao-can.md)
     * [老王](awesome/article/long/lao-wang.md)
     * [翻浆](awesome/article/long/fan-jiang.md)
