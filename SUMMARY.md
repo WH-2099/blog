@@ -93,6 +93,7 @@
     * [黑羊](awesome/article/long/hei-yang.md)
     * [猫人](awesome/article/long/mao-ren.md)
     * [斜眼](awesome/article/long/xie-yan.md)
+    * [识人](awesome/article/long/shi-ren.md)
     * [身价](awesome/article/long/shen-jia.md)
     * [黄裙子](awesome/article/long/huang-qun-zi.md)
     * [老江湖](awesome/article/long/lao-jiang-hu.md)
