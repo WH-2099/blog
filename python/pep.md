@@ -12,7 +12,7 @@ description: Python Enhancement Proposals
 **只是一份简单的清单，只看右侧目录即可获得所有信息。**
 {% endhint %}
 
-## PEP 0 -- IndePEPx of Python Enhancement Proposals \(PEPs\)
+## PEP 0 -- IndePEPx of Python Enhancement Proposals (PEPs)
 
 ### Python 增强建议（PEP）的索引
 
@@ -180,7 +180,7 @@ description: Python Enhancement Proposals
 
 ### 【理解】：PEP 484 基础上的变量标注
 
-## PEP 544 -- Protocols: Structural subtyping \(static duck typing\)
+## PEP 544 -- Protocols: Structural subtyping (static duck typing)
 
 ### 协议：结构性分型（静态鸭式 typing）
 
@@ -234,7 +234,7 @@ description: Python Enhancement Proposals
 
 ### `match ... case:`
 
-### 【理解】：`as` `|` literal capture `_` value `()` sequence mapping class\(`__match_args`\)
+### 【理解】：`as` `|` literal capture `_` value `()` sequence mapping class(`__match_args`)
 
 ## PEP 635 -- Structural Pattern Matching: Motivation and Rationale
 
@@ -315,4 +315,3 @@ description: Python Enhancement Proposals
 ### 内容简述
 
 ### 【待阅】【浏览】【理解】
-

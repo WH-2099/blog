@@ -24,7 +24,7 @@ pacman -S bat
 
 #### 功能
 
-查找当前在您的系统上运行的 coreutils 基本命令（cp、mv、dd、tar、gzip/gunzip、cat 等）并显示复制数据的 **百分比、估计的时间** 和 **吞吐量**。
+查找当前在您的系统上运行的 coreutils 基本命令（cp、mv、dd、tar、gzip/gunzip、cat 等）并显示复制数据的 **百分比、估计的时间 **和 **吞吐量**。
 
 #### 安装命令
 
@@ -36,7 +36,7 @@ pacman -S progress
 
 ### [icdiff](https://github.com/Xfennec/progress)
 
-![icdiff](../.gitbook/assets/image%20%282%29.png)
+![icdiff](<../.gitbook/assets/image (2).png>)
 
 #### 功能
 
@@ -50,7 +50,7 @@ pip install git+https://github.com/jeffkaufman/icdiff.git
 
 
 
-### [ag](https://github.com/ggreer/the_silver_searcher)
+### [ag](https://github.com/ggreer/the\_silver\_searcher)
 
 ![ag](../.gitbook/assets/screely-1626113175219.png)
 
@@ -88,7 +88,7 @@ pacman -S glances
 
 ![tig](../.gitbook/assets/screely-1626141828118.png)
 
-#### 
+####
 
 #### 功能
 
@@ -108,7 +108,7 @@ pacman -S tig
 
 #### 功能
 
-通用的命令行 **模糊查找** 器。
+通用的命令行 **模糊查找 **器。
 
 #### 安装命令
 
@@ -124,7 +124,7 @@ pacman -S fzf
 
 #### 功能
 
-计算 **代码行数** 。
+计算 **代码行数 **。
 
 #### 安装命令
 
@@ -147,4 +147,3 @@ pacman -S cloc
 ```bash
 pacman -S ncdu
 ```
-

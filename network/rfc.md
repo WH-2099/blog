@@ -24,7 +24,7 @@ description: Request for Comments
 
 ### 【浏览】
 
-## RFC 959 - FILE TRANSFER PROTOCOL \(FTP\)
+## RFC 959 - FILE TRANSFER PROTOCOL (FTP)
 
 ### 文件传输协议（FTP）
 
@@ -54,7 +54,7 @@ description: Request for Comments
 
 ### ABNF 语法规范
 
-### 【理解】：/ 或，\[ \] 可选，n\*m 重复，; 注释
+### 【理解】：/ 或，\[ ] 可选，n\*m 重复，; 注释
 
 ## 模板
 
@@ -63,4 +63,3 @@ description: Request for Comments
 ### 内容简述
 
 ### 【待阅】【浏览】【理解】
-

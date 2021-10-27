@@ -7,7 +7,7 @@ description: yield from 委派生成器语句解析
 ## 0. 声明
 
 {% hint style="warning" %}
-**不从 `0` 开始难不成从 `1` 开始？你知道吗，世上只有 `10` 种人，程序员和非程序员;** 
+**不从 `0` 开始难不成从 `1 `开始？你知道吗，世上只有 `10` 种人，程序员和非程序员; **
 {% endhint %}
 
 {% hint style="info" %}
@@ -41,7 +41,7 @@ _在 Python 3.3 版本（2011年）中，经由 PEP 380 引入了这个新的语
 首先我们来看一看各种官方资料中有关这一委派的说明好了：
 
 > * **供生成器将其部分操作委托给另一生成器。这允许包含 `yield` 的一段代码被分解并放置在另一个生成器中。此外，允许子生成器返回一个值，并且该值可用于委派生成器。**
-> * 当使用 `yield from <expr>` 时，所提供的表达式必须是一个 **可迭代对象** 。**迭代该可迭代对象所产生的值会被直接传递给当前生成器方法的调用者**。任何通过 [`send()`](https://docs.python.org/zh-cn/3/reference/expressions.html#generator.send) 传入的值以及任何通过 [`throw()`](https://docs.python.org/zh-cn/3/reference/expressions.html#generator.throw) 传入的异常 **如果有适当的方法则会被传给下层迭代器** 。 如果不是这种情况，那么 [`send()`](https://docs.python.org/zh-cn/3/reference/expressions.html#generator.send) 将引发 [`AttributeError`](https://docs.python.org/zh-cn/3/library/exceptions.html#AttributeError) 或 [`TypeError`](https://docs.python.org/zh-cn/3/library/exceptions.html#TypeError)，而 [`throw()`](https://docs.python.org/zh-cn/3/reference/expressions.html#generator.throw) 将立即引发所转入的异常。
+> * 当使用 `yield from <expr>` 时，所提供的表达式必须是一个 **可迭代对象 **。**迭代该可迭代对象所产生的值会被直接传递给当前生成器方法的调用者**。任何通过 [`send()`](https://docs.python.org/zh-cn/3/reference/expressions.html#generator.send) 传入的值以及任何通过 [`throw()`](https://docs.python.org/zh-cn/3/reference/expressions.html#generator.throw) 传入的异常 **如果有适当的方法则会被传给下层迭代器 **。 如果不是这种情况，那么 [`send()`](https://docs.python.org/zh-cn/3/reference/expressions.html#generator.send) 将引发 [`AttributeError`](https://docs.python.org/zh-cn/3/library/exceptions.html#AttributeError) 或 [`TypeError`](https://docs.python.org/zh-cn/3/library/exceptions.html#TypeError)，而 [`throw()`](https://docs.python.org/zh-cn/3/reference/expressions.html#generator.throw) 将立即引发所转入的异常。
 
 感觉不说人话啊有莫有。。。。。。没事不要急，咱们先把这死板的概念放一边，来看看这玩意都有什么用：
 
@@ -76,10 +76,10 @@ def yield_from_generator():
 
 咱现在可以明确的说，还真的挺难的，原因且听咱细细道来。
 
-生成器用着方便，但其底层的实现还是相对复杂的。更不幸的是，在基于生成器的协程发展的过程中，为生成器引入了 `send()` `throw()` `close()` 等新方法，这让委托调用变得复杂化_（中介哪有那么好当 ╮\(╯▽╰\)╭）_。  
-尽管可以自己来手工实现一些简单的，但随着条件的复杂化和调用的多样化，这些仅关注于部分内容的处理都会变成埋下的 **雷** 。  
-_相信我，你不会想亲自体验一次的 ╰\(艹皿艹 \)！_  
-所以这种 ~~黑魔法研究~~ 的任务还是交给官方开发组来做吧。
+生成器用着方便，但其底层的实现还是相对复杂的。更不幸的是，在基于生成器的协程发展的过程中，为生成器引入了 `send()` `throw()` `close()` 等新方法，这让委托调用变得复杂化_（中介哪有那么好当 ╮(╯▽╰)╭）_。\
+尽管可以自己来手工实现一些简单的，但随着条件的复杂化和调用的多样化，这些仅关注于部分内容的处理都会变成埋下的 **雷** 。\
+_相信我，你不会想亲自体验一次的 ╰(艹皿艹 )！_\
+__所以这种 ~~黑魔法研究 ~~的任务还是交给官方开发组来做吧。
 
 ~~yield from 中介所，多个中间商赚差价，让你的代码更好看！~~
 
@@ -111,9 +111,9 @@ def delegated_generator():
 * **使用** **`send()` 发送给委派生成器的任何值都将直接传递给迭代器：**
   * 如果发送的值为 `None`，则调用迭代器的 `__next __()` 方法。
   * 如果发送的值不为 `None`，则调用迭代器的 `send()` 方法。如果调用引发 `StopIteration` 则恢复委派生成器的执行。任何其他异常都会传播到委派生成器。
-* **抛出到委派生成器中的 `GeneratorExit` 以外的异常被传递给迭代器的 `throw()` 方法** 。如果调用引发 `StopIteration`，则恢复委派生成器的执行。任何其他异常都会传播到委派生成器。
-* **如果在委派生成器中抛出 `GeneratorExit` 异常，或者委派生成器的 `close()` 方法被调用，则尝试调用（如果有则调用）迭代器的 `close()` 方法如果** 。如果此调用导致异常，则将其传播到委派生成器。否则，在委派生成器中引发 `GeneratorExit`。
-* `yield from` **表达式的值** 是迭代器终止时引发的 **`StopIteration` 异常的第一个参数** 。
+* **抛出到委派生成器中的 `GeneratorExit` 以外的异常被传递给迭代器的 `throw()` 方法 **。如果调用引发 `StopIteration`，则恢复委派生成器的执行。任何其他异常都会传播到委派生成器。
+* **如果在委派生成器中抛出 `GeneratorExit` 异常，或者委派生成器的 `close()` 方法被调用，则尝试调用（如果有则调用）迭代器的 `close()` 方法如果 **。如果此调用导致异常，则将其传播到委派生成器。否则，在委派生成器中引发 `GeneratorExit`。
+* `yield from` **表达式的值 **是迭代器终止时引发的 **`StopIteration` 异常的第一个参数 **。
 * 在生成器中，**`return expr`** 会导致在退出生成器时引发 **`StopIteration(expr)`** 。
 
 ### 2.1 代码示范
@@ -173,8 +173,6 @@ RESULT = result_value
 [PEP 342 -- Coroutines via Enhanced Generators](https://www.python.org/dev/peps/pep-0342/)
 
 [PEP 380 -- Syntax for Delegating to a Subgenerator](https://www.python.org/dev/peps/pep-0380/)
-
-
 
 
 

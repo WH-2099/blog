@@ -11,7 +11,7 @@ description: 平时遇到的各种小问题及解决方式
 {% hint style="info" %}
 查看 RDP 端口
 
-```text
+```
 Get-ItemProperty -Path 'HKLM:\SYSTEM\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp' -name "PortNumber"
 ```
 {% endhint %}
@@ -19,14 +19,14 @@ Get-ItemProperty -Path 'HKLM:\SYSTEM\CurrentControlSet\Control\Terminal Server\W
 {% hint style="info" %}
 更换 RDP 端口为 `XXXX`
 
-```text
+```
 Set-ItemProperty -Path 'HKLM:\SYSTEM\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp' -name "PortNumber" -Value XXXX
 New-NetFirewallRule -DisplayName 'RDPPORTLatest' -Profile 'Public' -Direction Inbound -Action Allow -Protocol TCP -LocalPort XXXX
 ```
 {% endhint %}
 
 {% hint style="danger" %}
-RDP 服务器需要至少 **使用账号密码**_**（非 PIN 码）**_**完成一次系统登陆** 后才可用。
+RDP 服务器需要至少 **使用账号密码**_**（非 PIN 码）**_**完成一次系统登陆 **后才可用。
 {% endhint %}
 
 
@@ -36,9 +36,9 @@ RDP 服务器需要至少 **使用账号密码**_**（非 PIN 码）**_**完成�
 {% hint style="warning" %}
 > 参考的对象类型不支持尝试的操作。
 >
-> \[已退出进程，代码为 4294967295\]
+> \[已退出进程，代码为 4294967295]
 
-```text
+```
 netsh winsock reset
 ```
 {% endhint %}
@@ -50,11 +50,11 @@ netsh winsock reset
 ### Shell
 
 {% hint style="info" %}
-Here Document \(`<<`\) 想要过滤去掉行首的 Tab \(`\t`\) ：**`<<-`**
+Here Document (`<<`) 想要过滤去掉行首的 Tab (`\t`) ：**`<<-`**
 {% endhint %}
 
 {% hint style="warning" %}
-Here Document \(`<<`\) 输入的文本默认还是会被 **扩展**，如果需要禁用，需要对起始的 limit\_string 做处理（假设 limit\_string 为 `_EOF`）：
+Here Document (`<<`) 输入的文本默认还是会被 **扩展**，如果需要禁用，需要对起始的 limit\_string 做处理（假设 limit\_string 为 `_EOF`）：
 
 * 用 `\` 转义：`\_EOF`
 * 用双引号包裹：`"\_EOF"`
@@ -64,7 +64,7 @@ Here Document \(`<<`\) 输入的文本默认还是会被 **扩展**，如果需�
 ### Config
 
 {% hint style="danger" %}
-systemd-networkd 的 [默认配置](https://man.archlinux.org/man/systemd.network.5) 会禁用 **内核 IP 转发** ，若想要开启，除了调整内核参数外，还需要在对应的 `.network` 配置文件的 `[Network]` 一节设置 `IPForward=yes` 。
+systemd-networkd 的 [默认配置](https://man.archlinux.org/man/systemd.network.5) 会禁用 **内核 IP 转发 **，若想要开启，除了调整内核参数外，还需要在对应的 `.network` 配置文件的 `[Network]` 一节设置 `IPForward=yes `。
 {% endhint %}
 
 {% hint style="info" %}
@@ -80,7 +80,7 @@ systemd-networkd 的 [默认配置](https://man.archlinux.org/man/systemd.networ
 ## Network
 
 {% hint style="danger" %}
-市面上常见的路由器内置的 **端口转发** 功能一般只对 `IPv4` 生效，**对于 `IPv6` 无效**。
+市面上常见的路由器内置的 **端口转发** 功能一般只对 `IPv4 `生效，**对于 `IPv6 `无效**。
 {% endhint %}
 
 ## Hardware
@@ -91,5 +91,4 @@ systemd-networkd 的 [默认配置](https://man.archlinux.org/man/systemd.networ
 
 ### 螺丝标准
 
-![](../.gitbook/assets/image%20%281%29.png)
-
+![](<../.gitbook/assets/image (1).png>)

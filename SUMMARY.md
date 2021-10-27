@@ -35,7 +35,7 @@
 * [新时代 Linux 命令](linux/ng.md)
 * [树莓派实时性优化](linux/raspberry-rt-linux.md)
 
-## 佳作收藏 <a id="awesome"></a>
+## 佳作收藏 <a href="awesome" id="awesome"></a>
 
 * [美文](awesome/article/README.md)
   * [短篇](awesome/article/short/README.md)
@@ -138,14 +138,13 @@
   * [新编故事四则](awesome/pian-duan/xin-bian-gu-shi-si-ze.md)
   * [没人知道大东为何在此舞蹈](awesome/pian-duan/mei-ren-zhi-dao-da-dong-wei-he-zai-ci-wu-dao.md)
 
-## 日常随记 <a id="daily"></a>
+## 日常随记 <a href="daily" id="daily"></a>
 
 * [坑](daily/pit.md)
 * [豆知识](daily/trivia.md)
-* [狮子王](daily/shi-zi-wang.md)
+* [观影后记](daily/shi-zi-wang.md)
 * [ZEN of DEBUG](daily/debug.md)
 * [数据收集的途径](daily/data-source.md)
 * [呼叫转移设置方式](daily/hu-jiao-zhuan-yi-she-zhi-fang-shi.md)
 * [空中浩劫 ACI 经典](daily/aci.md)
 * [饥荒专用服务器配置文件](daily/ji-huang-zhuan-yong-fu-wu-qi-pei-zhi.md)
-
