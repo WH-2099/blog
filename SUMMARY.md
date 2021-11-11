@@ -12,10 +12,11 @@
 * [PEP 阅读清单](python/pep.md)
 * [类型标注](python/lei-xing-biao-zhu.md)
 * [发布](python/release/README.md)
-  * [\[RELEASE\] Python 3.10.0rc1](python/fa-bu/release-python-3.10.0rc1-yi-fa-bu.md)
+  * [\[RELEASE\] Python 3.10.0rc1](python/release/release-python-3.10.0rc1-yi-fa-bu.md)
 
 ## Network
 
+* [IPv6](network/ipv6.md)
 * [大道至简](network/da-dao-zhi-jian.md)
 * [DNS 根域](network/dns-gen-yu.md)
 * [RFC 阅读清单](network/rfc.md)
@@ -48,6 +49,7 @@
     * [虐猫](awesome/article/short/nve-mao.md)
     * [做起来](awesome/article/short/zuo-qi-lai.md)
     * [陈小手](awesome/article/short/chen-xiao-shou.md)
+    * [道德极限](awesome/article/short/dao-de-ji-xian.md)
     * [符号控制](awesome/article/short/fu-hao-kong-zhi.md)
     * [与人为友](awesome/article/short/yu-ren-wei-you.md)
     * [消失的人](awesome/article/short/xiao-shi-de-ren.md)
@@ -72,7 +74,7 @@
     * [客厅里的爆炸](awesome/article/short/ke-ting-li-de-bao-zha.md)
     * [愿你慢慢长大](awesome/article/short/untitled.md)
     * [民意与伪民意](awesome/article/short/min-yi-yu-wei-min-yi.md)
-    * [假如是你的话](awesome/article/short/jia-ru-shi-ni-de-hua.md)
+    * [假如是你的话](awesome/article/short/jia-ru-shi-ni-de-hua/README.md)
     * [婚姻中没有天堂](awesome/article/short/hun-yin-zhong-mei-you-tian-tang.md)
     * [一种深久的不安](awesome/article/short/yi-zhong-shen-jiu-de-bu-an.md)
     * [非走不可的弯路](awesome/article/short/fei-zou-bu-ke-de-wan-lu.md)
