@@ -85,6 +85,7 @@
     * [你永远有做不完的事](awesome/article/short/ni-yong-yuan-you-zuo-bu-wan-de-shi.md)
     * [一位短跑运动员的孤独](awesome/article/short/yi-wei-duan-pao-yun-dong-yuan-de-gu-du.md)
     * [那些你所不知道的大事](awesome/article/short/na-xie-ni-suo-bu-zhi-dao-de-da-shi.md)
+    * [穿过大半个中国去睡你](awesome/article/short/chuan-guo-da-ban-ge-zhong-guo-qu-shui-ni.md)
     * [我觉得自己会永远生猛下去](awesome/article/short/wo-jue-de-zi-ji-hui-yong-yuan-sheng-meng-xia-qu.md)
   * [长篇](awesome/article/long/README.md)
     * [早餐](awesome/article/long/zao-can.md)
