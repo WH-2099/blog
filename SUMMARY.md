@@ -12,7 +12,7 @@
 * [PEP 阅读清单](python/pep.md)
 * [类型标注](python/lei-xing-biao-zhu.md)
 * [发布](python/release/README.md)
-  * [\[RELEASE\] Python 3.10.0rc1](python/release/release-python-3.10.0rc1-yi-fa-bu.md)
+  * [\[RELEASE\] Python 3.10.0rc1](python/fa-bu/release-python-3.10.0rc1-yi-fa-bu.md)
 
 ## Network
 

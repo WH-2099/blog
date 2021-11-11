@@ -15,20 +15,20 @@ iptables 作为这方面的老大哥，在 Linux 系统的基础网络包处理�
 相较于 iptables ，nftables 的框架设计更为合理，功能更为全面，命令行的语法也更为清晰。但从网络上关于 nftables 的资料并不多这一点就不难看出，nftables 目前的应用仍不是非常广泛。（和 IPv6 同病相怜）这主要是因为 nftables 丰富的功能和特性立足于陡峭的学习曲线之上，令用户望而却步。
 
 {% hint style="info" %}
-关于 nftables 的具体简介可以参照这里 [Waht is nftables?](https://wiki.nftables.org/wiki-nftables/index.php/What_is_nftables%3F)
+关于 nftables 的具体简介可以参照这里 [Waht is nftables?](https://wiki.nftables.org/wiki-nftables/index.php/What\_is\_nftables%3F)
 {% endhint %}
 
 
 
 ## 命令
 
-```text
+```
 nft 选项 动作 对象
 ```
 
 ### 动作
 
-```text
+```
 基础动作 动作目标
 ```
 
@@ -83,13 +83,13 @@ nft 选项 动作 对象
 * **`bridge`** 处理通过网桥设备的数据包
 * **`netdev`** 处理来自入口的数据包
 
-### 
+###
 
 ### Ruleset 规则集
 
 `ruleset` 关键字用于标识内核中当前到位的整个表、链等集合。
 
-```text
+```
 {list | flush} ruleset [family]
 ```
 
@@ -97,7 +97,7 @@ nft 选项 动作 对象
 
 表是链、集和有状态对象的容器，通过地址族家庭和名称来识别。
 
-```text
+```
 {add | create} table [family] table [{ flags flags ; }]
 {delete | list | flush} table [family] table
 list tables [family]
@@ -108,7 +108,7 @@ delete table [family] handle handle
 
 链条是规则的容器，分为基链和规则链两种。
 
-```text
+```
 {add | create} chain [family] table chain [{ type type hook hook [device device] priority priority ; [policy policy ;] }]
 {delete | list | flush} chain [family] table chain
 list chains [family]
@@ -120,13 +120,13 @@ rename chain [family] table chain newname
 
 基本链是网络堆栈中数据包的入口点，必须包含类型、钩子和优先级参数。
 
-    **类型：**
+**    类型：**
 
 * `filter` 过滤时使用的标准类型。
 * `nat` 基于连接跟踪条目执行地址转换。只有连接的第一个数据包实际穿越该链——其规则通常定义所创建的连接跟踪条目的细节（例如 NAT 语句）。
 * `route` 如果一个数据包已经穿越了这种类型的链，并且即将被接受，如果 IP 头的相关部分发生了变化，就会进行新的路由查询。这允许在 nftables 中实现策略路由选择器。
 
-    **钩子：**
+**    钩子：**
 
 * `prerouting` 刚到达并未被 nftables 的其他部分所路由或处理的数据包。
 * `input` 已经被接收并且已经经过 `prerouting` 钩子的传入数据包。
@@ -134,9 +134,9 @@ rename chain [family] table chain newname
 * `output` 从本地传出的数据包。
 * `postrouting` 仅仅在离开系统之前，可以对数据包进行进一步处理。
 
-    **优先级：**
+**    优先级：**
 
-优先级参数接受一个带符号的整数值或一个标准的优先级名称，该名称指定具有相同钩子值的链的遍历顺序。排序是升序的，也就是说低优先级的值优先于高优先级的值。标准的优先级值可以用容易记忆的名称替换。并不是所有的名字在每个钩子族中都有意义\(参见 [钩子可用性](nftables.md#gou-zi-ke-yong-xing)\) ，但是它们的数值仍然可以用来排列链的优先级。
+优先级参数接受一个带符号的整数值或一个标准的优先级名称，该名称指定具有相同钩子值的链的遍历顺序。排序是升序的，也就是说低优先级的值优先于高优先级的值。标准的优先级值可以用容易记忆的名称替换。并不是所有的名字在每个钩子族中都有意义(参见 [钩子可用性](nftables.md#gou-zi-ke-yong-xing)) ，但是它们的数值仍然可以用来排列链的优先级。
 
 * `raw`
 * `mangle`
@@ -153,14 +153,14 @@ rename chain [family] table chain newname
 
 规则是根据一套语法规则由两类成分构成的: 表达式和声明。
 
-```text
+```
 {add | insert} rule [family] table chain [handle handle | index index] statement ... [comment comment]
 replace rule [family] table chain handle handle statement ... [comment comment]
 delete rule [family] table chain handle handle
 ```
 
 {% hint style="warning" %}
-规则内容过于冗杂，建议直接阅读 [Quick reference-nftables in 10 minutes](https://wiki.nftables.org/wiki-nftables/index.php/Quick_reference-nftables_in_10_minutes)
+规则内容过于冗杂，建议直接阅读 [Quick reference-nftables in 10 minutes](https://wiki.nftables.org/wiki-nftables/index.php/Quick\_reference-nftables\_in\_10\_minutes)
 {% endhint %}
 
 
@@ -190,7 +190,7 @@ nftables 提供了两种集合概念：匿名集和命名集。
 
 #### 命名集
 
-```text
+```
 add set [family] table set { type type | typeof expression ; [flags flags ;] [timeout timeout ;] [gc-interval gc-interval ;] [elements = { element[, ...] } ;] [size size ;] [policy policy ;] [auto-merge ;] }
 {delete | list | flush} set [family] table set
 list sets [family]
@@ -198,103 +198,42 @@ delete set [family] table handle handle
 {add | delete} element [family] table set { element[, ...] }
 ```
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left"> <b>Keyword</b>
-      </th>
-      <th style="text-align:left"> <b>Description</b>
-      </th>
-      <th style="text-align:left"> <b>Type</b>
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">type</td>
-      <td style="text-align:left">&#x96C6;&#x5408;&#x4E2D;&#x5143;&#x7D20;&#x7684;&#x6570;&#x636E;&#x7C7B;&#x578B;</td>
-      <td
-      style="text-align:left">string: ipv4_addr, ipv6_addr, ether_addr, inet_proto, inet_service, mark</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">typeof</td>
-      <td style="text-align:left">&#x96C6;&#x5408;&#x4E2D;&#x5143;&#x7D20;&#x7684;&#x6570;&#x636E;&#x7C7B;&#x578B;</td>
-      <td
-      style="text-align:left">&#x8981;&#x7528;&#x4E8E;&#x83B7;&#x53D6;&#x7C7B;&#x578B;&#x7684;&#x8868;&#x8FBE;&#x5F0F;</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">flags</td>
-      <td style="text-align:left">&#x8BBE;&#x7F6E;&#x6807;&#x5FD7;</td>
-      <td style="text-align:left">string: constant, dynamic, interval, timeout</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">timeout</td>
-      <td style="text-align:left">&#x4E00;&#x4E2A;&#x5143;&#x7D20;&#x505C;&#x7559;&#x5728;&#x96C6;&#x5408;&#x4E2D;&#x7684;&#x65F6;&#x95F4;&#xFF0C;&#x5982;&#x679C;&#x96C6;&#x5408;&#x88AB;&#x6DFB;&#x52A0;&#x5230;&#x6570;&#x636E;&#x5305;&#x8DEF;&#x5F84;&#xFF08;&#x89C4;&#x5219;&#x96C6;&#xFF09;&#xFF0C;&#x5219;&#x662F;&#x5F3A;&#x5236;&#x6027;&#x7684;</td>
-      <td
-      style="text-align:left">string, decimal followed by unit. Units are: d, h, m, s</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">
-        <p>gc-interval
-          <br />
-        </p>
-        <p>
-          <br />
-        </p>
-      </td>
-      <td style="text-align:left">&#x5783;&#x573E;&#x6536;&#x96C6;&#x65F6;&#x95F4;&#x95F4;&#x9694;&#xFF0C;&#x53EA;&#x6709;&#x5728;&#x8D85;&#x65F6;&#x6216;&#x6807;&#x5FD7;&#x8D85;&#x65F6;&#x6FC0;&#x6D3B;&#x65F6;&#x624D;&#x53EF;&#x7528;</td>
-      <td
-      style="text-align:left">string, decimal followed by unit. Units are: d, h, m, s</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">elements</td>
-      <td style="text-align:left">&#x96C6;&#x5408;&#x5305;&#x542B;&#x7684;&#x5143;&#x7D20;</td>
-      <td style="text-align:left">&#x96C6;&#x5408;&#x7684;&#x6570;&#x636E;&#x7C7B;&#x578B;</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">size</td>
-      <td style="text-align:left">&#x96C6;&#x5408;&#x4E2D;&#x7684;&#x6700;&#x5927;&#x5143;&#x7D20;&#x6570;&#xFF0C;&#x5982;&#x679C;&#x96C6;&#x5408;&#x662F;&#x7531;&#x6570;&#x636E;&#x5305;&#x8DEF;&#x5F84;&#xFF08;&#x89C4;&#x5219;&#x96C6;&#xFF09;&#x6DFB;&#x52A0;&#x7684;&#xFF0C;&#x5219;&#x662F;&#x5F3A;&#x5236;&#x6027;&#x7684;</td>
-      <td
-      style="text-align:left">unsigned integer (64 bit)</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">policy</td>
-      <td style="text-align:left">&#x8BBE;&#x7F6E;&#x7B56;&#x7565;</td>
-      <td style="text-align:left">string: performance [default], memory</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">auto-merge</td>
-      <td style="text-align:left">&#x81EA;&#x52A8;&#x5408;&#x5E76;&#x76F8;&#x90BB;/&#x91CD;&#x53E0;&#x7684;&#x96C6;&#x5408;&#x5143;&#x7D20;&#xFF08;&#x4EC5;&#x9002;&#x7528;&#x4E8E;&#x533A;&#x95F4;&#x96C6;&#x5408;&#xFF09;</td>
-      <td
-      style="text-align:left"></td>
-    </tr>
-  </tbody>
-</table>
+|  **Keyword**                |  **Description**                        |  **Type**                                                                     |
+| --------------------------- | --------------------------------------- | ----------------------------------------------------------------------------- |
+| type                        | 集合中元素的数据类型                              | string: ipv4\_addr, ipv6\_addr, ether\_addr, inet\_proto, inet\_service, mark |
+| typeof                      | 集合中元素的数据类型                              | 要用于获取类型的表达式                                                                   |
+| flags                       | 设置标志                                    | string: constant, dynamic, interval, timeout                                  |
+| timeout                     | 一个元素停留在集合中的时间，如果集合被添加到数据包路径（规则集），则是强制性的 | string, decimal followed by unit. Units are: d, h, m, s                       |
+| <p>gc-interval</p><p></p> | 垃圾收集时间间隔，只有在超时或标志超时激活时才可用               | string, decimal followed by unit. Units are: d, h, m, s                       |
+| elements                    | 集合包含的元素                                 | 集合的数据类型                                                                       |
+| size                        | 集合中的最大元素数，如果集合是由数据包路径（规则集）添加的，则是强制性的    | unsigned integer (64 bit)                                                     |
+| policy                      | 设置策略                                    | string: performance \[default], memory                                        |
+| auto-merge                  | 自动合并相邻/重叠的集合元素（仅适用于区间集合）                |                                                                               |
 
 ### Map 映射
 
 映射根据用作输入的某个特定键存储数据。它们由用户定义的名称唯一标识并附加到表中。
 
-```text
+```
 add map [family] table map { type type | typeof expression [flags flags ;] [elements = { element[, ...] } ;] [size size ;] [policy policy ;] }
 {delete | list | flush} map [family] table map
 list maps [family]
 ```
 
-| Keyword | Description | Type |
-| :--- | :--- | :--- |
-| type | 映射中元素的数据类型 | string: ipv4\_addr, ipv6\_addr, ether\_addr, inet\_proto, inet\_service, mark, counter, quota 计数器和配额不能作为键使用 |
-| typeof | 映射中元素的数据类型 | 要用于获取类型的表达式 |
-| flags | 设置标志 | string: constant, interval |
-| elements | 映射包含的元素 | 映射的数据类型 |
-| size | 映射中元素的最大数量 | string: performance \[default\], memory |
-| policy | 映射策略 | string: performance \[default\], memory |
+| Keyword  | Description | Type                                                                                                        |
+| -------- | ----------- | ----------------------------------------------------------------------------------------------------------- |
+| type     | 映射中元素的数据类型  | string: ipv4\_addr, ipv6\_addr, ether\_addr, inet\_proto, inet\_service, mark, counter, quota 计数器和配额不能作为键使用 |
+| typeof   | 映射中元素的数据类型  | 要用于获取类型的表达式                                                                                                 |
+| flags    | 设置标志        | string: constant, interval                                                                                  |
+| elements | 映射包含的元素     | 映射的数据类型                                                                                                     |
+| size     | 映射中元素的最大数量  | string: performance \[default], memory                                                                      |
+| policy   | 映射策略        | string: performance \[default], memory                                                                      |
 
 ### Element 元素
 
 与元素相关的命令允许更改命名集和映射的内容。
 
-```text
+```
 {add | create | delete | get } element [family] table set { ELEMENT[, ...] }
 
 ELEMENT := key_expression OPTIONS [: value_expression]
@@ -302,11 +241,11 @@ OPTIONS := [timeout TIMESPEC] [expires TIMESPEC] [comment string]
 TIMESPEC := [numd][numh][numm][num[s]]
 ```
 
-|  **Option** |  **Description** |
-| :--- | :--- |
-| timeout | 带有超时标志的集合/映射的超时值 |
-| expires | 给定元素过期的时间，仅对规则集复制有用 |
-| comment | 每个元素的注释字段 |
+|  **Option** |  **Description**    |
+| ----------- | ------------------- |
+| timeout     | 带有超时标志的集合/映射的超时值    |
+| expires     | 给定元素过期的时间，仅对规则集复制有用 |
+| comment     | 每个元素的注释字段           |
 
 
 
@@ -324,216 +263,26 @@ TIMESPEC := [numd][numh][numm][num[s]]
 白名单列举，没有明确标为 Yes 的都不可用。
 {% endhint %}
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Chain type</th>
-      <th style="text-align:center">ingress</th>
-      <th style="text-align:center">prerouting</th>
-      <th style="text-align:center">forward</th>
-      <th style="text-align:center">input</th>
-      <th style="text-align:center">output</th>
-      <th style="text-align:center">postrouting</th>
-      <th style="text-align:center">egress</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">
-        <p></p>
-        <p><b>inet family</b>
-        </p>
-      </td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">filter</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">nat</td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">route</td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">
-        <br /><b>ip6 family</b>
-      </td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">filter</td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">nat</td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">route</td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">
-        <br /><b>ip family</b>
-      </td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">filter</td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">nat</td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">route</td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">
-        <br /><b>arp family</b>
-      </td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">filter</td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">
-        <br /><b>bridge family</b>
-      </td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">filter</td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">
-        <br /><b>netdev family</b>
-      </td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">filter</td>
-      <td style="text-align:center">Yes</td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center"></td>
-      <td style="text-align:center">Yes(5.7)</td>
-    </tr>
-  </tbody>
-</table>
+| Chain type                                 | ingress | prerouting | forward | input | output | postrouting |  egress  |
+| ------------------------------------------ | :-----: | :--------: | :-----: | :---: | :----: | :---------: | :------: |
+| <p></p><p><strong>inet family</strong></p> |         |            |         |       |        |             |          |
+| filter                                     |   Yes   |     Yes    |   Yes   |  Yes  |   Yes  |     Yes     |          |
+| nat                                        |         |     Yes    |         |  Yes  |   Yes  |     Yes     |          |
+| route                                      |         |            |         |       |   Yes  |             |          |
+| <p><br><strong>ip6 family</strong></p>     |         |            |         |       |        |             |          |
+| filter                                     |         |     Yes    |   Yes   |  Yes  |   Yes  |     Yes     |          |
+| nat                                        |         |     Yes    |         |  Yes  |   Yes  |     Yes     |          |
+| route                                      |         |            |         |       |   Yes  |             |          |
+| <p><br><strong>ip family</strong></p>      |         |            |         |       |        |             |          |
+| filter                                     |         |     Yes    |   Yes   |  Yes  |   Yes  |     Yes     |          |
+| nat                                        |         |     Yes    |         |  Yes  |   Yes  |     Yes     |          |
+| route                                      |         |            |         |       |   Yes  |             |          |
+| <p><br><strong>arp family</strong></p>     |         |            |         |       |        |             |          |
+| filter                                     |         |            |         |  Yes  |   Yes  |             |          |
+| <p><br><strong>bridge family</strong></p>  |         |            |         |       |        |             |          |
+| filter                                     |         |     Yes    |   Yes   |  Yes  |   Yes  |     Yes     |          |
+| <p><br><strong>netdev family</strong></p>  |         |            |         |       |        |             |          |
+| filter                                     |   Yes   |            |         |       |        |             | Yes(5.7) |
 
 
 
@@ -543,34 +292,33 @@ TIMESPEC := [numd][numh][numm][num[s]]
 在给定的钩子中，会按照数字递增的顺序执行操作，所以 **数字越小优先级越高** 。
 {% endhint %}
 
-| nftables [Families](https://wiki.nftables.org/wiki-nftables/index.php/Nftables_families) | Typical hooks | nft Keyword | Value | Netfilter Internal Priority | Description |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-|  | prerouting |  | -450 | NF\_IP\_PRI\_RAW\_BEFORE\_DEFRAG |  |
-| inet, ip, ip6 | prerouting |  | -400 | NF\_IP\_PRI\_CONNTRACK\_DEFRAG | Packet defragmentation / datagram reassembly |
-| inet, ip, ip6 | all | **raw** | -300 | NF\_IP\_PRI\_RAW | Traditional priority of the raw table placed before connection tracking operation |
-|  |  |  | -225 | NF\_IP\_PRI\_SELINUX\_FIRST | SELinux operations |
-| inet, ip, ip6 | prerouting, output |  | -200 | NF\_IP\_PRI\_CONNTRACK | [Connection tracking](https://wiki.nftables.org/wiki-nftables/index.php/Connection_Tracking_System) processes run early in prerouting and output hooks to associate packets with tracked connections. |
-| inet, ip, ip6 | all | **mangle** | -150 | NF\_IP\_PRI\_MANGLE | Mangle operation |
-| inet, ip, ip6 | prerouting | **dstnat** | -100 | NF\_IP\_PRI\_NAT\_DST | Destination NAT |
-| inet, ip, ip6, arp, netdev | all | **filter** | 0 | NF\_IP\_PRI\_FILTER | Filtering operation, the filter table |
-| inet, ip, ip6 | all | **security** | 50 | NF\_IP\_PRI\_SECURITY | Place of security table, where secmark can be set for example |
-| inet, ip, ip6 | postrouting | **srcnat** | 100 | NF\_IP\_PRI\_NAT\_SRC | Source NAT |
-|  | postrouting |  | 225 | NF\_IP\_PRI\_SELINUX\_LAST | SELinux at packet exit |
-| inet, ip, ip6 | postrouting |  | 300 | NF\_IP\_PRI\_CONNTRACK\_HELPER | Connection tracking helpers, which identify expected and related packets. |
-| inet, ip, ip6 | input, postrouting |  | INT\_MAX | NF\_IP\_PRI\_CONNTRACK\_CONFIRM | Connection tracking adds new tracked connections at final step in input & postrouting hooks. |
-|  |  |  |  |  |  |
-| bridge | prerouting | **dstnat** | -300 | NF\_BR\_PRI\_NAT\_DST\_BRIDGED |  |
-| bridge | all | **filter** | -200 | NF\_BR\_PRI\_FILTER\_BRIDGED |  |
-| bridge |  |  | 0 | NF\_BR\_PRI\_BRNF |  |
-| bridge | output | **out** | 100 | NF\_BR\_PRI\_NAT\_DST\_OTHER |  |
-| bridge |  |  | 200 | NF\_BR\_PRI\_FILTER\_OTHER |  |
-| bridge | postrouting | **srcnat** | 300 | NF\_BR\_PRI\_NAT\_SRC |  |
+| nftables [Families](https://wiki.nftables.org/wiki-nftables/index.php/Nftables\_families) | Typical hooks      | nft Keyword  | Value    | Netfilter Internal Priority      | Description                                                                                                                                                                                             |
+| ----------------------------------------------------------------------------------------- | ------------------ | ------------ | -------- | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|                                                                                           | prerouting         |              | -450     | NF\_IP\_PRI\_RAW\_BEFORE\_DEFRAG |                                                                                                                                                                                                         |
+| inet, ip, ip6                                                                             | prerouting         |              | -400     | NF\_IP\_PRI\_CONNTRACK\_DEFRAG   | Packet defragmentation / datagram reassembly                                                                                                                                                            |
+| inet, ip, ip6                                                                             | all                | **raw**      | -300     | NF\_IP\_PRI\_RAW                 | Traditional priority of the raw table placed before connection tracking operation                                                                                                                       |
+|                                                                                           |                    |              | -225     | NF\_IP\_PRI\_SELINUX\_FIRST      | SELinux operations                                                                                                                                                                                      |
+| inet, ip, ip6                                                                             | prerouting, output |              | -200     | NF\_IP\_PRI\_CONNTRACK           | [Connection tracking](https://wiki.nftables.org/wiki-nftables/index.php/Connection\_Tracking\_System) processes run early in prerouting and output hooks to associate packets with tracked connections. |
+| inet, ip, ip6                                                                             | all                | **mangle**   | -150     | NF\_IP\_PRI\_MANGLE              | Mangle operation                                                                                                                                                                                        |
+| inet, ip, ip6                                                                             | prerouting         | **dstnat**   | -100     | NF\_IP\_PRI\_NAT\_DST            | Destination NAT                                                                                                                                                                                         |
+| inet, ip, ip6, arp, netdev                                                                | all                | **filter**   | 0        | NF\_IP\_PRI\_FILTER              | Filtering operation, the filter table                                                                                                                                                                   |
+| inet, ip, ip6                                                                             | all                | **security** | 50       | NF\_IP\_PRI\_SECURITY            | Place of security table, where secmark can be set for example                                                                                                                                           |
+| inet, ip, ip6                                                                             | postrouting        | **srcnat**   | 100      | NF\_IP\_PRI\_NAT\_SRC            | Source NAT                                                                                                                                                                                              |
+|                                                                                           | postrouting        |              | 225      | NF\_IP\_PRI\_SELINUX\_LAST       | SELinux at packet exit                                                                                                                                                                                  |
+| inet, ip, ip6                                                                             | postrouting        |              | 300      | NF\_IP\_PRI\_CONNTRACK\_HELPER   | Connection tracking helpers, which identify expected and related packets.                                                                                                                               |
+| inet, ip, ip6                                                                             | input, postrouting |              | INT\_MAX | NF\_IP\_PRI\_CONNTRACK\_CONFIRM  | Connection tracking adds new tracked connections at final step in input & postrouting hooks.                                                                                                            |
+|                                                                                           |                    |              |          |                                  |                                                                                                                                                                                                         |
+| bridge                                                                                    | prerouting         | **dstnat**   | -300     | NF\_BR\_PRI\_NAT\_DST\_BRIDGED   |                                                                                                                                                                                                         |
+| bridge                                                                                    | all                | **filter**   | -200     | NF\_BR\_PRI\_FILTER\_BRIDGED     |                                                                                                                                                                                                         |
+| bridge                                                                                    |                    |              | 0        | NF\_BR\_PRI\_BRNF                |                                                                                                                                                                                                         |
+| bridge                                                                                    | output             | **out**      | 100      | NF\_BR\_PRI\_NAT\_DST\_OTHER     |                                                                                                                                                                                                         |
+| bridge                                                                                    |                    |              | 200      | NF\_BR\_PRI\_FILTER\_OTHER       |                                                                                                                                                                                                         |
+| bridge                                                                                    | postrouting        | **srcnat**   | 300      | NF\_BR\_PRI\_NAT\_SRC            |                                                                                                                                                                                                         |
 
 
 
 ## 参考源
 
-1. [nftables wiki](https://wiki.nftables.org/wiki-nftables/index.php/Main_Page)
+1. [nftables wiki](https://wiki.nftables.org/wiki-nftables/index.php/Main\_Page)
 2. [nftables manpage](https://www.netfilter.org/projects/nftables/manpage.html)
-3. [Quick reference-nftables in 10 minutes](https://wiki.nftables.org/wiki-nftables/index.php/Quick_reference-nftables_in_10_minutes)
-
+3. [Quick reference-nftables in 10 minutes](https://wiki.nftables.org/wiki-nftables/index.php/Quick\_reference-nftables\_in\_10\_minutes)
