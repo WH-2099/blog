@@ -5,7 +5,7 @@ description: 取自微信公众号 科普中国
 # 呼叫转移设置方式
 
 {% hint style="danger" %}
-**以下指令常被用做电信诈骗！**
+<mark style="color:red;">**以下指令常被用做电信诈骗！**</mark>
 {% endhint %}
 
 ## 使用方式：在手机正常待机状态下输入对应操作指令后按拨号键

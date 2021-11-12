@@ -83,6 +83,7 @@
     * [跳槽只为 “软福利”](awesome/article/short/tiao-cao-zhi-wei-ruan-fu-li.md)
     * [聪明人和傻子和奴才](awesome/article/short/cong-ming-ren-he-sha-zi-he-nu-cai.md)
     * [你永远有做不完的事](awesome/article/short/ni-yong-yuan-you-zuo-bu-wan-de-shi.md)
+    * [精神病院里的年轻人](awesome/article/short/jing-shen-bing-yuan-li-de-nian-qing-ren.md)
     * [一位短跑运动员的孤独](awesome/article/short/yi-wei-duan-pao-yun-dong-yuan-de-gu-du.md)
     * [那些你所不知道的大事](awesome/article/short/na-xie-ni-suo-bu-zhi-dao-de-da-shi.md)
     * [穿过大半个中国去睡你](awesome/article/short/chuan-guo-da-ban-ge-zhong-guo-qu-shui-ni.md)
