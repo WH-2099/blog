@@ -137,7 +137,7 @@
   * [喝痰](awesome/pian-duan/he-tan.md)
   * [数学家](awesome/pian-duan/shu-xue-jia.md)
   * [脑子与牛子](awesome/pian-duan/nao-zi-yu-niu-zi.md)
-  * [♂ 男 ♂ 语 ♂](awesome/pian-duan/nan-yu.md)
+  * [男 ♂ 语](awesome/pian-duan/nan-yu.md)
   * [甲方乙方](awesome/pian-duan/love-hate.md)
   * [新编故事四则](awesome/pian-duan/xin-bian-gu-shi-si-ze.md)
   * [没人知道大东为何在此舞蹈](awesome/pian-duan/mei-ren-zhi-dao-da-dong-wei-he-zai-ci-wu-dao.md)
