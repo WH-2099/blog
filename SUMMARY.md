@@ -40,7 +40,6 @@
 
 * [美文](awesome/article/README.md)
   * [短篇](awesome/article/short/README.md)
-    * [假如是你的话](awesome/article/short/jia-ru-shi-ni-de-hua.md)
     * [爱](awesome/article/short/ai.md)
     * [暗途](awesome/article/short/an-tu.md)
     * [疯人](awesome/article/short/feng-ren.md)
@@ -73,6 +72,7 @@
     * [我是个窃贼](awesome/article/short/wo-shi-ge-qie-zei.md)
     * [最担心的是你](awesome/article/short/zui-dan-xin-de-shi-ni.md)
     * [客厅里的爆炸](awesome/article/short/ke-ting-li-de-bao-zha.md)
+    * [假如是你的话](awesome/article/short/jia-ru-shi-ni-de-hua.md)
     * [愿你慢慢长大](awesome/article/short/untitled.md)
     * [民意与伪民意](awesome/article/short/min-yi-yu-wei-min-yi.md)
     * [婚姻中没有天堂](awesome/article/short/hun-yin-zhong-mei-you-tian-tang.md)
