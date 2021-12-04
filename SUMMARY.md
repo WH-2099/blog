@@ -36,10 +36,11 @@
 * [新时代 Linux 命令](linux/ng.md)
 * [树莓派实时性优化](linux/raspberry-rt-linux.md)
 
-## 佳作收藏 <a href="awesome" id="awesome"></a>
+## 佳作收藏 <a href="#awesome" id="awesome"></a>
 
 * [美文](awesome/article/README.md)
   * [短篇](awesome/article/short/README.md)
+    * [假如是你的话](awesome/article/short/jia-ru-shi-ni-de-hua.md)
     * [爱](awesome/article/short/ai.md)
     * [暗途](awesome/article/short/an-tu.md)
     * [疯人](awesome/article/short/feng-ren.md)
@@ -74,7 +75,6 @@
     * [客厅里的爆炸](awesome/article/short/ke-ting-li-de-bao-zha.md)
     * [愿你慢慢长大](awesome/article/short/untitled.md)
     * [民意与伪民意](awesome/article/short/min-yi-yu-wei-min-yi.md)
-    * [假如是你的话](awesome/article/short/jia-ru-shi-ni-de-hua/README.md)
     * [婚姻中没有天堂](awesome/article/short/hun-yin-zhong-mei-you-tian-tang.md)
     * [一种深久的不安](awesome/article/short/yi-zhong-shen-jiu-de-bu-an.md)
     * [非走不可的弯路](awesome/article/short/fei-zou-bu-ke-de-wan-lu.md)
@@ -142,7 +142,7 @@
   * [新编故事四则](awesome/pian-duan/xin-bian-gu-shi-si-ze.md)
   * [没人知道大东为何在此舞蹈](awesome/pian-duan/mei-ren-zhi-dao-da-dong-wei-he-zai-ci-wu-dao.md)
 
-## 日常随记 <a href="daily" id="daily"></a>
+## 日常随记 <a href="#daily" id="daily"></a>
 
 * [坑](daily/pit.md)
 * [豆知识](daily/trivia.md)

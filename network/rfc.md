@@ -5,7 +5,7 @@ description: Request for Comments
 # RFC 阅读清单
 
 {% hint style="success" %}
-### [**\[译\] 如何阅读 RFC 文档**](https://juejin.cn/post/6844903716051484679)
+#### [**\[译\] 如何阅读 RFC 文档**](https://juejin.cn/post/6844903716051484679)
 {% endhint %}
 
 ## BCP 14 - Key words for use in RFCs to Indicate Requirement Levels

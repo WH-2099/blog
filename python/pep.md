@@ -5,7 +5,7 @@ description: Python Enhancement Proposals
 # PEP 阅读清单
 
 {% hint style="success" %}
-### [https://www.python.org/dev/peps/](https://www.python.org/dev/peps/)
+#### [https://www.python.org/dev/peps/](https://www.python.org/dev/peps/)
 {% endhint %}
 
 {% hint style="info" %}
