@@ -6,7 +6,7 @@ description: 功能确实很强大，但这也太复杂了
 
 ## 简介
 
-> Nftables 是现代 Linux 内核数据包分类框架。新的代码应该使用它来代替遗留的 `{ip, ip6, arp, eb} _ tables (xtables)` 基础设施。对于尚未转换的现有代码库，遗留的 xtables 基础设施将维护到到 2021 年。
+> Nftables 是现代 Linux 内核数据包分类框架。新的代码应该使用它来代替遗留的 `{ip, ip6, arp, eb}_tables (xtables)` 基础设施。对于尚未转换的现有代码库，遗留的 xtables 基础设施将维护到到 2021 年。
 
 在 Linux 服务器的日常维护中，网络防火墙是很重要的一环。对于一般用途而言，其实需要的防火墙策略都不是很复杂，没有必要为此而购买独立的软硬件防火墙，使用 Linux 内嵌的基础网络包处理就完全足够应对。
 
@@ -17,8 +17,6 @@ iptables 作为这方面的老大哥，在 Linux 系统的基础网络包处理�
 {% hint style="info" %}
 关于 nftables 的具体简介可以参照这里 [Waht is nftables?](https://wiki.nftables.org/wiki-nftables/index.php/What\_is\_nftables%3F)
 {% endhint %}
-
-
 
 ## 命令
 
@@ -120,13 +118,13 @@ rename chain [family] table chain newname
 
 基本链是网络堆栈中数据包的入口点，必须包含类型、钩子和优先级参数。
 
-**    类型：**
+**类型**
 
 * `filter` 过滤时使用的标准类型。
 * `nat` 基于连接跟踪条目执行地址转换。只有连接的第一个数据包实际穿越该链——其规则通常定义所创建的连接跟踪条目的细节（例如 NAT 语句）。
 * `route` 如果一个数据包已经穿越了这种类型的链，并且即将被接受，如果 IP 头的相关部分发生了变化，就会进行新的路由查询。这允许在 nftables 中实现策略路由选择器。
 
-**    钩子：**
+**钩子**
 
 * `prerouting` 刚到达并未被 nftables 的其他部分所路由或处理的数据包。
 * `input` 已经被接收并且已经经过 `prerouting` 钩子的传入数据包。
@@ -134,7 +132,7 @@ rename chain [family] table chain newname
 * `output` 从本地传出的数据包。
 * `postrouting` 仅仅在离开系统之前，可以对数据包进行进一步处理。
 
-**    优先级：**
+**优先级**
 
 优先级参数接受一个带符号的整数值或一个标准的优先级名称，该名称指定具有相同钩子值的链的遍历顺序。排序是升序的，也就是说低优先级的值优先于高优先级的值。标准的优先级值可以用容易记忆的名称替换。并不是所有的名字在每个钩子族中都有意义(参见 [钩子可用性](nftables.md#gou-zi-ke-yong-xing)) ，但是它们的数值仍然可以用来排列链的优先级。
 
@@ -162,8 +160,6 @@ delete rule [family] table chain handle handle
 {% hint style="warning" %}
 规则内容过于冗杂，建议直接阅读 [Quick reference-nftables in 10 minutes](https://wiki.nftables.org/wiki-nftables/index.php/Quick\_reference-nftables\_in\_10\_minutes)
 {% endhint %}
-
-
 
 ## 输入文件
 
@@ -198,17 +194,19 @@ delete set [family] table handle handle
 {add | delete} element [family] table set { element[, ...] }
 ```
 
-|  **Keyword**                |  **Description**                        |  **Type**                                                                     |
-| --------------------------- | --------------------------------------- | ----------------------------------------------------------------------------- |
-| type                        | 集合中元素的数据类型                              | string: ipv4\_addr, ipv6\_addr, ether\_addr, inet\_proto, inet\_service, mark |
-| typeof                      | 集合中元素的数据类型                              | 要用于获取类型的表达式                                                                   |
-| flags                       | 设置标志                                    | string: constant, dynamic, interval, timeout                                  |
-| timeout                     | 一个元素停留在集合中的时间，如果集合被添加到数据包路径（规则集），则是强制性的 | string, decimal followed by unit. Units are: d, h, m, s                       |
-| <p>gc-interval</p><p></p> | 垃圾收集时间间隔，只有在超时或标志超时激活时才可用               | string, decimal followed by unit. Units are: d, h, m, s                       |
-| elements                    | 集合包含的元素                                 | 集合的数据类型                                                                       |
-| size                        | 集合中的最大元素数，如果集合是由数据包路径（规则集）添加的，则是强制性的    | unsigned integer (64 bit)                                                     |
-| policy                      | 设置策略                                    | string: performance \[default], memory                                        |
-| auto-merge                  | 自动合并相邻/重叠的集合元素（仅适用于区间集合）                |                                                                               |
+| **Keyword** | **Description**                         | **Type**                                                                      |
+| ----------- | --------------------------------------- | ----------------------------------------------------------------------------- |
+| type        | 集合中元素的数据类型                              | string: ipv4\_addr, ipv6\_addr, ether\_addr, inet\_proto, inet\_service, mark |
+| typeof      | 集合中元素的数据类型                              | 要用于获取类型的表达式                                                                   |
+| flags       | 设置标志                                    | string: constant, dynamic, interval, timeout                                  |
+| timeout     | 一个元素停留在集合中的时间，如果集合被添加到数据包路径（规则集），则是强制性的 | string, decimal followed by unit. Units are: d, h, m, s                       |
+| gc-interval |                                         |                                                                               |
+|             |                                         |                                                                               |
+|             | 垃圾收集时间间隔，只有在超时或标志超时激活时才可用               | string, decimal followed by unit. Units are: d, h, m, s                       |
+| elements    | 集合包含的元素                                 | 集合的数据类型                                                                       |
+| size        | 集合中的最大元素数，如果集合是由数据包路径（规则集）添加的，则是强制性的    | unsigned integer (64 bit)                                                     |
+| policy      | 设置策略                                    | string: performance \[default], memory                                        |
+| auto-merge  | 自动合并相邻/重叠的集合元素（仅适用于区间集合）                |                                                                               |
 
 ### Map 映射
 
@@ -241,13 +239,11 @@ OPTIONS := [timeout TIMESPEC] [expires TIMESPEC] [comment string]
 TIMESPEC := [numd][numh][numm][num[s]]
 ```
 
-|  **Option** |  **Description**    |
-| ----------- | ------------------- |
-| timeout     | 带有超时标志的集合/映射的超时值    |
-| expires     | 给定元素过期的时间，仅对规则集复制有用 |
-| comment     | 每个元素的注释字段           |
-
-
+| **Option** | **Description**     |
+| ---------- | ------------------- |
+| timeout    | 带有超时标志的集合/映射的超时值    |
+| expires    | 给定元素过期的时间，仅对规则集复制有用 |
+| comment    | 每个元素的注释字段           |
 
 ## 参考图表
 
@@ -255,36 +251,32 @@ TIMESPEC := [numd][numh][numm][num[s]]
 
 ![](../.gitbook/assets/nf-hooks.png)
 
-
-
 #### 钩子可用性
 
 {% hint style="warning" %}
 白名单列举，没有明确标为 Yes 的都不可用。
 {% endhint %}
 
-| Chain type                                 | ingress | prerouting | forward | input | output | postrouting |  egress  |
-| ------------------------------------------ | :-----: | :--------: | :-----: | :---: | :----: | :---------: | :------: |
-| <p></p><p><strong>inet family</strong></p> |         |            |         |       |        |             |          |
-| filter                                     |   Yes   |     Yes    |   Yes   |  Yes  |   Yes  |     Yes     |          |
-| nat                                        |         |     Yes    |         |  Yes  |   Yes  |     Yes     |          |
-| route                                      |         |            |         |       |   Yes  |             |          |
-| <p><br><strong>ip6 family</strong></p>     |         |            |         |       |        |             |          |
-| filter                                     |         |     Yes    |   Yes   |  Yes  |   Yes  |     Yes     |          |
-| nat                                        |         |     Yes    |         |  Yes  |   Yes  |     Yes     |          |
-| route                                      |         |            |         |       |   Yes  |             |          |
-| <p><br><strong>ip family</strong></p>      |         |            |         |       |        |             |          |
-| filter                                     |         |     Yes    |   Yes   |  Yes  |   Yes  |     Yes     |          |
-| nat                                        |         |     Yes    |         |  Yes  |   Yes  |     Yes     |          |
-| route                                      |         |            |         |       |   Yes  |             |          |
-| <p><br><strong>arp family</strong></p>     |         |            |         |       |        |             |          |
-| filter                                     |         |            |         |  Yes  |   Yes  |             |          |
-| <p><br><strong>bridge family</strong></p>  |         |            |         |       |        |             |          |
-| filter                                     |         |     Yes    |   Yes   |  Yes  |   Yes  |     Yes     |          |
-| <p><br><strong>netdev family</strong></p>  |         |            |         |       |        |             |          |
-| filter                                     |   Yes   |            |         |       |        |             | Yes(5.7) |
-
-
+| Chain type                                | ingress | prerouting | forward | input | output | postrouting |  egress  |
+| ----------------------------------------- | :-----: | :--------: | :-----: | :---: | :----: | :---------: | :------: |
+| **inet family**                           |         |            |         |       |        |             |          |
+| filter                                    |   Yes   |     Yes    |   Yes   |  Yes  |   Yes  |     Yes     |          |
+| nat                                       |         |     Yes    |         |  Yes  |   Yes  |     Yes     |          |
+| route                                     |         |            |         |       |   Yes  |             |          |
+| <p><br><strong>ip6 family</strong></p>    |         |            |         |       |        |             |          |
+| filter                                    |         |     Yes    |   Yes   |  Yes  |   Yes  |     Yes     |          |
+| nat                                       |         |     Yes    |         |  Yes  |   Yes  |     Yes     |          |
+| route                                     |         |            |         |       |   Yes  |             |          |
+| <p><br><strong>ip family</strong></p>     |         |            |         |       |        |             |          |
+| filter                                    |         |     Yes    |   Yes   |  Yes  |   Yes  |     Yes     |          |
+| nat                                       |         |     Yes    |         |  Yes  |   Yes  |     Yes     |          |
+| route                                     |         |            |         |       |   Yes  |             |          |
+| <p><br><strong>arp family</strong></p>    |         |            |         |       |        |             |          |
+| filter                                    |         |            |         |  Yes  |   Yes  |             |          |
+| <p><br><strong>bridge family</strong></p> |         |            |         |       |        |             |          |
+| filter                                    |         |     Yes    |   Yes   |  Yes  |   Yes  |     Yes     |          |
+| <p><br><strong>netdev family</strong></p> |         |            |         |       |        |             |          |
+| filter                                    |   Yes   |            |         |       |        |             | Yes(5.7) |
 
 #### 钩内优先级
 
@@ -314,8 +306,6 @@ TIMESPEC := [numd][numh][numm][num[s]]
 | bridge                                                                                    | output             | **out**      | 100      | NF\_BR\_PRI\_NAT\_DST\_OTHER     |                                                                                                                                                                                                         |
 | bridge                                                                                    |                    |              | 200      | NF\_BR\_PRI\_FILTER\_OTHER       |                                                                                                                                                                                                         |
 | bridge                                                                                    | postrouting        | **srcnat**   | 300      | NF\_BR\_PRI\_NAT\_SRC            |                                                                                                                                                                                                         |
-
-
 
 ## 参考源
 

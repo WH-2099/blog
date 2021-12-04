@@ -6,13 +6,13 @@ description: 描述器实战应用
 
 ## 引言
 
-在 Python 官方文档中的 [描述器使用指南](https://docs.python.org/zh-cn/3.9/howto/descriptor.html) 一篇中，给出了常用装饰器 `property` 的 Python 代码模拟实现，且这个实现是基于描述器原理的。 在本文中，作者将利用这段代码，向你展示 **描述器的实际运行原理 **。
+在 Python 官方文档中的 [描述器使用指南](https://docs.python.org/zh-cn/3.9/howto/descriptor.html) 一篇中，给出了常用装饰器 `property` 的 Python 代码模拟实现，且这个实现是基于描述器原理的。 在本文中，作者将利用这段代码，向你展示 **描述器的实际运行原理**。
 
 ## 装饰器基本内容
 
 首先我们回忆一下装饰器的有关内容。
 
-> **装饰器本质是个返回函数的函数，表现为数学概念中的复合函数 **$$\big(g \circ f\big)(x) \Rightarrow g\big(f(x)\big)$$&#x20;
+> **装饰器本质是个返回函数的函数，表现为数学概念中的复合函数**$$\big(g \circ f\big)(x) \Rightarrow g\big(f(x)\big)$$
 
 下面我们用伪代码再补充一些容易产生疑问的情况。
 
@@ -45,11 +45,9 @@ def func(arg1, arg2, ...):
 func = decomaker(argA, argB, ...)(func)
 ```
 
-
-
 类装饰器和函数装饰器是一致的，只相当于将 func 代表的函数换做 cls 代表的类罢了，故这里不再多做涉及。
 
-如果对于装饰器还有问题的话建议阅读一下官方 PEP ，可以直接使用 Google 翻译成中文，可读性还是可以接受的。&#x20;
+如果对于装饰器还有问题的话建议阅读一下官方 PEP ，可以直接使用 Google 翻译成中文，可读性还是可以接受的。
 
 [PEP 318 -- Decorators for Functions and Methods](https://www.python.org/dev/peps/pep-0318/) [PEP 3129 – Class Decorators](https://www.python.org/dev/peps/pep-3129/)
 
@@ -108,10 +106,10 @@ class Property:
 
 ### 改写测试用代码
 
-其实作者比较喜欢的方式是利用 VS Code 在代码段顶部就加上断点，然后逐句执行查看代码的具体运行位置和变量值。 \
+其实作者比较喜欢的方式是利用 VS Code 在代码段顶部就加上断点，然后逐句执行查看代码的具体运行位置和变量值。\
 但这种方式难以通过文字向大家展示，所以我换了个变通的方式，在每个关键环节都加一个 `print()` 输出相关内容，这样我们看代码的命令行反馈就可以了。
 
-&#x20;更改后的测试代码如下：
+更改后的测试代码如下：
 
 ```python
 class Property(object):
@@ -348,7 +346,7 @@ class ClassMethod(object):
 
 ## 参考
 
-1. [描述器使用指南](https://docs.python.org/zh-cn/3.9/howto/descriptor.html)&#x20;
+1. [描述器使用指南](https://docs.python.org/zh-cn/3.9/howto/descriptor.html)
 2. [property 装饰器的描述器实现](property.md)
 3. [PEP 318 -- Decorators for Functions and Methods](https://www.python.org/dev/peps/pep-0318/)
 4. [PEP 3129 – Class Decorators](https://www.python.org/dev/peps/pep-3129/)

@@ -24,15 +24,13 @@ pacman -S bat
 
 #### 功能
 
-查找当前在您的系统上运行的 coreutils 基本命令（cp、mv、dd、tar、gzip/gunzip、cat 等）并显示复制数据的 **百分比、估计的时间 **和 **吞吐量**。
+查找当前在您的系统上运行的 coreutils 基本命令（cp、mv、dd、tar、gzip/gunzip、cat 等）并显示复制数据的 **百分比、估计的时间 和 吞吐量**。
 
 #### 安装命令
 
 ```bash
 pacman -S progress 
 ```
-
-
 
 ### [icdiff](https://github.com/Xfennec/progress)
 
@@ -48,8 +46,6 @@ pacman -S progress
 pip install git+https://github.com/jeffkaufman/icdiff.git
 ```
 
-
-
 ### [ag](https://github.com/ggreer/the\_silver\_searcher)
 
 ![ag](../.gitbook/assets/screely-1626113175219.png)
@@ -63,8 +59,6 @@ pip install git+https://github.com/jeffkaufman/icdiff.git
 ```bash
 pacman -S the_silver_searcher
 ```
-
-
 
 ### [glances](https://github.com/nicolargo/glances)
 
@@ -100,15 +94,13 @@ pacman -S glances
 pacman -S tig
 ```
 
-
-
 ### [fzf](https://github.com/junegunn/fzf)
 
 ![fzf](../.gitbook/assets/screely-1626141807141.png)
 
 #### 功能
 
-通用的命令行 **模糊查找 **器。
+通用的命令行 **模糊查找** 器。
 
 #### 安装命令
 
@@ -116,23 +108,19 @@ pacman -S tig
 pacman -S fzf
 ```
 
-
-
 ### [cloc](https://github.com/AlDanial/cloc)
 
 ![cloc](../.gitbook/assets/screely-1626141780988.png)
 
 #### 功能
 
-计算 **代码行数 **。
+计算 **代码行数** 。
 
 #### 安装命令
 
 ```bash
 pacman -S cloc
 ```
-
-
 
 ### [ncdu](https://dev.yorhel.nl/ncdu)
 

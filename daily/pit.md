@@ -26,10 +26,8 @@ New-NetFirewallRule -DisplayName 'RDPPORTLatest' -Profile 'Public' -Direction In
 {% endhint %}
 
 {% hint style="danger" %}
-RDP 服务器需要至少 **使用账号密码**_**（非 PIN 码）**_**完成一次系统登陆 **后才可用。
+RDP 服务器需要至少 **使用账号密码**_**（非 PIN 码）**_**完成一次系统登陆** 后才可用。
 {% endhint %}
-
-
 
 ### WSL
 
@@ -43,18 +41,16 @@ netsh winsock reset
 ```
 {% endhint %}
 
-
-
 ## Linux
 
 ### Shell
 
 {% hint style="info" %}
-Here Document (`<<`) 想要过滤去掉行首的 Tab (`\t`) ：**`<<-`**
+Here Document (`<<`) 想要过滤去掉行首的 Tab () ：**`<<-`**
 {% endhint %}
 
 {% hint style="warning" %}
-Here Document (`<<`) 输入的文本默认还是会被 **扩展**，如果需要禁用，需要对起始的 limit\_string 做处理（假设 limit\_string 为 `_EOF`）：
+Here Document (`<<`) 输入的文本默认还是会被 **扩展** ，如果需要禁用，需要对起始的 limit\_string 做处理（假设 limit\_string 为 `_EOF`）：
 
 * 用 `\` 转义：`\_EOF`
 * 用双引号包裹：`"\_EOF"`
@@ -64,7 +60,7 @@ Here Document (`<<`) 输入的文本默认还是会被 **扩展**，如果需要
 ### Config
 
 {% hint style="danger" %}
-systemd-networkd 的 [默认配置](https://man.archlinux.org/man/systemd.network.5) 会禁用 **内核 IP 转发 **，若想要开启，除了调整内核参数外，还需要在对应的 `.network` 配置文件的 `[Network]` 一节设置 `IPForward=yes `。
+systemd-networkd 的 [默认配置](https://man.archlinux.org/man/systemd.network.5) 会禁用 **内核 IP 转发** ，若想要开启，除了调整内核参数外，还需要在对应的 `.network` 配置文件的 `[Network]` 一节设置 `IPForward=yes` 。
 {% endhint %}
 
 {% hint style="info" %}
@@ -80,7 +76,7 @@ systemd-networkd 的 [默认配置](https://man.archlinux.org/man/systemd.networ
 ## Network
 
 {% hint style="danger" %}
-市面上常见的路由器内置的 **端口转发** 功能一般只对 `IPv4 `生效，**对于 `IPv6 `无效**。
+市面上常见的路由器内置的 **端口转发** 功能一般只对 `IPv4` 生效，**对于 `IPv6` 无效**。
 {% endhint %}
 
 ## Hardware

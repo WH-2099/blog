@@ -6,10 +6,10 @@ description: 天下武功，唯快不破
 
 ## 优化目的
 
-项目需要用 **树莓派 4B** 实现 **毫秒级控制**，并且误差控制在 **5%** 内（即 **0.05ms = 50us**）。 \
-本身这种精度的控制应该考虑由 C 实现，但考虑到以下原因，最终还是选用了 **Python** 作为主语言。&#x20;
+项目需要用 **树莓派 4B** 实现 **毫秒级控制**，并且误差控制在 **5%** 内（即 **0.05ms = 50us**）。\
+本身这种精度的控制应该考虑由 C 实现，但考虑到以下原因，最终还是选用了 **Python** 作为主语言。
 
-1. 用惯了 Python，好久好久没有写过 C 了，真的 **不想写 C** 啊啊啊啊 (/▽＼)&#x20;
+1. 用惯了 Python，好久好久没有写过 C 了，真的 **不想写 C** 啊啊啊啊 (/▽＼)
 2. 控制过程中 Python 调用的 **包多是封装了底层 C 库实现，实际性能并不差**
 3. 整体程序框架中，**需要 Python 实现的顶层控制非常简单**
 
@@ -41,12 +41,12 @@ wiringpi.piHiPri(99)
 
 #### 原理
 
-`wiringpi` 中的 `piHiPri` 函数通过调用 Linux 内核的 API，改变了当前进程的调度策略及优先级进一步提高了实时性。 这和 Python 中标准库的 `os.setpriority` 不同，`os.setpriority` 并未改变调度策略，实际优化效果很有限。 需要注意的是，此处设置的优先级是用于比较的相对值，严格地说并不是越大就越好。 &#x20;
+`wiringpi` 中的 `piHiPri` 函数通过调用 Linux 内核的 API，改变了当前进程的调度策略及优先级进一步提高了实时性。 这和 Python 中标准库的 `os.setpriority` 不同，`os.setpriority` 并未改变调度策略，实际优化效果很有限。 需要注意的是，此处设置的优先级是用于比较的相对值，严格地说并不是越大就越好。
 
 {% hint style="info" %}
 > The priority parameter works relative to others – so you can make one program priority 1 and another priority 2 and it will have the same effect as setting one to 10 and the other to 90 (as long as no other programs are running with elevated priorities)
 
-priority 参数 **相对 **于其他参数有效-因此您可以将一个程序的优先级设置为 1，将另一个程序的优先级设置为 2，其效果与将一个设置为 10，另一个设置为 90 相同（只要没有其他程序以更高的优先级运行）。
+priority 参数 **相对** 于其他参数有效-因此您可以将一个程序的优先级设置为 1，将另一个程序的优先级设置为 2，其效果与将一个设置为 10，另一个设置为 90 相同（只要没有其他程序以更高的优先级运行）。
 {% endhint %}
 
 ### 绑定独立 CPU
@@ -61,7 +61,7 @@ sudo sed -i.bak -e 's/$/ isolcpus=3/' /boot/cmdline.txt
 
 {% hint style="warning" %}
 **！！！请注意：单引号中的空格为必须！！！**\
-****其中 `3` 可以更改为你想要指定的 CPU 编号（树莓派 4B 中 CPU 编号为 0-3)。 \
+_**其中 `3` 可以更改为你想要指定的 CPU 编号（树莓派 4B 中 CPU 编号为 0-3)。**_\
 _考虑到未来可能需要还原，此步将原文件添加 .bak 后缀进行了备份。_
 {% endhint %}
 
@@ -91,17 +91,17 @@ _此处的 `3` 为上文提到的 CPU 编号_
 
 #### 操作
 
-**1. 这里作者选择直接下载编译好的内核：**&#x20;
+**1. 这里作者选择直接下载编译好的内核：**
 
-### ****[**rt-kernel.tgz**](https://github.com/lemariva/RT-Tools-RPi/blob/4fb1bb511d1701d5b0975314ac1ec87b792f9530/preempt-rt/kernel\_4\_19\_59-rt23-v7l+/rt-kernel.tgz)**** <a href="blob-path" id="blob-path"></a>
+### [**rt-kernel.tgz**](https://github.com/lemariva/RT-Tools-RPi/blob/4fb1bb511d1701d5b0975314ac1ec87b792f9530/preempt-rt/kernel\_4\_19\_59-rt23-v7l+/rt-kernel.tgz) <a href="#blob-path" id="blob-path"></a>
 
 链接源自Github，所以需要科学上网，你懂的 (￣\_￣ )
 
 {% hint style="info" %}
 如果你想要亲手编译内核，可参考以下资料 ：
 
-1. __[Raspberry Pi: Real Time System - Preempt-RT Patching Tutorial for Kernel 4.14.y](https://lemariva.com/blog/2018/07/raspberry-pi-preempt-rt-patching-tutorial-for-kernel-4-14-y)
-2. [四足机器人高算力、低成本主控第一步：给树莓派打上RT实时补丁](https://zhuanlan.zhihu.com/p/358151393)__
+1. [Raspberry Pi: Real Time System - Preempt-RT Patching Tutorial for Kernel 4.14.y](https://lemariva.com/blog/2018/07/raspberry-pi-preempt-rt-patching-tutorial-for-kernel-4-14-y)
+2. [四足机器人高算力、低成本主控第一步：给树莓派打上RT实时补丁](https://zhuanlan.zhihu.com/p/358151393)
 3. [Raspberry Pi OS Linux Kernel building](https://www.raspberrypi.org/documentation/linux/kernel/building.md)
 4. [preemptrt\_setup](https://wiki.linuxfoundation.org/realtime/documentation/howto/applications/preemptrt\_setup)
 
@@ -143,7 +143,7 @@ uanme -r
 
 #### 原理
 
-> Linux** **是典型的分时应用系统，对于实时性要求很高的应用，必须对内核本身动手术。而 RTLinux 则采取了一种比较聪明也比较折中的办法：他们实现一个最底层的精简的调度器，用于调度实时线程，原来的内核本身则成为实时调度器的一个优先级最低的任务。这样，当有实时任务时，普通内核已经建立于其上的普通进程被强制中断，实时线程被强制执行；只有当若有实时线程都让出cpu之后，普通内核才被运行，再由普通内核去调度执行普通的应用程序。
+> Linux 是典型的 **分时应用系统** ，对于实时性要求很高的应用，必须对内核本身动手术。而 RTLinux 则采取了一种比较聪明也比较折中的办法：他们实现一个最底层的精简的调度器，用于调度实时线程，原来的内核本身则成为实时调度器的一个优先级最低的任务。这样，当有实时任务时，普通内核已经建立于其上的普通进程被强制中断，实时线程被强制执行；只有当若有实时线程都让出 cpu 之后，普通内核才被运行，再由普通内核去调度执行普通的应用程序。
 
 ## 性能测试
 
@@ -226,10 +226,10 @@ T: 3 ( 1474) P:80 I:100 C: 598534 Min:      6 Act:   21 Avg:   14 Max:      34
 
 ### 测试结论
 
-从以上数据可以看出，系统实时性提升主要体现在 **极值 **的降低上。
+从以上数据可以看出，系统实时性提升主要体现在 **极值** 的降低上。
 
 **在实际程序中，均值与极值都有非常可观的降低。**\
-****_优化完成后，手头 Python 运行的测试误差为 30 us 左右，考虑到项目可容许的偏差是 50 us，终于——咱不用去写 C 啦！o(￣▽￣)ブ_
+_优化完成后，手头 Python 运行的测试误差为 30 us 左右，考虑到项目可容许的偏差是 50 us，终于——咱不用去写 C 啦！o(￣▽￣)ブ_
 
 ## 参考源
 
