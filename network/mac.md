@@ -14,7 +14,7 @@ description: 总算能理解 IPv6 里的 EUI-64 咋来的了
 
 最近在处理校园网络答疑解惑的工作时，发现无线网络认证的日志中，与联网设备相关的只有一个干干的 MAC 地址，实在是不便于区分具体的设备（总不能指望用户给你报 MAC 地址吧）。联想到路由器上的这个功能，打算扩展一下日志内容，利用 MAC 地址对设备厂商进行标注。
 
-**搜集资料过程中发现** [**IEEE 官网**](https://standards.ieee.org) **官方的资料与互联网上的内容出入较大，故做以记录。**
+**搜集资料过程中发现** [**IEEE 官网**](https://standards.ieee.org) 的**官方资料与互联网上的内容出入较大，故做以记录。**
 
 ## 常见资料的问题
 
@@ -97,3 +97,16 @@ Guidelines for Use of Extended Unique Identifier (EUI), Organizationally Unique 
 >
 > > Your attention is called to the fact that the firms and numbers listed may not always be obvious in product implementation. Some manufacturers subcontract component manufacture and others include registered firms' All MAC (MA-L, MA-M, MA-S) in their products.
 {% endhint %}
+
+具体的步骤如下：
+
+1. 取 MAC 地址前 **24** 位（对应到常用的杠分十六进制表示就是前三组的 6 个 十六进制字符，如 AA-BB-CC-DD-EE-FF 的 AABBCC）\
+   与数据库的 `assignment` 字段进行精确匹配。
+2. 若匹配结果的 `organization_name` 字段为 `IEEE Registration Authority` ，则继续进行下一步；\
+   否则直接返回当前匹配结果。
+3. 取 MAC 地址前 **28** 位（对应到常用的杠分十六进制表示就是前三组的 7 个 十六进制字符，如 AA-BB-CC-DD-EE-FF 的 AABBCCD）\
+   与数据库的 `assignment` 字段进行精确匹配。
+4. 若匹配结果的 `organization_name` 字段为 `IEEE Registration Authority` ，则继续进行下一步；否则直接返回当前匹配结果。
+5. 取 MAC 地址前 **36** 位（对应到常用的杠分十六进制表示就是前三组的 7 个 十六进制字符，如 AA-BB-CC-DD-EE-FF 的 AABBCCD）\
+   与数据库的 `assignment` 字段进行精确匹配。
+6. 若有结果直接返回，无结果返回空。
