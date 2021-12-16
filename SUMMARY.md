@@ -58,6 +58,7 @@
     * [铁血恋爱](awesome/article/short/tie-xie-lian-ai.md)
     * [太阳黑子](awesome/article/short/tai-yang-hei-zi.md)
     * [蚂蚁人生](awesome/article/short/ma-yi-ren-sheng.md)
+    * [风骚和魅力](awesome/article/short/feng-sao-he-mei-li.md)
     * [不朽的失眠](awesome/article/short/bu-xiu-de-shi-mian.md)
     * [秋天的怀念](awesome/article/short/qiu-tian-de-huai-nian.md)
     * [午夜的汽笛](awesome/article/short/wu-ye-de-qi-di.md)
