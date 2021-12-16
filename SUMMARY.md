@@ -130,6 +130,7 @@
     * [偷听谈话的妙趣](awesome/article/long/tou-ting-tan-hua-de-miao-qu.md)
     * [公主整夜不能睡](awesome/article/long/gong-zhu-zheng-ye-bu-neng-shui.md)
     * [他们那时多有趣](awesome/article/long/ta-men-na-shi-duo-you-qu.md)
+    * [布莱克·沃兹沃斯](awesome/article/long/bu-lai-ke-wo-zi-wo-si.md)
     * [你丈夫是干什么的](awesome/article/long/ni-zhang-fu-shi-gan-shen-me-de.md)
     * [谁也看不见的阳台](awesome/article/long/shui-ye-kan-bu-jian-de-yang-tai.md)
     * [上午打瞌睡的女孩](awesome/article/long/shang-wu-da-ke-shui-de-nv-hai.md)
