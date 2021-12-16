@@ -39,8 +39,9 @@
 ## 佳作收藏 <a href="#awesome" id="awesome"></a>
 
 * [美文](awesome/article/README.md)
-  * [弟弟](awesome/article/short/README.md)
+  * [短篇](awesome/article/short/README.md)
     * [爱](awesome/article/short/ai.md)
+    * [弟弟](awesome/article/short/di-di.md)
     * [暗途](awesome/article/short/an-tu.md)
     * [疯人](awesome/article/short/feng-ren.md)
     * [雪兔](awesome/article/short/xue-tu.md)
