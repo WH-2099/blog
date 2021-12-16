@@ -84,7 +84,7 @@
     * [非走不可的弯路](awesome/article/short/fei-zou-bu-ke-de-wan-lu.md)
     * [单调产生的快乐](awesome/article/short/dan-tiao-chan-sheng-de-kuai-le.md)
     * [我只是讨厌屈服](awesome/article/short/wo-zhi-shi-tao-yan-qu-fu.md)
-    * [跳槽只为 “软福利”](awesome/article/short/tiao-cao-zhi-wei-ruan-fu-li.md)
+    * [跳槽只为“软福利”](awesome/article/short/tiao-cao-zhi-wei-ruan-fu-li.md)
     * [聪明人和傻子和奴才](awesome/article/short/cong-ming-ren-he-sha-zi-he-nu-cai.md)
     * [你永远有做不完的事](awesome/article/short/ni-yong-yuan-you-zuo-bu-wan-de-shi.md)
     * [精神病院里的年轻人](awesome/article/short/jing-shen-bing-yuan-li-de-nian-qing-ren.md)
