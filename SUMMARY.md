@@ -97,6 +97,7 @@
     * [老王](awesome/article/long/lao-wang.md)
     * [翻浆](awesome/article/long/fan-jiang.md)
     * [小猫](awesome/article/long/xiao-mao.md)
+    * [良娼](awesome/article/long/liang-chang.md)
     * [自信](awesome/article/long/zi-xin.md)
     * [黑羊](awesome/article/long/hei-yang.md)
     * [猫人](awesome/article/long/mao-ren.md)
