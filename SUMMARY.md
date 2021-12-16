@@ -119,6 +119,7 @@
     * [飞越流水线](awesome/article/long/fei-yue-liu-shui-xian.md)
     * [一桩自杀案](awesome/article/long/yi-zhuang-zi-sha-an.md)
     * [机舱里的钟声](awesome/article/long/ji-cang-li-de-zhong-sheng.md)
+    * [桌子还是桌子](awesome/article/long/zhuo-zi-huan-shi-zhuo-zi.md)
     * [一小时的故事](awesome/article/long/yi-xiao-shi-de-gu-shi.md)
     * [不存在的女友](awesome/article/long/bu-cun-zai-de-nv-you.md)
     * [谁在编造历史](awesome/article/long/shui-zai-bian-zao-li-shi.md)
