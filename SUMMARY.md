@@ -103,6 +103,7 @@
     * [身价](awesome/article/long/shen-jia.md)
     * [黄裙子](awesome/article/long/huang-qun-zi.md)
     * [老江湖](awesome/article/long/lao-jiang-hu.md)
+    * [逃脱术](awesome/article/long/tao-tuo-shu.md)
     * [侯银匠](awesome/article/long/hou-yin-jiang.md)
     * [死亡花朵](awesome/article/long/si-wang-hua-duo.md)
     * [扼杀胎儿](awesome/article/long/e-sha-tai-er.md)
