@@ -110,6 +110,7 @@
     * [逃脱术](awesome/article/long/tao-tuo-shu.md)
     * [侯银匠](awesome/article/long/hou-yin-jiang.md)
     * [死亡花朵](awesome/article/long/si-wang-hua-duo.md)
+    * [刺青时代](awesome/article/long/ci-qing-shi-dai.md)
     * [好嘴杨巴](awesome/article/long/hao-zui-yang-ba.md)
     * [扼杀胎儿](awesome/article/long/e-sha-tai-er.md)
     * [纪念照片](awesome/article/long/ji-nian-zhao-pian.md)
