@@ -93,6 +93,7 @@
     * [我觉得自己会永远生猛下去](awesome/article/short/wo-jue-de-zi-ji-hui-yong-yuan-sheng-meng-xia-qu.md)
   * [长篇](awesome/article/long/README.md)
     * [早餐](awesome/article/long/zao-can.md)
+    * [波心](awesome/article/long/bo-xin.md)
     * [老王](awesome/article/long/lao-wang.md)
     * [翻浆](awesome/article/long/fan-jiang.md)
     * [小猫](awesome/article/long/xiao-mao.md)
