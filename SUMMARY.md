@@ -119,6 +119,7 @@
     * [爱情与投资](awesome/article/long/ai-qing-yu-tou-zi.md)
     * [赌徒的遗书](awesome/article/long/du-tu-de-yi-shu.md)
     * [飞越流水线](awesome/article/long/fei-yue-liu-shui-xian.md)
+    * [跟踪狂入门](awesome/article/long/gen-zong-kuang-ru-men.md)
     * [一桩自杀案](awesome/article/long/yi-zhuang-zi-sha-an.md)
     * [机舱里的钟声](awesome/article/long/ji-cang-li-de-zhong-sheng.md)
     * [桌子还是桌子](awesome/article/long/zhuo-zi-huan-shi-zhuo-zi.md)
