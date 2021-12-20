@@ -105,6 +105,7 @@
     * [斜眼](awesome/article/long/xie-yan.md)
     * [识人](awesome/article/long/shi-ren.md)
     * [身价](awesome/article/long/shen-jia.md)
+    * [肯肯舞](awesome/article/long/ken-ken-wu.md)
     * [热包子](awesome/article/long/re-bao-zi.md)
     * [黄裙子](awesome/article/long/huang-qun-zi.md)
     * [老江湖](awesome/article/long/lao-jiang-hu.md)
