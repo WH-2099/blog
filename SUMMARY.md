@@ -121,6 +121,7 @@
     * [紫色人形](awesome/article/long/untitled.md)
     * [天外飞石](awesome/article/long/tian-wai-fei-shi.md)
     * [戒烟公司](awesome/article/long/jie-yan-gong-si.md)
+    * [蔡二少爷](awesome/article/long/cai-er-shao-ye.md)
     * [女人的星球](awesome/article/long/nv-ren-de-xing-qiu.md)
     * [一千张糖纸](awesome/article/long/yi-qian-zhang-tang-zhi.md)
     * [爱情与投资](awesome/article/long/ai-qing-yu-tou-zi.md)
