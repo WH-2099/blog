@@ -115,6 +115,7 @@
     * [老江湖](awesome/article/long/lao-jiang-hu.md)
     * [逃脱术](awesome/article/long/tao-tuo-shu.md)
     * [侯银匠](awesome/article/long/hou-yin-jiang.md)
+    * [太原诅咒](awesome/article/long/tai-yuan-zu-zhou.md)
     * [死亡花朵](awesome/article/long/si-wang-hua-duo.md)
     * [罗马惊艳](awesome/article/long/luo-ma-jing-yan.md)
     * [刺青时代](awesome/article/long/ci-qing-shi-dai.md)
