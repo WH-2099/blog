@@ -168,6 +168,7 @@
 
 ## 日常随记 <a href="#daily" id="daily"></a>
 
+* [逻辑推断](daily/luo-ji-tui-duan.md)
 * [坑](daily/pit.md)
 * [豆知识](daily/trivia.md)
 * [观影后记](daily/shi-zi-wang.md)
