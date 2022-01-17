@@ -5,7 +5,7 @@ description: Python Enhancement Proposals
 # PEP 阅读清单
 
 {% hint style="success" %}
-#### [https://www.python.org/dev/peps/](https://www.python.org/dev/peps/)
+[**https://www.python.org/dev/peps/**](https://www.python.org/dev/peps/)
 {% endhint %}
 
 {% hint style="info" %}
@@ -242,7 +242,7 @@ description: Python Enhancement Proposals
 
 ### `match ... case:` 的设计考虑
 
-### 【理解】：叫了这么多年的 switch，要整就整个高端的，功能强大的
+### 【理解】：构造与获取（匹配）的对称
 
 ## PEP 636 -- Structural Pattern Matching: Tutorial
 
