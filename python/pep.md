@@ -212,6 +212,14 @@ description: Python Enhancement Proposals
 
 ### 【理解】：注解中的前向引用不必再用 `""`
 
+## PEP 572 -- Assignment Expressions
+
+### 赋值表达式
+
+### `:=`
+
+### 【理解】：之前仅有语句可赋值，现在表达式也可赋值
+
 ## PEP 614 -- Relaxing Grammar Restrictions On Decorators
 
 ### 放宽对装饰器的语法限制
