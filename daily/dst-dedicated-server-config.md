@@ -211,6 +211,7 @@ Cluster_1  # 以集群方式提供服务，地面和洞穴是两个独立的服�
 
 {% code title="dedicated_server_mods_setup.lua" %}
 ```lua
+-- 两个减号表示本行内容为注释，不会被执行
 -- 有两个函数用于安装模组，ServerModSetup 和 ServerModCollectionSetup。
 -- 该脚本将在启动时执行，下载指定的 mod 到 mods 目录。
 
