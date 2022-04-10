@@ -207,6 +207,24 @@ Cluster_1  # 以集群方式提供服务，地面和洞穴是两个独立的服�
 ```
 {% endcode %}
 
+### dedicated\_server\_mods\_setup.lua
+
+{% code title="dedicated_server_mods_setup.lua" %}
+```lua
+-- 有两个函数用于安装模组，ServerModSetup 和 ServerModCollectionSetup。
+-- 该脚本将在启动时执行，下载指定的 mod 到 mods 目录。
+
+-- ServerModSetup 参数为 模组创意工坊编号 的 字符串。
+
+--ServerModCollectionSetup takes a string of a specific mod's Workshop id. It will download all the mods in the collection and install them to the mod directory on boot.
+    -- 模组或合计对应的创意工坊页面，其网址末尾的数字就是编号。
+    -- 示例模组 https://steamcommunity.com/sharedfiles/filedetails/?id=351325790
+	-- ServerModSetup("351325790")
+    -- 示例合集 https://steamcommunity.com/sharedfiles/filedetails/?id=2594933855
+	-- ServerModCollectionSetup("2594933855")
+```
+{% endcode %}
+
 ## 参考源
 
 [Dedicated Server Settings Guide](https://forums.kleientertainment.com/forums/topic/64552-dedicated-server-settings-guide/)
