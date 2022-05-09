@@ -169,6 +169,7 @@
 
 * [逻辑推断](daily/luo-ji-tui-duan.md)
 * [坑](daily/pit.md)
+* [VS Code Vim 速记](daily/vs-code-vim-su-ji.md)
 * [豆知识](daily/trivia.md)
 * [观影后记](daily/shi-zi-wang.md)
 * [ZEN of DEBUG](daily/debug.md)
