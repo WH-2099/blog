@@ -5,7 +5,7 @@ description: Request for Comments
 # RFC 阅读清单
 
 {% hint style="success" %}
-#### [**\[译\] 如何阅读 RFC 文档**](https://juejin.cn/post/6844903716051484679)
+[**\[译\] 如何阅读 RFC 文档**](https://juejin.cn/post/6844903716051484679)
 {% endhint %}
 
 ## BCP 14 - Key words for use in RFCs to Indicate Requirement Levels
@@ -31,6 +31,14 @@ description: Request for Comments
 ### FTP 协议
 
 ### 【待阅】
+
+## RFC 2516 - A Method for Transmitting PPP Over Ethernet (PPPoE)
+
+### 一种通过以太网传输 PPP (PPPoE) 的方法
+
+### PPPoE
+
+### 【浏览】
 
 ## RFC 3659 - Extensions to FTP
 

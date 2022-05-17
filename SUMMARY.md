@@ -23,7 +23,7 @@
   * [DNS](network/ji-chu-gong-gong-fu-wu/dns.md)
   * [NTP](network/ji-chu-gong-gong-fu-wu/ntp.md)
 * [MAC 地址厂商信息](network/mac.md)
-* [点对点的中介](network/dian-dui-dian-de-zhong-jie.md)
+* [点对点的中介](network/pppoe-relay.md)
 
 ## Windows
 
