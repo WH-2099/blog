@@ -4,7 +4,7 @@ description: PPPoE Relay 原理解析
 
 # 点对点的中介
 
-&#x20;某可爱四年内第 N 次提及 PPPoE-Relay 的原理，终于让我的好奇心冲破了发际线。
+某可爱四年内第 N 次提及 PPPoE-Relay 的原理，终于让我的好奇心冲破了发际线。
 
 是时候狠心读一波 RFC 终结这个话题了！
 
@@ -16,7 +16,7 @@ description: PPPoE Relay 原理解析
 2. 设计为工作在网络层（常见的 IP 协议）之下。
 3. 采用 C/S 架构。
 4. 内含 **Link Control Protocol**，提供身份验证功能。
-5. 包含网络层配置功能
+5. 内含 **Network Control Protocol**，可完成对网络层（IP）的基础配置。
 
 ### **Ethernet**
 
@@ -31,9 +31,65 @@ description: PPPoE Relay 原理解析
 2. 继承了 PPP 的所有功能
 3. 在 ADSL 时代就普遍使用，当时被冠以 _拨号连接_ 之名，沿用至今。
 
+> 以太网数据包【PPPoE 数据包（IP 数据包）】
+
+### 为何 ISP 独爱 PPPoE
+
+1. 点对点连接一定程度上提升了用户网络的安全性（例如不使用 ARP，从根本上防御了 ARP 攻击）。
+2. 便于计时计量，结合身份验证可完成计费。
+3. 可以完成网络层配置的任务（不再需要 DHCP）。
+
+### PPP 如何 oE ？
+
+PPP 协议建立在客户端与服务器能够稳定双工通信的前提下。
+
+就以太网而言，这需要客户端与服务端互相知晓对方的 MAC 地址，所以在 PPP 协议之前额外增加了 **Discovery Stage** 过程，在此过程中有以下 5 种数据包：
+
+1. The PPPoE Active Discovery Initiation (PADI) packet\
+   客户端向本地以太网域广播该包。
+2. The PPPoE Active Discovery Offer (PADO) packet\
+   服务器向客户端单播回应，可能存在多个服务器，故此时客户端可能收到多个包。
+3. The PPPoE Active Discovery Request (PADR) packet\
+   客户端选择一个服务器，单播发送该包，请求会话。
+4. The PPPoE Active Discovery Session-confirmation (PADS) packet\
+   服务器向客户端单播回应，确认会话开始。
+5. The PPPoE Active Discovery Terminate (PADT) packet\
+   客户端和服务器均可单播发送该包，终止会话。
+
+## PPPoE Relay
+
+### 功能
+
+让处于不同以太网域（如被路由器隔离的 WAN 侧和 LAN 侧）中的客户端和服务器也能够建立 PPPoE 会话。
+
+### 场景
+
+运营商提供给你一个以太网接入方式（光猫桥接），你首先把路由器 WAN 口与运营商网络连接，用路由器拨号，而后又将电脑连接到路由器的 LAN 口。
+
+没有其他设置时，电脑（客户端）启动 PPPoE 后，进入 Discovery Stage，发送的 PADI 数据包只能在 LAN 域中广播，无法到达运营商位于 WAN 域中的服务器。
+
+{% hint style="info" %}
+路由器作为网络层设备，它将划分 WAN 和 LAN 两个链路层域（以太网域）。
+{% endhint %}
+
+在路由器启用 PPPoE Relay 后，它会探测并识别 Discovery Stage 产生的数据包，并进行特定的标记处理和转发，保证客户端和服务器之间能够正常收发数据。此时电脑（客户端）可以与服务端完成 Discovery Stage 并开始下一阶段的 PPP 协议。
+
+{% hint style="warning" %}
+PPP 协议比较复杂，要经历 参数协商 -> 身份认证 -> 网络层配置 三个主要阶段。\
+PPPoE Relay 只保证 PPP 协议能够运行，但若是出现身份认证不通过、网络配置冲突等问题，最终还是会导致整个 PPPoE 失败。
+{% endhint %}
+
+### 原理
+
+侦测并处理 Discovery Stage 阶段的 5 类数据包。
+
+#### PADI
+
+在 PPPoE 数据包中添加 `Relay-Session-ID` 标记。这个标记是 RFC 中规定的：
 
 
-PPP 设计上需要客户端和服务器在同一广播域内，故 PPPoE 只能在同一以太网域下工作。
+
+>
 
 ## 参考源
 
