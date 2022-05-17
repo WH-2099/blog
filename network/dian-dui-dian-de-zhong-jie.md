@@ -81,15 +81,37 @@ PPPoE Relay 只保证 PPP 协议能够运行，但若是出现身份认证不通
 
 ### 原理
 
-侦测并处理 Discovery Stage 阶段的 5 类数据包。
+侦测并处理 Discovery Stage 阶段的 5 类数据包，具体处理如下。
+
+后文将 PPPoE Relay 称为 **中继**。
 
 #### PADI
 
-在 PPPoE 数据包中添加 `Relay-Session-ID` 标记。这个标记是 RFC 中规定的：
+中继在 PPPoE 数据包中添加 `Relay-Session-ID` 标记用于追踪对话。这个标记是 RFC 中规定的，客户端和服务器若收到了带有这个标记的数据包，它们必须在响应中也包含相同的标记：
 
-
-
+> 0x0110 Relay-Session-Id
 >
+> This TAG MAY be added to any discovery packet by an intermediate agent that is relaying traffic. The TAG\_VALUE is opaque to both the Host and the Access Concentrator. If either the Host or Access Concentrator receives this TAG they MUST include it unmodified in any discovery packet they send as a response. All PADI packets MUST guarantee sufficient room for the addition of a Relay-Session-Id TAG with a TAG\_VALUE length of 12 octets.
+>
+> A Relay-Session-Id TAG MUST NOT be added if the discovery packet already contains one. In that case the intermediate agent SHOULD use the existing Relay-Session-Id TAG. If it can not use the existing TAG or there is insufficient room to add a Relay- Session-Id TAG, then it SHOULD return a Generic-Error TAG to the sender.
+
+在添加标记后，中继会将 PADI 数据包广播到服务器所在的以太网域（一般是 WAN）。
+
+#### PADO
+
+\#TODO
+
+#### PADR
+
+\#TODO
+
+#### PADS
+
+\#TODO
+
+#### PADT
+
+\#TODO
 
 ## 参考源
 
