@@ -4,6 +4,8 @@ description: 关于 Python 中多继承 C3-MRO 算法的剖析
 
 # MRO 三定律
 
+_面向对象编程（OOP）的重要特性之一就是多态（或者说子类属性/方法覆写），一般通过以特定的顺序搜索对象的属性和方法来实现，该顺序被称为 Method Resolution Order (MRO)。本文展示了 Python 中 MRO 生成算法的具体实现，解析了其算法逻辑。_
+
 ## 0. 声明
 
 {% hint style="warning" %}
