@@ -76,6 +76,14 @@ description: Python Enhancement Proposals
 
 ### 【理解】：装饰器就是个返回函数的函数
 
+## PEP 328 – Imports: Multi-Line and Absolute/Relative
+
+### 导入：多行和绝对/相对形式
+
+### `from .a import b`
+
+### 【理解】：`from ... import` 默认为相对导入，`import` 默认为绝对导入
+
 ## PEP 342 -- Coroutines via Enhanced Generators
 
 ### 基于拓展生成器的协程
