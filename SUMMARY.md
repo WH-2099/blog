@@ -168,6 +168,7 @@
 
 ## 日常随记 <a href="#daily" id="daily"></a>
 
+* [LaMDA有意识吗？——对“它”的访谈](daily/is-lamda-sentient-an-interview.md)
 * [逻辑推断](daily/luo-ji-tui-duan.md)
 * [坑](daily/pit.md)
 * [VS Code Vim 速记](daily/vs-code-vim-su-ji.md)
