@@ -68,7 +68,7 @@ Windows 窗口右上角的 **`X`** 是 **Windows 95 后期** 才加上去的改�
 ***
 {% endhint %}
 
-![Windows Cursor Design](<../.gitbook/assets/image (3) (1).png>)
+![Windows Cursor Design](<../.gitbook/assets/image (3).png>)
 
 {% hint style="info" %}
 Windows 光标是 **不对称设计**。

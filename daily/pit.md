@@ -71,7 +71,7 @@ systemd-networkd 的 [默认配置](https://man.archlinux.org/man/systemd.networ
 
 ### LICENSE
 
-![](../.gitbook/assets/image.png)
+![](<../.gitbook/assets/image (1).png>)
 
 ## Network
 
@@ -87,4 +87,4 @@ systemd-networkd 的 [默认配置](https://man.archlinux.org/man/systemd.networ
 
 ### 螺丝标准
 
-![](<../.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/image (1) (1).png>)
