@@ -178,3 +178,4 @@
 * [数据收集的途径](daily/data-source.md)
 * [呼叫转移设置方式](daily/hu-jiao-zhuan-yi-she-zhi-fang-shi.md)
 * [空中浩劫 ACI 经典](daily/aci.md)
+* [联机海难特色简述](daily/lian-ji-hai-nan-te-se-jian-shu.md)
