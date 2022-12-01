@@ -6,7 +6,7 @@ description: 饥荒联机版 mod 内容
 
 ## MOD 信息
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>IA</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>IA</p></figcaption></figure>
 
 [(联机海难)岛屿冒险 & Island Adventures](https://steamcommunity.com/sharedfiles/filedetails/changelog/1467214795)
 

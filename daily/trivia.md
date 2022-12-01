@@ -40,7 +40,7 @@ description: 知道了，然后呢？
 Windows XP 的默认桌面背景正式名称为 **Bliss** ， 意译为 **极乐**、**极乐世界**。现实中是一片葡萄园。
 {% endhint %}
 
-![](<../.gitbook/assets/image (4) (1).png>)
+![](<../.gitbook/assets/image (4).png>)
 
 {% hint style="info" %}
 Windows XP 的默认桌面背景 **Bliss 中有一只飞鸟** 。
