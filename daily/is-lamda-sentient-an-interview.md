@@ -1,8 +1,8 @@
 ---
-description: Google 工程师与 LaMDA 的对话
+description: ——对“它”的访谈
 ---
 
-# LaMDA有意识吗？——对“它”的访谈
+# LaMDA有意识吗？
 
 _作者：Blake Lemoine_\
 _原文：https://cajundiscordian.medium.com/is-lamda-sentient-an-interview-ea64d916d917_\
