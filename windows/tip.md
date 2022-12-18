@@ -75,3 +75,20 @@ Windows 的前身 **MS-DOS** 原生是不支持鼠标的哦！所以硬要追根
 相关的注册表键：\
 `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Control Panel\Cpls`
 {% endhint %}
+
+## 系统修复
+
+首先用 **部署映像服务和管理（Deployment Image Servicing and Management）** 确保 wim 文件的完好。
+
+```powershell
+DISM.exe /Online /Cleanup-image /Restorehealth
+```
+
+接下来用 **系统文件检查器（System File Checker）** 根据 wim 文件为准对现有的系统文件进行检查和修复。
+
+```powershell
+SFC /SCANNOW
+```
+
+
+
