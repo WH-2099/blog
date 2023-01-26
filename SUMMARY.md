@@ -36,6 +36,7 @@
 * [Linux 30 周年](linux/linux-30-zhou-nian.md)
 * [新时代 Linux 命令](linux/ng.md)
 * [树莓派实时性优化](linux/raspberry-rt-linux.md)
+* [Bash DEBUG 一行搞定](linux/bash-debug.md)
 
 ## 佳作收藏 <a href="#awesome" id="awesome"></a>
 
@@ -169,16 +170,16 @@
 
 ## 日常随记 <a href="#daily" id="daily"></a>
 
-* [LaMDA有意识吗？](daily/is-lamda-sentient-an-interview.md)
-* [逻辑推断](daily/luo-ji-tui-duan.md)
 * [坑](daily/pit.md)
-* [VS Code Vim 速记](daily/vs-code-vim-su-ji.md)
+* [豆知识](daily/trivia.md)
+* [逻辑推断](daily/luo-ji-tui-duan.md)
 * [观影后记](daily/shi-zi-wang.md)
+* [LaMDA有意识吗？](daily/is-lamda-sentient-an-interview.md)
+* [VS Code Vim 速记](daily/vs-code-vim-su-ji.md)
 * [QQ 空间表情符号](daily/qq-kong-jian-biao-qing-fu-hao.md)
 * [ZEN of DEBUG](daily/debug.md)
 * [数据收集的途径](daily/data-source.md)
 * [呼叫转移设置方式](daily/hu-jiao-zhuan-yi-she-zhi-fang-shi.md)
 * [空中浩劫 ACI 经典](daily/aci.md)
-* [豆知识](daily/trivia.md)
 * [联机海难特色简述](daily/DST-IA.md)
 * [智能家居入门指南](daily/smart-home/smart-home.md)

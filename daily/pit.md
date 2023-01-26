@@ -46,7 +46,7 @@ netsh winsock reset
 ### Shell
 
 {% hint style="info" %}
-Here Document (`<<`) 想要过滤去掉行首的 Tab () ：**`<<-`**
+Here Document (`<<`) 想要过滤去掉行首的 Tab ：**`<<-`**
 {% endhint %}
 
 {% hint style="warning" %}
