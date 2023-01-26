@@ -174,6 +174,7 @@
 * [坑](daily/pit.md)
 * [VS Code Vim 速记](daily/vs-code-vim-su-ji.md)
 * [观影后记](daily/shi-zi-wang.md)
+* [QQ 空间表情符号](daily/qq-kong-jian-biao-qing-fu-hao.md)
 * [ZEN of DEBUG](daily/debug.md)
 * [数据收集的途径](daily/data-source.md)
 * [呼叫转移设置方式](daily/hu-jiao-zhuan-yi-she-zhi-fang-shi.md)
