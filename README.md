@@ -1,5 +1,5 @@
 ---
-description: Keep it simple, supid.
+description: Keep it simple, stupid.
 ---
 
 # 久韭
