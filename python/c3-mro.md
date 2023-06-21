@@ -40,7 +40,7 @@ _面向对象编程（OOP）的重要特性之一就是多态（或者说子类�
 
 **简而言之，MRO 是 OOP（面向对象编程）的一根顶梁柱，没了它，OOP 的特性和优势都会大打折扣。**
 
-关于 MRO 的作用，可以回顾一下 **OOP** 中关于 ** **_**重载、继承、多态**_ 的内容。
+关于 MRO 的作用，可以回顾一下 **OOP** 中关于 _**重载、继承、多态**_ 的内容。
 
 ## 2. 关于 C3-MRO 算法
 
@@ -142,7 +142,7 @@ _**多说无益，让我们来实际上手：**_
 **强烈建议您阅读并尝试自行推导此例，这将有助于您理解下文。**
 {% endhint %}
 
-![本图取自 Wikipedia](https://img-blog.csdnimg.cn/20200326153818603.png?x-oss-process=image/watermark,type\_ZmFuZ3poZW5naGVpdGk,shadow\_10,text\_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1dIMjA5OQ==,size\_16,color\_FFFFFF,t\_70)
+<figure><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/C3_linearization_example.svg/2560px-C3_linearization_example.svg.png" alt=""><figcaption><p>本图取自 Wikipedia</p></figcaption></figure>
 
 ```python
 # 这里是伪代码表示
