@@ -268,6 +268,14 @@ description: Python Enhancement Proposals
 
 ### 【理解】：Pythonic 的 switch，使用很便利
 
+## PEP 680 – tomllib: Support for Parsing TOML in the Standard Library
+
+### 支持在标准库中解析 TOML
+
+### **`tomllib.load`** **`tomllib.loads`**
+
+### 【理解】：标准库工具需要读 TOML，但是写操作具有复杂的自由度，所以只读不写
+
 ## PEP 3107 -- Function Annotations
 
 ### 函数标注
@@ -299,6 +307,14 @@ description: Python Enhancement Proposals
 ### 类前 `@`
 
 ### 【理解】：PEP 318 `@` 只能用在函数和方法前，这里扩展到类
+
+## PEP 3134 – Exception Chaining and Embedded Tracebacks
+
+### 异常链接和嵌入式回溯
+
+###
+
+
 
 ## PEP 3135 -- New Super
 

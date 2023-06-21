@@ -142,7 +142,25 @@ _**多说无益，让我们来实际上手：**_
 **强烈建议您阅读并尝试自行推导此例，这将有助于您理解下文。**
 {% endhint %}
 
-<figure><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/C3_linearization_example.svg/2560px-C3_linearization_example.svg.png" alt=""><figcaption><p>本图取自 Wikipedia</p></figcaption></figure>
+```mermaid
+graph BT
+  Z --> K1
+  Z --> K3
+  Z --> K2
+  K1 --> C
+  K1 --> A
+  K1 --> B
+  K3 --> A
+  K3 --> D
+  K2 --> B
+  K2 --> D
+  K2 --> E
+  C --> O
+  A --> O
+  B --> O
+  D --> O
+  E --> O
+```
 
 ```python
 # 这里是伪代码表示
@@ -292,7 +310,13 @@ $$
 
 **(1)** 决定了我们的大方向是沿继承结构一路向上，但还存在一个问题，那就是如何在具体继承产生分岔时选择下一步的方向：
 
-![此处我们假设 class C(A, B)](../.gitbook/assets/mermaid-diagram-20210713172548.svg)
+```mermaid
+graph BT
+C --> A
+A --> B
+B --> O
+A --> O
+```
 
 C -> A 后接下来我们该怎么做呢，C -> A -> B -> O 还是 C-> A -> O -> B ？\
 很明显，为了保证子类 B 在其父类 O 的前面，我们的决策应该是 C -> A -> B -> O 。\
@@ -354,7 +378,13 @@ $$
 
 那么什么时候它才会发挥作用呢？我们来看个特殊例子：
 
-![此处假定 class B(O, A)](../.gitbook/assets/mermaid-diagram-20210714022343.svg)
+```mermaid  fullWidth="false"
+graph BT
+  B --> O
+  B --> A
+  A --> O
+
+```
 
 ```
  L(B)  :=  [B] + merge(L(O), L(A), [O,A])  
@@ -454,17 +484,28 @@ def merge(in_lists):
 
 #### ~~魔鬼~~三角继承问题
 
+```mermaid
+graph BT
+  B --> A
+  B --> O
+  A --> O
+```
+
 > 有一个基类 `O`，定义了方法 `f`，`A` 类继承了 `O` 类，`B` 类继承了 `O` 类和 `A` 类。\
 > 那么出现一个问题，`B` 类的 `f` 方法该如何调用？
-
-![](../.gitbook/assets/mermaid-diagram-20210714022343.svg)
 
 ~~**恐怖**~~**菱形继承问题：**
 
 > 有一个基类 `O` ，定义了方法 `f` ，`A` 类和 `B` 类继承了 `O` 类，`C` 类继承了 `A` 和 `B` 类。\
-> 那么出现一个问题，`D` 类的 `f` 方法应该如何调用？
+> 那么出现一个问题，`C` 类的 `f` 方法应该如何调用？
 
-![](../.gitbook/assets/mermaid-diagram-20210714023421.svg)
+```mermaid
+graph BT
+  C --> A
+  C --> B
+  A --> O
+  B --> O
+```
 
 在 Python3 普及的今天，这都是再正常不过的操作。\
 （把 `O` 看作 `object` ，Python 3 所有类默认继承自 `object` ）\
