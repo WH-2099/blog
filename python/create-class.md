@@ -8,7 +8,7 @@ description: Python 类创建流程解析
 
 > **类** 是 OOP（面向对象编程）的核心概念，更是 Python 中不可或缺的一部分。
 
-日常中，我们天天都在用 Python 中的类，貌似类的相关内容已经没有什么新奇的了。
+日常中，我们天天都在用 Python 中的类，貌似相关内容已经没有什么新奇的了。
 
 可是，你真的 **创建** 过类吗？
 
@@ -18,11 +18,11 @@ class A(object):
 a = A()
 ```
 
-通常，我们所做的不过是用 `class` 来 **定义一个类**，而后利用它来 **创建实例对象**。
-
 > 在 Python 中，类是由 class 语句定义的对象工厂，并由 type(obj) 内置函数返回。是一个动态的、运行时的概念。
 >
 > > In Python, classes are object factories defined by the class statement, and returned by the type(obj) built-in function. Class is a dynamic, runtime concept. [PEP 483](https://www.python.org/dev/peps/pep-0483/)
+
+通常，我们所做的不过是用 `class` 来 **定义一个类**，而后利用它来 **创建实例对象**。
 
 **准确地说，程序员仅是通过 `class` 设计了类，其余的工作交给解释器来完成。** **那么，具体的类创建又是如何完成的呢？**
 
