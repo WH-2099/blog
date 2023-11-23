@@ -18,11 +18,11 @@ description: 总算能理解 IPv6 里的 EUI-64 咋来的了
 
 ## 常见资料的问题
 
-> MAC 地址共 48 位（ 6 个字节），以十六进制表示。第 1 Bit 为广播地址（0）/群播地址（1），第 2 Bit 为广域地址 （0）/区域地址（1）。前 3-24 位由 IEEE 决定如何分配给每一家制造商，且不重复，后 24 位由实际生产该网络设备的厂商自行指定且不重复。
+> MAC 地址共 48 位（6 个字节），以十六进制表示。第 1 Bit 为广播地址（0）/群播地址（1），第 2 Bit 为广域地址（0）/区域地址（1）。前 3-24 位由 IEEE 决定如何分配给每一家制造商，且不重复，后 24 位由实际生产该网络设备的厂商自行指定且不重复。
 
 **以上这种说法其实有点管中窥豹的感觉，并不全面。**
 
-IEEE 分配给制造商的其实是 OUI ，其长度除了最常见的 24 位，还可能是 28 位或者 36 位。而 48 位 MAC 地址，属于 IEEE 标准中的 EUI ，是由 OUI 扩展而来的。也就是说为了识别制造商，需要匹配的位数可能不止 24 位。
+IEEE 分配给制造商的其实是 OUI，其长度除了最常见的 24 位，还可能是 28 位或者 36 位。而 48 位 MAC 地址，属于 IEEE 标准中的 EUI，是由 OUI 扩展而来的。也就是说为了识别制造商，需要匹配的位数可能不止 24 位。
 
 {% hint style="info" %}
 这一点其实本质上与 [无类别域间路由](https://zh.wikipedia.org/wiki/%E6%97%A0%E7%B1%BB%E5%88%AB%E5%9F%9F%E9%97%B4%E8%B7%AF%E7%94%B1) Classless Inter-Domain Routing 非常接近，都是对地址的分层进行细化，以提高利用率。
@@ -67,7 +67,7 @@ Guidelines for Use of Extended Unique Identifier (EUI), Organizationally Unique 
 | EUI-48 | MAC-48（通常所说的 MAC 地址） |
 | EUI-64 | MAC-64（仍未广泛应用）       |
 
-> EUI-48 和 EUI-64 标识符最普遍的用法是作为全球唯一的网络地址（有时称为 MAC 地址），如各种标准中规定的那样。例如，根据 IEEE 标准 802 ，EUI-48 通常被用作硬件接口的地址，历史上使用 "MAC-48"的名称。另一个例子是，根据 IEEE 标准 1588，EUI-64 可作为一个时钟的标识符。IEEE 标准 802 还规定了 EUI-64 用于 64 位全球唯一的网络地址。
+> EUI-48 和 EUI-64 标识符最普遍的用法是作为全球唯一的网络地址（有时称为 MAC 地址），如各种标准中规定的那样。例如，根据 IEEE 标准 802，EUI-48 通常被用作硬件接口的地址，历史上使用 "MAC-48"的名称。另一个例子是，根据 IEEE 标准 1588，EUI-64 可作为一个时钟的标识符。IEEE 标准 802 还规定了 EUI-64 用于 64 位全球唯一的网络地址。
 >
 > > EUI-48 and EUI-64 identifiers are most commonly used as globally unique network addresses (sometimes called MAC addresses), as specified in various standards. For example, an EUI- 48 is commonly used as the address of a hardware interface according to IEEE Std 802, historically using the name “MAC-48”. As another example, an EUI- 64 may serve as the identifier of a clock, per IEEE Std 1588. IEEE Std 802 also specifies EUI-64 use for 64-bit globally unique network addresses.
 

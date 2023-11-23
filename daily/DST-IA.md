@@ -8,7 +8,7 @@ description: 饥荒联机版 mod 内容
 
 <figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>IA</p></figcaption></figure>
 
-[(联机海难)岛屿冒险 & Island Adventures](https://steamcommunity.com/sharedfiles/filedetails/changelog/1467214795)
+[(联机海难) 岛屿冒险 & Island Adventures](https://steamcommunity.com/sharedfiles/filedetails/changelog/1467214795)
 
 开源仓库：[https://gitlab.com/IslandAdventures/IslandAdventures](https://gitlab.com/IslandAdventures/IslandAdventures)
 
@@ -17,7 +17,7 @@ description: 饥荒联机版 mod 内容
 ### 麦斯韦尔
 
 * 暗影仆人对毒免疫，可以水上活动
-* 所有 黑曜石制品 的暗影等级为 1 （暗影斗士攻击 +4）
+* 所有 黑曜石制品 的暗影等级为 1（暗影斗士攻击 +4）
 * 猴子 螃蟹 可被暗影陷阱转化
 
 ### 温蒂
@@ -128,7 +128,7 @@ description: 饥荒联机版 mod 内容
 * 海妖 会喷吐更多的 墨水
 * 黄鲷鱼 毒蛇 毒蚊子 鳄狗 远古哨兵蜈蚣 天体英雄 激光眼 魔焰眼 不会中毒
 * 所有 热带/养鱼场的鱼 现在都有活的变种，类似于 联机版的海洋鱼
-* 热带鱼、养鱼场鱼、水母和彩虹水母现在可以用袖珍秤称重，放入 鱼类计重器 和 锡鱼罐 （放入 鱼类计重器 的 彩虹水母 会永亮）
+* 热带鱼、养鱼场鱼、水母和彩虹水母现在可以用袖珍秤称重，放入 鱼类计重器 和 锡鱼罐（放入 鱼类计重器 的 彩虹水母 会永亮）
 
 ## 杂项特色内容
 

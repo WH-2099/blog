@@ -1,5 +1,5 @@
 ---
-description: 作者： V · S · 奈保尔  译者：王志勇
+description: 作者：V · S · 奈保尔  译者：王志勇
 ---
 
 # 布莱克·沃兹沃斯

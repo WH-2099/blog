@@ -19,8 +19,8 @@ description: 天下武功，唯快不破
 
 优化的主要思路参考了下面的两篇文章：
 
-* [树莓派提高实时性的几种方式(使用python测试)](https://jianshu.com/p/47d5d89c164c)
-* [四足机器人高算力、低成本主控第一步：给树莓派打上RT实时补丁](https://zhuanlan.zhihu.com/p/358151393)
+* [树莓派提高实时性的几种方式 (使用 python 测试)](https://jianshu.com/p/47d5d89c164c)
+* [四足机器人高算力、低成本主控第一步：给树莓派打上 RT 实时补丁](https://zhuanlan.zhihu.com/p/358151393)
 
 ### 提升 Python 进程优先级
 
@@ -41,12 +41,12 @@ wiringpi.piHiPri(99)
 
 #### 原理
 
-`wiringpi` 中的 `piHiPri` 函数通过调用 Linux 内核的 API，改变了当前进程的调度策略及优先级进一步提高了实时性。 这和 Python 中标准库的 `os.setpriority` 不同，`os.setpriority` 并未改变调度策略，实际优化效果很有限。 需要注意的是，此处设置的优先级是用于比较的相对值，严格地说并不是越大就越好。
+`wiringpi` 中的 `piHiPri` 函数通过调用 Linux 内核的 API，改变了当前进程的调度策略及优先级进一步提高了实时性。这和 Python 中标准库的 `os.setpriority` 不同，`os.setpriority` 并未改变调度策略，实际优化效果很有限。需要注意的是，此处设置的优先级是用于比较的相对值，严格地说并不是越大就越好。
 
 {% hint style="info" %}
 > The priority parameter works relative to others – so you can make one program priority 1 and another priority 2 and it will have the same effect as setting one to 10 and the other to 90 (as long as no other programs are running with elevated priorities)
 
-priority 参数 **相对** 于其他参数有效-因此您可以将一个程序的优先级设置为 1，将另一个程序的优先级设置为 2，其效果与将一个设置为 10，另一个设置为 90 相同（只要没有其他程序以更高的优先级运行）。
+priority 参数 **相对** 于其他参数有效 - 因此您可以将一个程序的优先级设置为 1，将另一个程序的优先级设置为 2，其效果与将一个设置为 10，另一个设置为 90 相同（只要没有其他程序以更高的优先级运行）。
 {% endhint %}
 
 ### 绑定独立 CPU
@@ -85,7 +85,7 @@ _此处的 `3` 为上文提到的 CPU 编号_
 
 #### 原理
 
-首先让系统不会主动调度程序到指定 CPU 上运行，也就是 **保证指定 CPU 默认是完全空闲** 的状态。 其次让 **程序主动要求在指定 CPU 上运行**。 这样程序就完成了 **对指定 CPU 的独享**。
+首先让系统不会主动调度程序到指定 CPU 上运行，也就是 **保证指定 CPU 默认是完全空闲** 的状态。其次让 **程序主动要求在指定 CPU 上运行**。这样程序就完成了 **对指定 CPU 的独享**。
 
 ### 打内核 RT 补丁
 
@@ -95,13 +95,13 @@ _此处的 `3` 为上文提到的 CPU 编号_
 
 ### [**rt-kernel.tgz**](https://github.com/lemariva/RT-Tools-RPi/blob/4fb1bb511d1701d5b0975314ac1ec87b792f9530/preempt-rt/kernel\_4\_19\_59-rt23-v7l+/rt-kernel.tgz) <a href="#blob-path" id="blob-path"></a>
 
-链接源自Github，所以需要科学上网，你懂的 (￣\_￣ )
+链接源自 Github，所以需要科学上网，你懂的 (￣\_￣ )
 
 {% hint style="info" %}
-如果你想要亲手编译内核，可参考以下资料 ：
+如果你想要亲手编译内核，可参考以下资料：
 
 1. [Raspberry Pi: Real Time System - Preempt-RT Patching Tutorial for Kernel 4.14.y](https://lemariva.com/blog/2018/07/raspberry-pi-preempt-rt-patching-tutorial-for-kernel-4-14-y)
-2. [四足机器人高算力、低成本主控第一步：给树莓派打上RT实时补丁](https://zhuanlan.zhihu.com/p/358151393)
+2. [四足机器人高算力、低成本主控第一步：给树莓派打上 RT 实时补丁](https://zhuanlan.zhihu.com/p/358151393)
 3. [Raspberry Pi OS Linux Kernel building](https://www.raspberrypi.org/documentation/linux/kernel/building.md)
 4. [preemptrt\_setup](https://wiki.linuxfoundation.org/realtime/documentation/howto/applications/preemptrt\_setup)
 
@@ -229,15 +229,15 @@ T: 3 ( 1474) P:80 I:100 C: 598534 Min:      6 Act:   21 Avg:   14 Max:      34
 从以上数据可以看出，系统实时性提升主要体现在 **极值** 的降低上。
 
 **在实际程序中，均值与极值都有非常可观的降低。**\
-_优化完成后，手头 Python 运行的测试误差为 30 us 左右，考虑到项目可容许的偏差是 50 us，终于——咱不用去写 C 啦！o(￣▽￣)ブ_
+_优化完成后，手头 Python 运行的测试误差为 30 us 左右，考虑到项目可容许的偏差是 50 us，终于——咱不用去写 C 啦！o(￣▽￣) ブ_
 
 ## 参考源
 
-1. [树莓派提高实时性的几种方式(使用python测试)](https://jianshu.com/p/47d5d89c164c)
-2. [四足机器人高算力、低成本主控第一步：给树莓派打上RT实时补丁](https://zhuanlan.zhihu.com/p/358151393)
+1. [树莓派提高实时性的几种方式 (使用 python 测试)](https://jianshu.com/p/47d5d89c164c)
+2. [四足机器人高算力、低成本主控第一步：给树莓派打上 RT 实时补丁](https://zhuanlan.zhihu.com/p/358151393)
 3. [Wiring Pi -- GPIO Interface library for the Raspberry Pi](http://wiringpi.com/reference/priority-interrupts-and-threads)
 4. [preemptrt\_setup](https://wiki.linuxfoundation.org/realtime/documentation/howto/applications/preemptrt\_setup)
-5. [sched\_setscheduler()函数](https://blog.csdn.net/wennuanddianbo/article/details/79304869)
+5. [sched\_setscheduler() 函数](https://blog.csdn.net/wennuanddianbo/article/details/79304869)
 6. [Raspberry Pi OS Linux Kernel building](https://www.raspberrypi.org/documentation/linux/kernel/building.md)
 7. [psutil.Process.cpu\_affinity](https://psutil.readthedocs.io/en/latest/#psutil.Process.cpu\_affinity)
 8. [Cyclictest Wiki](https://wiki.linuxfoundation.org/realtime/documentation/howto/tools/cyclictest/start)

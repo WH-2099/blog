@@ -36,12 +36,12 @@ Python 生成器本质是一种 **迭代器** ，但功能更强大。
 
 ### 1.1 委派生成器 `yield from`
 
-_在 Python 3.3 版本（2011年）中，经由 PEP 380 引入了这个新的语法，其目的主要是为了解决伴随着生成器在 Python 中的大量使用而出现的生成器间组合的需求。_
+_在 Python 3.3 版本（2011 年）中，经由 PEP 380 引入了这个新的语法，其目的主要是为了解决伴随着生成器在 Python 中的大量使用而出现的生成器间组合的需求。_
 
 首先我们来看一看各种官方资料中有关这一委派的说明好了：
 
 > * **供生成器将其部分操作委托给另一生成器。这允许包含 `yield` 的一段代码被分解并放置在另一个生成器中。此外，允许子生成器返回一个值，并且该值可用于委派生成器。**
-> * 当使用 `yield from <expr>` 时，所提供的表达式必须是一个 **可迭代对象** 。**迭代该可迭代对象所产生的值会被直接传递给当前生成器方法的调用者**。任何通过 [`send()`](https://docs.python.org/zh-cn/3/reference/expressions.html#generator.send) 传入的值以及任何通过 [`throw()`](https://docs.python.org/zh-cn/3/reference/expressions.html#generator.throw) 传入的异常 **如果有适当的方法则会被传给下层迭代器** 。 如果不是这种情况，那么 [`send()`](https://docs.python.org/zh-cn/3/reference/expressions.html#generator.send) 将引发 [`AttributeError`](https://docs.python.org/zh-cn/3/library/exceptions.html#AttributeError) 或 [`TypeError`](https://docs.python.org/zh-cn/3/library/exceptions.html#TypeError)，而 [`throw()`](https://docs.python.org/zh-cn/3/reference/expressions.html#generator.throw) 将立即引发所转入的异常。
+> * 当使用 `yield from <expr>` 时，所提供的表达式必须是一个 **可迭代对象** 。**迭代该可迭代对象所产生的值会被直接传递给当前生成器方法的调用者**。任何通过 [`send()`](https://docs.python.org/zh-cn/3/reference/expressions.html#generator.send) 传入的值以及任何通过 [`throw()`](https://docs.python.org/zh-cn/3/reference/expressions.html#generator.throw) 传入的异常 **如果有适当的方法则会被传给下层迭代器** 。如果不是这种情况，那么 [`send()`](https://docs.python.org/zh-cn/3/reference/expressions.html#generator.send) 将引发 [`AttributeError`](https://docs.python.org/zh-cn/3/library/exceptions.html#AttributeError) 或 [`TypeError`](https://docs.python.org/zh-cn/3/library/exceptions.html#TypeError)，而 [`throw()`](https://docs.python.org/zh-cn/3/reference/expressions.html#generator.throw) 将立即引发所转入的异常。
 
 感觉不说人话啊有莫有。。。。。。没事不要急，咱们先把这死板的概念放一边，来看看这玩意都有什么用：
 
@@ -69,7 +69,7 @@ def yield_from_generator():
 不要急，这只是它最简单的作用罢了。**你有没有想过，如果这个 `iterable` 本身也是个生成器，那么外面一层生成器的 `send()`  `throw()`  `close()` 被调用后要怎么办？**
 
 {% hint style="success" %}
-**委派生成器 `yield from` 最重要的作用是当一个 中介 ，协调两个嵌套的生成器的工作** 。
+**委派生成器 `yield from` 最重要的作用是当一个 中介，协调两个嵌套的生成器的工作** 。
 {% endhint %}
 
 咱当时理解到这里的时候，心生疑惑了：不就是个委托调用吗？能有多难，咱自己做不行吗？

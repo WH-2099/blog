@@ -23,13 +23,13 @@ description: 取自网友
 
 
 
-海外App相关数据
+海外 App 相关数据
 
 
 * [App Annie](https://www.appannie.com) https://www.appannie.com/
 * [Sensor Tower](https://sensortower.com/?locale=zh-CN) https://sensortower.com/?locale=zh-CN
 
-国内App相关数据和行业调研报告
+国内 App 相关数据和行业调研报告
 
 
 [数据网站导航站](http://hao.199it.com) http://hao.199it.com/

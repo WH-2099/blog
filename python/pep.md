@@ -54,7 +54,7 @@ description: Python Enhancement Proposals
 
 ## PEP 249 -- Python Database API Specification v2.0
 
-### Python 数据库API规范 v2.0
+### Python 数据库 API 规范 v2.0
 
 ### 数据库 API 2.0
 
@@ -98,7 +98,7 @@ description: Python Enhancement Proposals
 
 ### `with` `@contextmanager`
 
-### 【理解】：`@contextmmanager` 装饰的函数中包围yield的try仍线性执行
+### 【理解】：`@contextmmanager` 装饰的函数中包围 yield 的 try 仍线性执行
 
 ## PEP 380 -- Syntax for Delegating to a Subgenerator
 
@@ -106,7 +106,7 @@ description: Python Enhancement Proposals
 
 ### `yield from`
 
-### 【理解】：`yield from` 生成的链中异常的处理（可以throw到底层）
+### 【理解】：`yield from` 生成的链中异常的处理（可以 throw 到底层）
 
 ## PEP 479 -- Change StopIteration handling inside generators
 
@@ -114,7 +114,7 @@ description: Python Enhancement Proposals
 
 ### 生成器中主动抛出的 `StopIteration` 被包装为 `RuntimeError`
 
-### 【理解】：防止yield链的隐式意外中断
+### 【理解】：防止 yield 链的隐式意外中断
 
 ## PEP 483 -- The Theory of Type Hints
 
@@ -238,7 +238,7 @@ description: Python Enhancement Proposals
 
 ## PEP 617 -- New PEG parser for CPython
 
-### 用于CPython的新PEG解析器
+### 用于 CPython 的新 PEG 解析器
 
 ### 新的语法解析器
 
@@ -326,7 +326,7 @@ description: Python Enhancement Proposals
 
 ## PEP 3153 -- Asynchronous IO support
 
-### 异步IO支持
+### 异步 IO 支持
 
 ### `asyncio`
 

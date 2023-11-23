@@ -6,7 +6,7 @@ description: 描述器实战应用
 
 ## 引言
 
-在 Python 官方文档中的 [描述器使用指南](https://docs.python.org/zh-cn/3.9/howto/descriptor.html) 一篇中，给出了常用装饰器 `property` 的 Python 代码模拟实现，且这个实现是基于描述器原理的。 在本文中，作者将利用这段代码，向你展示 **描述器的实际运行原理**。
+在 Python 官方文档中的 [描述器使用指南](https://docs.python.org/zh-cn/3.9/howto/descriptor.html) 一篇中，给出了常用装饰器 `property` 的 Python 代码模拟实现，且这个实现是基于描述器原理的。在本文中，作者将利用这段代码，向你展示 **描述器的实际运行原理**。
 
 ## 装饰器基本内容
 
@@ -47,7 +47,7 @@ func = decomaker(argA, argB, ...)(func)
 
 类装饰器和函数装饰器是一致的，只相当于将 func 代表的函数换做 cls 代表的类罢了，故这里不再多做涉及。
 
-如果对于装饰器还有问题的话建议阅读一下官方 PEP ，可以直接使用 Google 翻译成中文，可读性还是可以接受的。
+如果对于装饰器还有问题的话建议阅读一下官方 PEP，可以直接使用 Google 翻译成中文，可读性还是可以接受的。
 
 [PEP 318 -- Decorators for Functions and Methods](https://www.python.org/dev/peps/pep-0318/) [PEP 3129 – Class Decorators](https://www.python.org/dev/peps/pep-3129/)
 
@@ -168,7 +168,7 @@ class A(object):
         self._x=0
         pass 
 
-    @Property       # 事实上这里就是getter哦
+    @Property       # 事实上这里就是 getter 哦
     def x(self):
         print(f'A.x.fget() {self=}')
         return self._x
@@ -182,7 +182,7 @@ class A(object):
         print(f'A.x.fdelete() {self=}')
         del self._x
 
-    # setter和deleter的函数命名并不会有具体含义，所以按照官方的示例，直接与getter同名即可
+    # setter 和 deleter 的函数命名并不会有具体含义，所以按照官方的示例，直接与 getter 同名即可
 
 print('\n----- before a1 = A() -----')
 a1 = A()
@@ -310,7 +310,7 @@ Property.__delete__() self=<__main__.Property object at 0x000002A7BBA310A0> obj=
 A.x.fdelete() self=<__main__.A object at 0x000002A7BBA31160>
 ```
 
-## @property中的小陷阱
+## @property 中的小陷阱
 
 {% hint style="danger" %}
 **@property 装饰后生成的描述器实际上成为了数据描述器！**

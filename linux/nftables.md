@@ -10,9 +10,9 @@ description: 功能确实很强大，但这也太复杂了
 
 在 Linux 服务器的日常维护中，网络防火墙是很重要的一环。对于一般用途而言，其实需要的防火墙策略都不是很复杂，没有必要为此而购买独立的软硬件防火墙，使用 Linux 内嵌的基础网络包处理就完全足够应对。
 
-iptables 作为这方面的老大哥，在 Linux 系统的基础网络包处理一线坚挺了多年。但随着时代的发展，老大哥也到了该退休的岁数，目前公认的继任者就是 nftables 。
+iptables 作为这方面的老大哥，在 Linux 系统的基础网络包处理一线坚挺了多年。但随着时代的发展，老大哥也到了该退休的岁数，目前公认的继任者就是 nftables。
 
-相较于 iptables ，nftables 的框架设计更为合理，功能更为全面，命令行的语法也更为清晰。但从网络上关于 nftables 的资料并不多这一点就不难看出，nftables 目前的应用仍不是非常广泛。（和 IPv6 同病相怜）这主要是因为 nftables 丰富的功能和特性立足于陡峭的学习曲线之上，令用户望而却步。
+相较于 iptables，nftables 的框架设计更为合理，功能更为全面，命令行的语法也更为清晰。但从网络上关于 nftables 的资料并不多这一点就不难看出，nftables 目前的应用仍不是非常广泛。（和 IPv6 同病相怜）这主要是因为 nftables 丰富的功能和特性立足于陡峭的学习曲线之上，令用户望而却步。
 
 {% hint style="info" %}
 关于 nftables 的具体简介可以参照这里 [Waht is nftables?](https://wiki.nftables.org/wiki-nftables/index.php/What\_is\_nftables%3F)
@@ -72,7 +72,7 @@ nft 选项 动作 对象
 
 ### Address Family 地址族
 
-地址族决定处理的数据包的类型。对于每个地址族，内核在数据包处理路径的特定阶段包含所谓的钩子，如果存在这些钩子的规则，这些钩子将调用 nftables 。
+地址族决定处理的数据包的类型。对于每个地址族，内核在数据包处理路径的特定阶段包含所谓的钩子，如果存在这些钩子的规则，这些钩子将调用 nftables。
 
 * **`ip`** IPv4，**默认**
 * **`ip6`** IPv6
@@ -134,7 +134,7 @@ rename chain [family] table chain newname
 
 **优先级**
 
-优先级参数接受一个带符号的整数值或一个标准的优先级名称，该名称指定具有相同钩子值的链的遍历顺序。排序是升序的，也就是说低优先级的值优先于高优先级的值。标准的优先级值可以用容易记忆的名称替换。并不是所有的名字在每个钩子族中都有意义(参见 [钩子可用性](nftables.md#gou-zi-ke-yong-xing)) ，但是它们的数值仍然可以用来排列链的优先级。
+优先级参数接受一个带符号的整数值或一个标准的优先级名称，该名称指定具有相同钩子值的链的遍历顺序。排序是升序的，也就是说低优先级的值优先于高优先级的值。标准的优先级值可以用容易记忆的名称替换。并不是所有的名字在每个钩子族中都有意义 (参见 [钩子可用性](nftables.md#gou-zi-ke-yong-xing)) ，但是它们的数值仍然可以用来排列链的优先级。
 
 * `raw`
 * `mangle`
@@ -149,7 +149,7 @@ rename chain [family] table chain newname
 
 ### Rule 规则
 
-规则是根据一套语法规则由两类成分构成的: 表达式和声明。
+规则是根据一套语法规则由两类成分构成的：表达式和声明。
 
 ```
 {add | insert} rule [family] table chain [handle handle | index index] statement ... [comment comment]

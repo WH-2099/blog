@@ -5,7 +5,7 @@ description: 知道了，然后呢？
 # 豆知识
 
 {% hint style="success" %}
-如果你也有珍藏的 **豆（冷）知识** ，欢迎点击右侧的 **Edit on GitHub** 分享给大家（Issue、PR均可）。
+如果你也有珍藏的 **豆（冷）知识** ，欢迎点击右侧的 **Edit on GitHub** 分享给大家（Issue、PR 均可）。
 {% endhint %}
 
 {% hint style="danger" %}
@@ -15,7 +15,7 @@ description: 知道了，然后呢？
 ## 网络
 
 {% hint style="info" %}
-在 IPv4 中， 整个 **`127.0.0.0/8`** 地址块都是用于 **本地环回**（内有超过 1600 万个地址），`127.0.0.1` 只是其中最常用的一个罢了。
+在 IPv4 中，整个 **`127.0.0.0/8`** 地址块都是用于 **本地环回**（内有超过 1600 万个地址），`127.0.0.1` 只是其中最常用的一个罢了。
 {% endhint %}
 
 ## 操作系统
@@ -37,7 +37,7 @@ description: 知道了，然后呢？
 ![Bliss](../.gitbook/assets/bliss.png)
 
 {% hint style="info" %}
-Windows XP 的默认桌面背景正式名称为 **Bliss** ， 意译为 **极乐**、**极乐世界**。现实中是一片葡萄园。
+Windows XP 的默认桌面背景正式名称为 **Bliss** ，意译为 **极乐**、**极乐世界**。现实中是一片葡萄园。
 {% endhint %}
 
 ![](<../.gitbook/assets/image (4).png>)
@@ -193,7 +193,7 @@ Python 中的内置函数 `iter` 还可以这么调用 **`iter(callable, end)`**
 {% endhint %}
 
 {% hint style="info" %}
-即使 **没有头**，**蟑螂** 仍可 **存活10天。**
+即使 **没有头**，**蟑螂** 仍可 **存活 10 天。**
 {% endhint %}
 
 {% hint style="info" %}
@@ -299,7 +299,7 @@ Python 中的内置函数 `iter` 还可以这么调用 **`iter(callable, end)`**
 {% endhint %}
 
 {% hint style="info" %}
-**描绘蒙娜丽莎的嘴唇** 花费了 **达芬奇 10年** 的时间。
+**描绘蒙娜丽莎的嘴唇** 花费了 **达芬奇 10 年** 的时间。
 {% endhint %}
 
 {% hint style="info" %}

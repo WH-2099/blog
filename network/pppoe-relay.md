@@ -39,7 +39,7 @@ description: PPPoE Relay 原理解析
 2. 便于计时计量，结合身份验证可完成计费。
 3. 可以完成网络层配置的任务（不再需要 DHCP）。
 
-### PPP 如何 oE ？
+### PPP 如何 oE？
 
 PPP 协议建立在客户端与服务器能够稳定双工通信的前提下。
 
@@ -117,4 +117,4 @@ PPPoE Relay 只保证 PPP 协议能够运行，但若是出现身份认证不通
 
 1. [RFC 2516 - A Method for Transmitting PPP Over Ethernet (PPPoE)](https://datatracker.ietf.org/doc/html/rfc2516)
 2. [pppoe-relay(8) - Linux man page](https://linux.die.net/man/8/pppoe-relay)
-3. [10张图带你搞懂数据链路层PPP点到点协议](https://zhuanlan.zhihu.com/p/153515394)
+3. [10 张图带你搞懂数据链路层 PPP 点到点协议](https://zhuanlan.zhihu.com/p/153515394)

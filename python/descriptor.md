@@ -6,7 +6,7 @@ description: 从面向过程到面向对象
 
 ## 引言
 
-Python 语言当前使用的解释器主要是 CPython，也就是说，基于面向过程的 C 语言构建了面向对象的 Python，那么其中的基础原理有哪些值得我们学习呢?
+Python 语言当前使用的解释器主要是 CPython，也就是说，基于面向过程的 C 语言构建了面向对象的 Python，那么其中的基础原理有哪些值得我们学习呢？
 
 {% hint style="success" %}
 **描述器**
@@ -38,13 +38,13 @@ Python 语言当前使用的解释器主要是 CPython，也就是说，基于�
 
 ![transifex](../.gitbook/assets/transifex.png)
 
-## 1. 了解Python属性访问顺序
+## 1. 了解 Python 属性访问顺序
 
 首先，面向对象与面向过程的区别之一就是`cls.attribute`形式的调用，这被称为属性调用，这里的属性是指广义上的，**包括基础属性和方法**。\
 那么我们就先来了解一下 Python 中的属性调用的顺序：
 
-[python高级编程——描述符Descriptor详解（上篇）——python对象的属性访问优先级与属性的控制与访问）](https://blog.csdn.net/qq\_27825451/article/details/84848341)\
-[python高级编程——描述符Descriptor详解（中篇）——python对象的属性访问优先级与属性的控制与访问）](https://blog.csdn.net/qq\_27825451/article/details/84767061)
+[python 高级编程——描述符 Descriptor 详解（上篇）——python 对象的属性访问优先级与属性的控制与访问）](https://blog.csdn.net/qq\_27825451/article/details/84848341)\
+[python 高级编程——描述符 Descriptor 详解（中篇）——python 对象的属性访问优先级与属性的控制与访问）](https://blog.csdn.net/qq\_27825451/article/details/84767061)
 
 ### **对象属性访问顺序**
 
@@ -69,7 +69,7 @@ Python 中 **类的本质是元类创建的对象**，所以相当于是外面�
 
 现在我们可以去看一下描述器的核心内容了。
 
-[python高级编程——描述符Descriptor详解（下篇）——python描述符三剑客详解](https://blog.csdn.net/qq\_27825451/article/details/84848341)
+[python 高级编程——描述符 Descriptor 详解（下篇）——python 描述符三剑客详解](https://blog.csdn.net/qq\_27825451/article/details/84848341)
 
 ### **描述器协议**
 
@@ -83,7 +83,7 @@ descr.__delete__(self, obj)
 
 定义这些方法中的任何一个的对象被视为描述器，在被作为属性时覆盖其默认行为。
 
-> 仅当一个包含这些方法的类（称为 _描述器类_ ）的实例出现于一个 _所有者类_ 中的时候才会起作用（该描述器必须在所有者类或其某个上级类的字典中）。
+> 仅当一个包含这些方法的类（称为 _描述器类_）的实例出现于一个 _所有者类_ 中的时候才会起作用（该描述器必须在所有者类或其某个上级类的字典中）。
 
 如果一个对象定义了 `__set__()` 或 `__delete__()`，则它会被视为数据描述器。\
 仅定义了 `__get__()` 的描述器称为非数据描述器（它们通常被用于方法，但也可以有其他用途）。
@@ -98,7 +98,7 @@ descr.__delete__(self, obj)
 如果想要彻底地理解描述器，那么我们就不得不了解一下描述器的具体代码实现。\
 但是直接上源码未必太过硬核，以流程图的形式去解析可能是最好的方式，下面这篇文章正是如此。
 
-[描述器(1)](https://www.dazhuanlan.com/2020/02/29/5e5965cea4d60/)
+[描述器 (1)](https://www.dazhuanlan.com/2020/02/29/5e5965cea4d60/)
 
 ## 4. 实例练习
 
@@ -115,10 +115,10 @@ descr.__delete__(self, obj)
 ## 参考源
 
 1. [【官方文档】描述器使用指南](https://docs.python.org/zh-cn/3.9/howto/descriptor.html)
-2. [python高级编程——描述符Descriptor详解（上篇）——python对象的属性访问优先级与属性的控制与访问）](https://blog.csdn.net/qq\_27825451/article/details/84848341)
-3. [python高级编程——描述符Descriptor详解（中篇）——python对象的属性访问优先级与属性的控制与访问）](https://blog.csdn.net/qq\_27825451/article/details/84767061)
-4. [python高级编程——描述符Descriptor详解（下篇）——python描述符三剑客详解](https://blog.csdn.net/qq\_27825451/article/details/84848341)
-5. [python高级编程——描述符Descriptor详解（补充篇）——python描述符实现一些底层高级功能](https://blog.csdn.net/qq\_27825451/article/details/84848341)
-6. [描述器(1)](https://www.dazhuanlan.com/2020/02/29/5e5965cea4d60/)
-7. [Python中的类与描述器(Descriptors)](https://blog.csdn.net/u013008795/article/details/90646667)
+2. [python 高级编程——描述符 Descriptor 详解（上篇）——python 对象的属性访问优先级与属性的控制与访问）](https://blog.csdn.net/qq\_27825451/article/details/84848341)
+3. [python 高级编程——描述符 Descriptor 详解（中篇）——python 对象的属性访问优先级与属性的控制与访问）](https://blog.csdn.net/qq\_27825451/article/details/84767061)
+4. [python 高级编程——描述符 Descriptor 详解（下篇）——python 描述符三剑客详解](https://blog.csdn.net/qq\_27825451/article/details/84848341)
+5. [python 高级编程——描述符 Descriptor 详解（补充篇）——python 描述符实现一些底层高级功能](https://blog.csdn.net/qq\_27825451/article/details/84848341)
+6. [描述器 (1)](https://www.dazhuanlan.com/2020/02/29/5e5965cea4d60/)
+7. [Python 中的类与描述器 (Descriptors)](https://blog.csdn.net/u013008795/article/details/90646667)
 8. [property 装饰器的描述器实现](https://blog.csdn.net/WH2099/article/details/105328929)

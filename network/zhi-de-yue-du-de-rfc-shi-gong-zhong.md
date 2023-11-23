@@ -44,7 +44,7 @@
 
 ### RFC 5234 - Augmented BNF for Syntax Specifications: ABNF
 
-#### 语法规范的增强型BNF：ABNF
+#### 语法规范的增强型 BNF：ABNF
 
 #### ABNF 语法规范
 

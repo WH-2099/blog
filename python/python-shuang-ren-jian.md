@@ -5,7 +5,7 @@ description: 漫谈 Python 语言特色的优缺点
 # Python 双刃剑
 
 {% hint style="warning" %}
-下文中提到的 “Python” 均特指官方的 CPython 实现
+下文中提到的“Python”均特指官方的 CPython 实现
 {% endhint %}
 
 ## 解释模式
@@ -42,7 +42,7 @@ description: 漫谈 Python 语言特色的优缺点
 
 ## GIL
 
-Global Interpreter Lock （全局解释器锁） 是 CPython 解释器所采用的一种机制，它确保同一时刻只有一个线程在执行 Python bytecode。
+Global Interpreter Lock（全局解释器锁）是 CPython 解释器所采用的一种机制，它确保同一时刻只有一个线程在执行 Python bytecode。
 
 #### 优点
 

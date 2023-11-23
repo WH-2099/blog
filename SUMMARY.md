@@ -4,7 +4,7 @@
 
 ## Python
 
-* [你真的 “创建” 了类吗？](python/create-class.md)
+* [你真的“创建”了类吗？](python/create-class.md)
 * [MRO 三定律](python/c3-mro.md)
 * [描述器学习指南](python/descriptor.md)
 * [描述器实现 property](python/property.md)
@@ -174,7 +174,7 @@
 * [豆知识](daily/trivia.md)
 * [逻辑推断](daily/luo-ji-tui-duan.md)
 * [观影后记](daily/shi-zi-wang.md)
-* [LaMDA有意识吗？](daily/is-lamda-sentient-an-interview.md)
+* [LaMDA 有意识吗？](daily/is-lamda-sentient-an-interview.md)
 * [VS Code Vim 速记](daily/vs-code-vim-su-ji.md)
 * [QQ 空间表情符号](daily/qq-kong-jian-biao-qing-fu-hao.md)
 * [ZEN of DEBUG](daily/debug.md)
