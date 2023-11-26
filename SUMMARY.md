@@ -162,7 +162,7 @@
   * [金句](awesome/pian-duan/gold-word.md)
   * [喝痰](awesome/pian-duan/he-tan.md)
   * [数学家](awesome/pian-duan/shu-xue-jia.md)
-  * [脑子与牛子](awesome/pian-duan/nao-zi-yu-niu-zi.md)
+  * [牛子](awesome/pian-duan/dick.md)
   * [男 ♂ 语](awesome/pian-duan/nan-yu.md)
   * [甲方乙方](awesome/pian-duan/love-hate.md)
   * [新编故事四则](awesome/pian-duan/xin-bian-gu-shi-si-ze.md)
