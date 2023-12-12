@@ -183,4 +183,4 @@
 * [空中浩劫 ACI 经典](daily/aci.md)
 * [联机海难特色简述](daily/DST-IA.md)
 * [智能家居入门指南](daily/smart-home/smart-home.md)
-* [财政学](daily/cai-zheng-xue.md)
+* [财政学](daily/public-finance.md)
