@@ -12,6 +12,7 @@
 * [PEP 阅读清单](python/pep.md)
 * [Python 双刃剑](python/python-shuang-ren-jian.md)
 * [类型标注](python/lei-xing-biao-zhu.md)
+* [“类”的渐进式剖析](python/lei-de-jian-jin-shi-pou-xi.md)
 
 ## Network
 
