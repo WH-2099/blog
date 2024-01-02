@@ -207,8 +207,8 @@ description: 财政学笔记
 外部性
 
 * 本质 在于出现边际私人成本和边际社会成本、边际私人收益和边际社会收益的不对称。
-* 正外部性 边际私人收益 < 边际社会收益 $ \text{MPC}\_A = \text{MPB}_A + \sum_{i=1}^{n} \text{MEB}\_i $
-* 负外部性 边际私人成本 < 边际社会成本 $ \text{MPC}_A + \sum_{i=1}^n \text{MEC}\_i = \text{MPB}\_A $
+* 正外部性 边际私人收益 < 边际社会收益 $$ \text{MPC}\_A = \text{MPB}_A + \sum_{i=1}^{n} \text{MEB}\_i $$
+* 负外部性 边际私人成本 < 边际社会成本 $$ \text{MPC}_A + \sum_{i=1}^n \text{MEC}\_i = \text{MPB}\_A $$
 
 科斯定理
 
@@ -335,11 +335,11 @@ description: 财政学笔记
 
 ### 5.1 财政支出规模
 
-财政支出规模相对指标： $ \text{财政支出与 GDP 之比} = \dfrac{\text{当年财政支出\}} {\text{当年 GDP\}} \times 100 % $
+财政支出规模相对指标： $$ \text{财政支出与 GDP 之比} = \dfrac{\text{当年财政支出\}} {\text{当年 GDP\}} \times 100 % $$
 
-$ \text{财政支出增长率} = \dfrac{\text{当年财政支出} - \text{上年财政支出\}} {\text{上年财政支出\}} \times 100 % $
+$$ \text{财政支出增长率} = \dfrac{\text{当年财政支出} - \text{上年财政支出\}} {\text{上年财政支出\}} \times 100 % $$
 
-$ \text{财政支出增长弹性系数} = \dfrac{财政支出增长率} {\text{GDP 增长率\}} \times 100 % $
+$$ \text{财政支出增长弹性系数} = \dfrac{财政支出增长率} {\text{GDP 增长率\}} \times 100 % $$
 
 财政支出规模理论：
 
@@ -440,8 +440,8 @@ $ \text{财政支出增长弹性系数} = \dfrac{财政支出增长率} {\text{G
     * 高风险产业
     * 农业财政
   * 决策标准
-    * 资本产出比率最小化 $ \text{资本产出比率} = \dfrac{\text{资本存量\}}{\text{产出量\}} $
-    * 资本劳动比率最大化 $ \text{资本劳动比率} = \dfrac{\text{资本存量\}}{\text{劳动力数量\}} $
+    * 资本产出比率最小化 $$ \text{资本产出比率} = \dfrac{\text{资本存量\}}{\text{产出量\}} $$
+    * 资本劳动比率最大化 $$ \text{资本劳动比率} = \dfrac{\text{资本存量\}}{\text{劳动力数量\}} $$
     * 就业创造最大化
 
 ### 6.2 转移性财政支出
