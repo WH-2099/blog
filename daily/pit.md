@@ -41,6 +41,14 @@ netsh winsock reset
 ```
 {% endhint %}
 
+{% hint style="warning" %}
+解决 Hyper-V 端口占用
+
+`netsh int ipv4 set dynamic tcp start=49152 num=16384`
+
+`netsh int ipv4 set dynamic udp start=49152 num=16384`
+{% endhint %}
+
 ## Linux
 
 ### Shell
