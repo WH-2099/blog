@@ -187,3 +187,4 @@
 * [财政学笔记](daily/public-finance-note.md)
 * [行为与实验经济学笔记](daily/behavioral-and-experimental-economics-note.md)
 * [电商管理学笔记](daily/e-commerce-management-note.md)
+* [客户关系管理笔记](daily/crm-note.md)
