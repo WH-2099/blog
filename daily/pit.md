@@ -6,6 +6,14 @@ description: 平时遇到的各种小问题及解决方式
 
 ## Windows
 
+### SMB
+
+{% hint style="info" %}
+修改组策略允许无密码
+
+计算机配置 - 管理模板 - 网络 - Lanman 工作站 - 启用不安全的来宾登录
+{% endhint %}
+
 ### RDP
 
 {% hint style="info" %}
