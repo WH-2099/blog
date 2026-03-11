@@ -33,6 +33,7 @@
 ## Linux
 
 * [SSH 技高一筹](linux/ssh.md)
+* [ZFS 默认参数还不够好](linux/zfs-mo-ren-can-shu-hai-bu-gou-hao.md)
 * [nftables 速成](linux/nftables.md)
 * [Linux 30 周年](linux/linux-30-zhou-nian.md)
 * [新时代 Linux 命令](linux/ng.md)

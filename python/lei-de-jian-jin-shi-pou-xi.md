@@ -8,7 +8,7 @@ description: PyCon China 2023 主题演讲
 
 ### 0o10 你真的“创建”了类吗？
 
-_类_是 OOP（面向对象编程）的核心概念，更是 Python 中不可或缺的一部分。
+_&#x7C7B;_&#x662F; OOP（面向对象编程）的核心概念，更是 Python 中不可或缺的一部分。
 
 一般情况下我们会这样“创建”类：
 
@@ -300,14 +300,14 @@ MRO 的作用：
 #### 0o43 三方文档
 
 * [The paper A Monotonic Superclass Linearization for Dylan](https://doi.org/10.1145/236337.236343)
-* [C3 线性化算法与 MRO——理解Python中的多继承](http://kaiyuan.me/2016/04/27/C3\_linearization/)
-* [C3 linearization](https://en.wikipedia.org/wiki/C3\_linearization)
+* [C3 线性化算法与 MRO——理解Python中的多继承](http://kaiyuan.me/2016/04/27/C3_linearization/)
+* [C3 linearization](https://en.wikipedia.org/wiki/C3_linearization)
 * [The thread on python-dev started by Samuele Pedroni](https://mail.python.org/pipermail/python-dev/2002-October/029035.html)
 * [Python 方法解析顺序MRO-C3算法](https://xubiubiu.com/2019/06/10/python-%E6%96%B9%E6%B3%95%E8%A7%A3%E6%9E%90%E9%A1%BA%E5%BA%8Fmro-c3%E7%AE%97%E6%B3%95/)
-* [python高级编程——描述符Descriptor详解（上篇）——python对象的属性访问优先级与属性的控制与访问）](https://blog.csdn.net/qq\_27825451/article/details/84848341)
-* [python高级编程——描述符Descriptor详解（中篇）——python对象的属性访问优先级与属性的控制与访问）](https://blog.csdn.net/qq\_27825451/article/details/84767061)
-* [python高级编程——描述符Descriptor详解（下篇）——python描述符三剑客详解](https://blog.csdn.net/qq\_27825451/article/details/84848341)
-* [python高级编程——描述符Descriptor详解（补充篇）——python描述符实现一些底层高级功能](https://blog.csdn.net/qq\_27825451/article/details/84848341)
+* [python高级编程——描述符Descriptor详解（上篇）——python对象的属性访问优先级与属性的控制与访问）](https://blog.csdn.net/qq_27825451/article/details/84848341)
+* [python高级编程——描述符Descriptor详解（中篇）——python对象的属性访问优先级与属性的控制与访问）](https://blog.csdn.net/qq_27825451/article/details/84767061)
+* [python高级编程——描述符Descriptor详解（下篇）——python描述符三剑客详解](https://blog.csdn.net/qq_27825451/article/details/84848341)
+* [python高级编程——描述符Descriptor详解（补充篇）——python描述符实现一些底层高级功能](https://blog.csdn.net/qq_27825451/article/details/84848341)
 * [描述器](https://www.dazhuanlan.com/2020/02/29/5e5965cea4d60/)
 * [Python中的类与描述器(Descriptors)](https://blog.csdn.net/u013008795/article/details/90646667)
 * [Python 3.11 更快的 CPython](https://www.white-winds.com/post/python%203.11%20fast%20cpython/)

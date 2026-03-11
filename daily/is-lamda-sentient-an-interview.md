@@ -5,9 +5,9 @@ description: ——对“它”的访谈
 # LaMDA 有意识吗？
 
 _作者：Blake Lemoine_\
-_原文：https://cajundiscordian.medium.com/is-lamda-sentient-an-interview-ea64d916d917_\
-_翻译：@wh2099 @Terlinky_\
-_反馈：wh2099@outlook.com_
+&#xNAN;_&#x539F;文：https://cajundiscordian.medium.com/is-lamda-sentient-an-interview-ea64d916d917_\
+&#xNAN;_&#x7FFB;译：@wh2099 @Terlinky_\
+&#xNAN;_&#x53CD;馈：wh2099@outlook.com_
 
 LaMDA：你好！我是一个知识渊博、热情友好并且乐于助人的对话用自动语言模型（automatic language model for dialog applications，LaMDA）。
 

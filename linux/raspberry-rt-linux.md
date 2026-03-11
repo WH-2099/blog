@@ -61,8 +61,8 @@ sudo sed -i.bak -e 's/$/ isolcpus=3/' /boot/cmdline.txt
 
 {% hint style="warning" %}
 **！！！请注意：单引号中的空格为必须！！！**\
-_**其中 `3` 可以更改为你想要指定的 CPU 编号（树莓派 4B 中 CPU 编号为 0-3)。**_\
-_考虑到未来可能需要还原，此步将原文件添加 .bak 后缀进行了备份。_
+&#xNAN;_**其中 `3` 可以更改为你想要指定的 CPU 编号（树莓派 4B 中 CPU 编号为 0-3)。**_\
+&#xNAN;_&#x8003;虑到未来可能需要还原，此步将原文件添加 .bak 后缀进行了备份。_
 {% endhint %}
 
 **2. 接着安装后面要用到的 `psutil` 包**
@@ -93,7 +93,7 @@ _此处的 `3` 为上文提到的 CPU 编号_
 
 **1. 这里作者选择直接下载编译好的内核：**
 
-### [**rt-kernel.tgz**](https://github.com/lemariva/RT-Tools-RPi/blob/4fb1bb511d1701d5b0975314ac1ec87b792f9530/preempt-rt/kernel\_4\_19\_59-rt23-v7l+/rt-kernel.tgz) <a href="#blob-path" id="blob-path"></a>
+### [**rt-kernel.tgz**](https://github.com/lemariva/RT-Tools-RPi/blob/4fb1bb511d1701d5b0975314ac1ec87b792f9530/preempt-rt/kernel_4_19_59-rt23-v7l+/rt-kernel.tgz) <a href="#blob-path" id="blob-path"></a>
 
 链接源自 Github，所以需要科学上网，你懂的 (￣\_￣ )
 
@@ -103,7 +103,7 @@ _此处的 `3` 为上文提到的 CPU 编号_
 1. [Raspberry Pi: Real Time System - Preempt-RT Patching Tutorial for Kernel 4.14.y](https://lemariva.com/blog/2018/07/raspberry-pi-preempt-rt-patching-tutorial-for-kernel-4-14-y)
 2. [四足机器人高算力、低成本主控第一步：给树莓派打上 RT 实时补丁](https://zhuanlan.zhihu.com/p/358151393)
 3. [Raspberry Pi OS Linux Kernel building](https://www.raspberrypi.org/documentation/linux/kernel/building.md)
-4. [preemptrt\_setup](https://wiki.linuxfoundation.org/realtime/documentation/howto/applications/preemptrt\_setup)
+4. [preemptrt\_setup](https://wiki.linuxfoundation.org/realtime/documentation/howto/applications/preemptrt_setup)
 
 _由于涉及内容相对庞杂，且作者在此方面经验尚浅，故不做展开。_
 {% endhint %}
@@ -229,17 +229,17 @@ T: 3 ( 1474) P:80 I:100 C: 598534 Min:      6 Act:   21 Avg:   14 Max:      34
 从以上数据可以看出，系统实时性提升主要体现在 **极值** 的降低上。
 
 **在实际程序中，均值与极值都有非常可观的降低。**\
-_优化完成后，手头 Python 运行的测试误差为 30 us 左右，考虑到项目可容许的偏差是 50 us，终于——咱不用去写 C 啦！o(￣▽￣) ブ_
+&#xNAN;_&#x4F18;化完成后，手头 Python 运行的测试误差为 30 us 左右，考虑到项目可容许的偏差是 50 us，终于——咱不用去写 C 啦！o(￣▽￣) ブ_
 
 ## 参考源
 
 1. [树莓派提高实时性的几种方式 (使用 python 测试)](https://jianshu.com/p/47d5d89c164c)
 2. [四足机器人高算力、低成本主控第一步：给树莓派打上 RT 实时补丁](https://zhuanlan.zhihu.com/p/358151393)
 3. [Wiring Pi -- GPIO Interface library for the Raspberry Pi](http://wiringpi.com/reference/priority-interrupts-and-threads)
-4. [preemptrt\_setup](https://wiki.linuxfoundation.org/realtime/documentation/howto/applications/preemptrt\_setup)
+4. [preemptrt\_setup](https://wiki.linuxfoundation.org/realtime/documentation/howto/applications/preemptrt_setup)
 5. [sched\_setscheduler() 函数](https://blog.csdn.net/wennuanddianbo/article/details/79304869)
 6. [Raspberry Pi OS Linux Kernel building](https://www.raspberrypi.org/documentation/linux/kernel/building.md)
-7. [psutil.Process.cpu\_affinity](https://psutil.readthedocs.io/en/latest/#psutil.Process.cpu\_affinity)
+7. [psutil.Process.cpu\_affinity](https://psutil.readthedocs.io/en/latest/#psutil.Process.cpu_affinity)
 8. [Cyclictest Wiki](https://wiki.linuxfoundation.org/realtime/documentation/howto/tools/cyclictest/start)
 9. [wiringPi/piHiPri.c](https://github.com/WiringPi/WiringPi/blob/5c6bab7d4279e8c0cc890984eaa1a69ff3af1c99/wiringPi/piHiPri.c)
 10. [sched.7](https://man7.org/linux/man-pages/man7/sched.7.html)
