@@ -37,6 +37,7 @@
 * [nftables 速成](linux/nftables.md)
 * [Linux 30 周年](linux/linux-30-zhou-nian.md)
 * [新时代 Linux 命令](linux/ng.md)
+* [Arch Linux UKI 启动](linux/archlinux-uki.md)
 * [树莓派实时性优化](linux/raspberry-rt-linux.md)
 * [Bash DEBUG 一行搞定](linux/bash-debug.md)
 
