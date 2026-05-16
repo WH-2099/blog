@@ -4,16 +4,6 @@ description: systemd-boot、UKI 与 DPS
 
 # Arch Linux UKI 启动
 
-目标很简单：让 ESP 只保存 EFI 启动产物，root 分区自己说明自己，内核命令行里不再携带 `root=`、`rootflags=subvol=` 这类历史参数。
-
-最终状态：
-
-1. ESP 挂载到 `/efi`。
-2. `/boot` 回到根文件系统里，受 Btrfs 管理。
-3. `systemd-boot` 自动发现 `/efi/EFI/Linux/*.efi` 下的 UKI。
-4. GPT 分区类型遵循 DPS，让 initrd 里的 `systemd` 自动识别 root。
-5. Btrfs 默认子卷固定到系统根子卷，内核参数不再需要 `subvol=`。
-
 ## 前提
 
 本文假设：
@@ -49,7 +39,7 @@ grep '^HOOKS=' /etc/mkinitcpio.conf
 
 把 ESP 从 `/boot` 迁移到 `/efi`，修改 `/etc/fstab` 中 ESP 对应行：
 
-```text
+```
 UUID=XXXX-XXXX  /efi  vfat  noauto,x-systemd.automount,x-systemd.idle-timeout=60s,umask=0077,errors=remount-ro  0 2
 ```
 
