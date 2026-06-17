@@ -1,5 +1,5 @@
 ---
-description: Robert F. Young
+description: '[美] 罗伯特·F·扬（Robert F. Young） 著 ｜ 赖逸娟 译'
 ---
 
 # 蒲公英女孩
