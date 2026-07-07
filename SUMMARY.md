@@ -40,6 +40,7 @@
 * [Arch Linux UKI 启动](linux/archlinux-uki.md)
 * [树莓派实时性优化](linux/raspberry-rt-linux.md)
 * [Bash DEBUG 一行搞定](linux/bash-debug.md)
+* [如何在大型集群中加速 Pod 的启动？](linux/jia-su-pod-qi-dong.md)
 
 ## 佳作收藏 <a href="#awesome" id="awesome"></a>
 
